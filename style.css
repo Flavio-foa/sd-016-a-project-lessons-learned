@@ -14,7 +14,7 @@ h2 {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #01497C;
+  background-color: #01497c;
   border: 2px solid black;
 }
 
@@ -48,18 +48,18 @@ h2 {
   font-family: monospace;
   font-size: 15px;
   line-height: 20px;
-  width: 65%;
+  width: 80%;
 }
 
 #passagem {
-  border: 2px solid #013A63;
-  padding: 5px;  
+  border-left: 2px solid #013a63;
+  padding: 5px;
   font-family: monospace;
   font-size: 12px;
 }
 
 a {
-  color:#61A5C2;
+  color:#61a5c2;
   font-family: Architects Daughter;
 }
 
@@ -69,15 +69,16 @@ a {
 }
 
 table, th, td {
-  border:1px solid black;
+  border: 1px solid black;
 }
 
 .lado-direito {
   display: inline-block;
   width: 200px;
-  margin-left: 20%;
 }
 
 .lado-esquerdo {
   display: inline-block;
+  float:inline-end
 }
+
