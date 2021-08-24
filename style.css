@@ -4,12 +4,20 @@ body {
 }
 
 #cabecalho {
-    background-color: #008000;
+    background-color: #0288c8;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 10px;
     text-align: center;
+}
+
+#titulo{
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+    font-size: 72px;
+    margin: 0;
+    text-shadow: 3px -3px 2px #000;
 }
 
 #minha_foto {
