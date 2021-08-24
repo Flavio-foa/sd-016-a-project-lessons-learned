@@ -1,23 +1,23 @@
- body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0 auto;
-}
-
- #cabecalho {
-    position: fixed;
-    top: 0;
-    padding: 25px;
-    border: 1px solid transparent;
-    background-color: #036b52;
-    color: #fff;
-    width: 100%;
-    text-align: center;
+  body {
+     background-color: rgb(253, 251, 251);
+     font-family: 'Ubuntu', sans-serif;
+     margin: 0 auto;
  }
 
-  #titulo {
-    font-size: 2em;
+  #cabecalho {
+     position: fixed;
+     top: 0;
+     padding: 25px;
+     border: 1px solid transparent;
+     background-color: #036b52;
+     color: #fff;
+     width: 100%;
+     text-align: center;
   }
+
+   #titulo {
+     font-size: 2em;
+   }
 
  .foto_borda {
      border: 1px solid #ddd;
@@ -29,30 +29,37 @@
      text-align: center;
      min-width: 40%;
      max-width: 40%;
- }
+  }
 
  .foto_borda figcaption {
      font-size: 2em;
- }
-
- .artigos {
-    margin: 20px 0 0 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
- }
-
- .secao-1 {
-    float: left;
   }
 
-  .secao-1 .secao-2, h2 {
+
+  #minha_foto {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 250px;
+  }
+
+  .artigo_um {
+     margin: 20px 0 0 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: flex-start;
+  }
+
+  .secao_um {
+     float: left;
+   }
+
+  .secao_um .secao_dois, h2 {
       font-weight: bold;
       font-size: 1.2em;
-  }
+   }
 
-  .secao-1, .secao-2 {
+  .secao_um, .secao_dois {
      border: 1px solid #ddd;
      border-radius: 25px;
      width: 40%;
@@ -63,19 +70,31 @@
      padding: 22px;
      text-align: center;
      line-height: 1.4;
+   }
+
+    .meu_aprendizado {
+      border: 1px solid #ddd;
+      border-radius: 25px;
+      max-width: 40%;
+      width: 40%;
+      margin-top: 20px;
+      padding: 22px;
+      line-height: 1.4;
+    }
+
+   #rodape {
+     bottom: 0;
+     max-width: 100%;
+     padding: 50px;
+     text-align: center;
+     margin-top: 20px;
+     border-top: 1px solid #ddd;
+   }
+
+  strong {
+      font-weight: bold;
   }
 
-  #minha_foto {
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 250px;
-  }
-
-  #rodape {
-    bottom: 0;
-    max-width: 100%;
-    padding: 50px;
-    text-align: center;
-    margin-top: 20px;
-    border-top: 1px solid #ddd;
+  em {
+      font-style: italic;
   }
