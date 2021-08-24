@@ -81,7 +81,7 @@ body {
   margin-bottom: 100px;
 }
 
-#opiniao, #curiosidade {
+#opiniao , #curiosidade {
   display: inline-block;
 }
 
@@ -102,12 +102,12 @@ body {
   margin: 100px auto;
 }
 
-#tabela, th, td {
+#tabela , th , td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-#tabela th, #tabela td {
+#tabela th , #tabela td {
   padding: 10px;
 }
 
