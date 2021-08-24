@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: Roboto, sans-serif;
   margin: 0 auto;
+  font-size: 15px;
 }
 main {
   margin: 0 auto;
@@ -68,6 +69,7 @@ nav ul li a:hover {
   background-color: rgb(238, 238, 238);
   padding: 20px;
   margin: 40px auto;
+  font-size: 20px;
 }
 
 .icon-quote {
@@ -86,6 +88,7 @@ nav ul li a:hover {
   max-width: 30%;
   background-color: rgb(238, 238, 238);
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 .table-inicio{
@@ -121,5 +124,23 @@ nav ul li a:hover {
 
 footer{
   clear: both;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(107, 112, 92);
+  text-align: center;
+  padding: 5px;
+}
 
+footer p ,footer p a{
+  font-family: Architects Daughter, cursive;
+  color: rgb(254, 254, 254);
+  text-decoration: none;
+}
+
+footer p a:hover{
+  color: rgb(203, 153, 126);
+  text-decoration: overline ;
+  font-weight: 600;
 }
