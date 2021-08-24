@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin: 0px;
+  margin: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -20,26 +20,21 @@ body {
 #minha_foto {
   width: 200px;
   border-radius: 50%;
-}
-
-main {
-  margin-top: 126px;
-  margin-left: 20px;
+  margin-top: 150px;
+  display: block;
 }
 
 #licoes_aprendidas {
   font-size: 20px;
-  line-height: 30px; 
+  line-height: 30px;
 }
 
 .lado-esquerdo {
   max-width: 40%;
+  display: inline-block;
 }
 
 .lado-direito {
-  max-width: 40%;
-  position: absolute;
-  z-index: 1;
-  left: 50%;
-  top: 330px;
+  max-width: 30%;
+  display: inline-block;
 }
