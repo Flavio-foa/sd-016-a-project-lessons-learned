@@ -46,14 +46,14 @@
         clear: both;
     }
     
-    article {
+    .lado-esquerdo {
         float: left;
         width: 55%;
         text-align: justify;
         margin-left: 10px;
     }
     
-    aside {
+    .lado-direito {
         float: right;
         text-align: justify;
         padding: 0px 30px;
