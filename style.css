@@ -1,6 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
     margin-top: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    letter-spacing: 1px;
 }
 
 #cabecalho {
@@ -59,9 +62,8 @@ body {
 #artigo, #secao {
     border: 5px solid greenyellow;
     text-align: justify;
-    padding: 0px 15px;
+    padding: 10px 15px;
     margin:30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: normal;
-    text-s
+    font-size: 80%;
 }
