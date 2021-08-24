@@ -1,0 +1,22 @@
+/* BODY */
+
+body {
+    background-color: rgb(253, 251, 251);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/* HEADER */
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #264653;
+    color: whitesmoke;
+}
+
+#titulo {
+    text-align: center;
+    padding: 0.5em 1.5em;
+}
