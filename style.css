@@ -3,12 +3,17 @@ html, body {
     width: 1366px;
     height: 768px;
 }
+
 body{
-    rgb(253, 251, 251)
-}
-.header {
-    position: fixed;
-    top: 0;
+    background-color:rgb(253, 251, 251);
 }
 
-#cabeçalho
+#cabecalho {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #036b52;
+    color:white;
+}
+
