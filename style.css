@@ -11,6 +11,7 @@ header {
     width: 300px;
     margin-top: 60px;
     display: block;
+    border-radius: 20%;
 }
 
 #licoes_aprendidas {
@@ -21,4 +22,15 @@ header {
 #licoes_a_aprender {
     display: inline-block;
     margin-left: 40px;
+    padding: 20px;
+    border: 20px;
+}
+
+section {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #1DB183;
+    color: white;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
