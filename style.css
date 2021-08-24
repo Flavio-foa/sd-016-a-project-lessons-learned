@@ -18,5 +18,11 @@ width: 300px;
 margin-top: 270px;    
 }
 #licoes_aprendidas{
-    
+margin: 0px;
+display: inline-block;
 }
+#licoes_a_aprender{
+margin: 0px;
+margin-left: 200px;
+margin-top: -178px;
+}    
