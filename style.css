@@ -63,11 +63,13 @@ p {
 
 footer p {
     margin-bottom: 0px;
+    padding: 0px 100px 50px 50px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 20px;
-    width: 900px;
+    width: 1200px;
     color: white;
+    font-size: 25px;
 }
 
 h1 {
