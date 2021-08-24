@@ -1,8 +1,16 @@
 body{
     background-color: rgb(253,251,251);
+    margin: 0px;
+    font-family: Montserrat , sans-serif;
+    font-weight: 500;
 }
 
 #cabecalho{
     background-color: #00ba89;
     top: 0;
+    position: fixed;
+}
+nav{
+    display: block;
+    padding-left: 100px;
 }
