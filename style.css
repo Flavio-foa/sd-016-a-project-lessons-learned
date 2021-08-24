@@ -4,7 +4,17 @@
 }
 
 #cabecalho{
+    width: 100%;
+    background-color: slategray;
     position: fixed;
     top: 0;
-    
+}
+
+#cabecalho h1{
+    background-color: slategray;
+    text-align: center;
+}
+
+#minha_foto{
+    width: 300px;
 }
