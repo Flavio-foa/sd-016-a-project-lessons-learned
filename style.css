@@ -4,6 +4,7 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    line-height: 1.6;
 }
 
 /* HELPER CLASS */
@@ -50,6 +51,8 @@ a:hover {
 
     main {
         margin-top: 164px;
+        display: flex;
+        justify-content: center;
         color: #2b2d42;
     }
     
@@ -59,6 +62,11 @@ a:hover {
 
     .secao-licoes ol {
         border-left: 2px dotted #264653;
+    }
+
+    article {
+        max-width: 600px;
+        padding: 2em;
     }
 
     /* FOOTER */
