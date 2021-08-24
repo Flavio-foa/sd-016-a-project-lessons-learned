@@ -3,7 +3,7 @@ body {
 }
 
 .cabecalho {
-  position: fixed;
+  position: static;
   top: 0;
 }
 
