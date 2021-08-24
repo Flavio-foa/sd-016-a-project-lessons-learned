@@ -1,0 +1,27 @@
+.body{
+    background-color: rgb(253, 251, 251);
+    font-family:"Open Sans";
+}
+
+#cabecalho{
+    background-color: green;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 75px;
+    width: 100%;
+    border: 2px solid black;
+    line-height: 170%;
+    text-align: center;
+      }
+
+#titulo{
+    
+    color: black;
+    font-size: 20px;
+}
+#minha_foto{
+    display: block;
+    width: 250px;
+    border-radius: 8px;
+}
