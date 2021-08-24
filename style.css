@@ -9,6 +9,6 @@ body {
 }
 
 header {
-    position: fixed; /*pré requisito*/
-    top: 0; /*pré requisito*/
+    position: fixed; /* pré requisito */
+    top: 0; /* pré requisito */
 }
