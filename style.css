@@ -3,6 +3,16 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.65;
+}
+
 img {
   max-width: 400px;
   display: block;
