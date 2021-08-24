@@ -1,5 +1,6 @@
 body {
-    width: 1366 px;
+    width: 1366px;
+    height: 768px;
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
