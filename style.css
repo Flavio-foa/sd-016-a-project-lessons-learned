@@ -1,60 +1,60 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    background-color: green;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: green;
 }
 
 #titulo {
-    margin: 5px;
-    text-align: center;
-    font-family: 'Staatliches';
-    font-size: 50px;
-    color: ivory;
+  margin: 5px;
+  text-align: center;
+  font-family: Staatliches, sans-serif;
+  font-size: 50px;
+  color: ivory;
 }
 
 #nav_list {
-    text-align: center;
-    font-family: 'Staatliches';
-    color: ivory;
-    margin: auto;
+  text-align: center;
+  font-family: Staatliches, sans-serif;
+  color: ivory;
+  margin: auto;
 }
 
 #nav_list li {
-    display: inline;
-    list-style: none;
-    padding: 80px;
+  display: inline;
+  list-style: none;
+  padding: 80px;
 }
 
 #minha_foto {
-    margin-top: 90px;
-    border-radius:50%
+  margin-top: 90px;
+  border-radius: 50%;
 }
 
 #meu_aprendizado {
-    line-height: 25px ;
+  line-height: 25px;
 }
 
 .lado-esquerdo {
-    display: inline-block;
+  display: inline-block;
 }
 
 .lado-direito {
-    display: inline-block;
-    max-width: 50%;
-    margin-right: 40px;
-    float: right;
+  display: inline-block;
+  max-width: 50%;
+  margin-right: 40px;
+  float: right;
 }
 
 /* section {
-    border:2px solid lightcoral;
+  border:2px solid lightcoral;
 }
 
 div {
-    border:2px solid green;
+  border:2px solid green;
 } */
