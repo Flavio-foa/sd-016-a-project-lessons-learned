@@ -1,7 +1,10 @@
 body{background-color:rgb(253, 251, 251);
     font-size:3em;
+    color:#3f3f00;
+    line-height:2em;
     font-family:helvetica; 
     }
+
 
 #cabecalho{position:fixed;
            top:0;
@@ -11,5 +14,6 @@ body{background-color:rgb(253, 251, 251);
                   margin:10em;
                   padding:10em;
                   border:1px solid black;}
-                  
+
 #aside-passagem{display:inline;}
+
