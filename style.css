@@ -45,7 +45,7 @@ h1 {
   font-weight: 300;
 }
 
-ul, ol {
+ul , ol {
   line-height: 16px;
 }
 
@@ -83,8 +83,9 @@ ul, ol {
   height: 100px;
   padding: 10px;
   background-color: var(--color-theme);
-  color: var(--white)
+  color: var(--white);
 }
+
 #rodape a {
   color: var(--white);
 }
