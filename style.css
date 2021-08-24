@@ -1,0 +1,12 @@
+body {
+    background-color:rgb(253, 251, 251) ;
+}
+#cabecalho {
+    top: 0px;
+}
+#titulo {
+    font-family: sans-serif;
+}
+img {
+    width: 200px;
+}
