@@ -21,12 +21,12 @@ body {
   border-radius: 20%;
 }
 
-#licoes_aprendidas {
-  margin-top: 20px;
-}
-
 #licoes_aprendidas li {
   padding: 2px 0;
   font-family: Arial, sans-serif;
 }
 
+#licoes_a_aprender li {
+  padding: 2px 0;
+  font-family: Arial, sans-serif;
+}
