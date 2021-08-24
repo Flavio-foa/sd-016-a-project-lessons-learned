@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin-top: 0px;
   font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #cabecalho {
   position: fixed;
@@ -16,11 +17,25 @@ body {
 }
 #minha_foto {
   width: 200px;
+  color: black;
 }
 #rodape {
   margin-top: auto;
-  background-color: limegreen;
+  padding-top: 300px;
 }
 main {
   margin-top: 110px;
+}
+article {
+  width: 50%;
+  float: left;
+  padding-bottom: 50px;
+}
+aside {
+  width: 50%;
+  float: right;
+  padding-bottom: 50px;
+}
+#github {
+  color: black;
 }
