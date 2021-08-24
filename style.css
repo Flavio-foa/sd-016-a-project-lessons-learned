@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 
-header {
+header, .conteudos {
     display: flex;
     justify-content: center;
     margin: 20px;
