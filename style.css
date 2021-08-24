@@ -1,0 +1,71 @@
+#cabecalho {
+    background-color: rgb(10, 126, 81);
+    height: 20vh;
+    position: fixed;
+    top: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 5ch;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+}
+
+.rodape {
+    height: 10vh;
+}
+
+.teste{
+    display: flex;
+    flex-direction: row;
+}
+
+.minha_foto{
+    margin-right: 65px;
+    margin-top: 165px;
+}
+
+aside {
+    height: 80vh;
+    background-color: rgb(10, 126, 81);
+    float: right;
+    width: 60%;
+    margin-left: 350px;
+}
+
+.navigation{
+    margin-bottom: 30px;
+}
+
+body {
+    margin-top: 200px;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(253, 251, 251);
+    height: 80vh;
+}
+
+.lado-esquerdo {
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(253, 251, 251);
+}
+
+.articles {
+    padding: 20px;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
+    padding: 15px;
+}
+
+#licoes_aprendidas {
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
+    padding: 15px;
+}
