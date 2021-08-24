@@ -14,11 +14,11 @@ nav {
   display: inline;
 }
 
-nav ul {
-  list-style-type: square;
-  display: inline;
+nav ol {
+    display: inline;
 }
 
-nav ol {
+nav ul {
+  list-style-type: square;
   display: inline;
 }
