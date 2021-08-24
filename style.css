@@ -67,6 +67,7 @@ ul {
 #meu_aprendizado p {
   display: inline-block;
   margin: auto;
+  line-height: 1,8;
 }
 
 aside {
@@ -75,6 +76,10 @@ aside {
   width: 250px;
   background-color: rgb(184, 201, 197);
   border: 2px solid rgb(71, 248, 204);
+}
+
+aside p {
+  line-height: 1,8;
 }
 
 footer {
