@@ -5,6 +5,9 @@ body {
 .cabecalho {
   position: fixed;
   top: 0;
+}
+
+.titulo{
   text-align: center;
 }
 
