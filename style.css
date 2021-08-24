@@ -3,6 +3,8 @@ body {
 }
 
 #cabecalho {
+  height: 54px;
+  background-color: blueviolet;
   position: fixed;
   top: 0%;
 }
