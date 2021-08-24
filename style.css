@@ -8,6 +8,7 @@ body {
     text-align: center;
     display: inline;
     position: top;
+    position: fixed;
 }
 
 #titulo {
@@ -16,4 +17,12 @@ body {
 
 #minha_foto {
 border-radius: 20%;
+}
+
+#licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+
 }
