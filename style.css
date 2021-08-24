@@ -2,15 +2,24 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-.cabecalho {
-  position: static;
+#cabecalho {
+  position: fixed;
   top: 0;
+  margin-left: 30%;
 }
 
-.titulo {
-  text-align: center;
+#minha_foto{
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 60px; 
 }
 
 nav ul li {
-  display: inline;
+  display: inline;  
+}
+
+#juntando_lista{
+  margin: 0%;
 }
