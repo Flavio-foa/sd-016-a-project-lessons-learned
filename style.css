@@ -1,21 +1,26 @@
-body{
-    background-color: rgb(253,251,251);
+body{background-color: rgb(253,251,251);
 }
 
-#cabecalho{
-    border:solid 3px black;
-    text-align: center;
-    position: fixed;
+#cabecalho{position: fixed;
     display: block;
     width: 100%;
     top:0;
+    border:solid 3px black;
+    text-align: center;
+    margin: 10px; 
 }
 
-#licoes_aprendidas{
-    display: inline-block;
+#licoes_aprendidas{display: inline-block;
     border:solid 3px black;
+    
 }
 
 #licoes_a_aprender{display: inline-block;
+    border:solid 3px black;
+    
+}
+
+#minha_foto{border:solid 3px black;
+    display: inline-block;
 
 }
