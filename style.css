@@ -5,4 +5,14 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  right: 50%;
+  background-color:blanchedalmond;
+  display: inline;
+  
+}
+
+img {
+  position: absolute;
+  top: 80px;
+  border-radius: 20%;
 }
