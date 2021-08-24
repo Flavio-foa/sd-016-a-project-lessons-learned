@@ -1,19 +1,20 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: 'Epilogue', sans-serif;
+  margin: auto;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #036b52;
+  background-color: rgb(3, 107, 82);
   width: 100%;
 }
 
 #titulo {
   text-align: center;
-  font-weight: normal;
-  color: #fff;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
   margin: 40px auto;
 }
 
@@ -24,7 +25,7 @@ body {
 .navegacao {
   display: inline-block;
   width: 100%;
-  margin: 105px auto 0 auto;
+  margin: 105px auto 0;
 }
 
 .navegacao ul {
@@ -40,7 +41,7 @@ body {
 
 .navegacao a {
   text-decoration: none;
-  color: #036b52;
+  color: rgb(3, 107, 82);
 }
 
 .navegacao .inicio {
@@ -49,4 +50,10 @@ body {
 
 .navegacao .aprendizado {
   margin: 20px 20px 20px 0;
+}
+
+#minha_foto {
+  border-radius: 50%;
+  margin: auto;
+  display: block;
 }
