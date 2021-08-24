@@ -5,4 +5,16 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: #4BA891;
+  padding: 30px;
+  border: 20px;
+  width: 100%;
+}
+
+#minha_foto {
+  margin-top: 180px;
+  border-style:double;
+  border-color: #4BA891;
+  border-radius: 50%;
+  width: 40%;
 }
