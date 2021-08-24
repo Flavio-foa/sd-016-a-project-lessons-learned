@@ -10,13 +10,11 @@ body {
 #cabecalho {
     top: 0;
     position: fixed;
-    background-color: #036b52;
+    background-color:#9e2a2b;
     padding: 1em;
     color: white;
     text-align: center;
-    /* margin-left: -10px;
-    margin-right: 0px;
-    margin-top: -10px; */
+    min-width: 100%;
 }
 
 #minha_foto {
@@ -37,7 +35,7 @@ body {
 }
 
 #rodape {
-    background-color: #036b52;
+    background-color:#9e2a2b;
     padding: 5px;
     margin-bottom: -10px;
     margin-left: -10px;
@@ -52,7 +50,7 @@ body {
 }
 
 #botton {
-    background-color: #036b52;
+    background-color: #9e2a2b;
     color: white;
     margin-top: 50px;
     padding: 8px;
@@ -63,6 +61,18 @@ body {
 
 article {
     margin-top: 50px;
+}
+
+.lado-esquerdo {
+    min-width: 40%;
+    text-align: left;
+    display: inline;
+} 
+
+.lado-direito {
+    min-width: 40%;
+    text-align: left;
+    display: inline;
 }
 
 
