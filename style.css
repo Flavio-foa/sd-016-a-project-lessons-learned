@@ -8,18 +8,26 @@ p{
 }
 #cabecalho{
     width: 100%;
-    background-color: #00ffbf;
+    background-color: #1f9fcd;
     position: fixed;
     top: 0;
 }
 
 #cabecalho h1{
-    background-color: #00ffbf;
+    background-color: #1f9fcd;
     text-align: center;
 }
 
 #minha_foto{
-  width: 300px;
+  width: 200px;
+  padding: 70px 0px 0px 0px;
 }
+
+.lado-direito, .lado-esquerdo{
+    width: 500px;
+    display: inline-block;
+}
+
+
 
 
