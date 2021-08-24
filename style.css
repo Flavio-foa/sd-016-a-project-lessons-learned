@@ -4,5 +4,17 @@ body {
 
 #cabecalho {
     top: 0;
+    left: 0;
     position: fixed;
+    background-color: #087E8B;
+    width: 100%;
+    border-bottom: 8px solid #BFD7EA;
+}
+
+#titulo {
+    margin: 8px 0;
+    text-align: center;
+    color: #BFD7EA;
+    font-family: 'Candal', sans-serif;
+    ;
 }
