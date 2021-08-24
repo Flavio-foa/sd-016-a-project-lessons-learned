@@ -4,7 +4,7 @@ body {
 
 header {
     position: fixed;
-    top: 0px;
+    top: 0;
 }
 
 #minha_foto {
@@ -27,18 +27,27 @@ header {
 }
 
 section {
-    padding: 20px;
+    padding: 30px 50px 300px 50px ;
     font-size: 20px;
     background-color: #1db183;
     color: white;
     line-height: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 100%;
 }
+
 .lado-esquerdo {
     text-align: left;
     float: left;
+    max-width: 30%;
 }
+
 .lado-direito {
     text-align: right;
     float: right;
+    max-width: 30%;
+}
+
+nav {
+    clear: both;
 }
