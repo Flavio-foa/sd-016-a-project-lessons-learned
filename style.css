@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,7 +7,8 @@
     font-family: 'Inconsolata', monospace;
     line-height: 20px;
 }
-body{
+
+body {
     background: rgb(253, 251, 251);
     display: flex;
     flex-direction: column;
@@ -15,13 +16,29 @@ body{
     align-items: center;
 }
 
-header, .conteudos{
+header, .conteudos {
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
-.perfil{
+nav {
+    position: fixed;
+    top: 0;
+    margin: 0px;
+    background: rgb(54, 170, 54);
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin: 20px;
+}
+
+.perfil {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,21 +49,21 @@ header, .conteudos{
     margin: 20px;
     padding: 10px;
 }
-.tecnologias{
+.tecnologias {
     display: flex;
     justify-content: flex-start;
 }
 
-#licoes_aprendidas, #licoes_a_aprender{
+#licoes_aprendidas, #licoes_a_aprender {
     margin: 20px;
 }
 
-#minha_foto{
+#minha_foto {
     border: 1px solid black;
     border-radius: 50%;
     padding: 10px;
 }
 
-.lado-esquerdo, .lado-direito{
+.lado-esquerdo, .lado-direito {
     margin: 50px;
 }
