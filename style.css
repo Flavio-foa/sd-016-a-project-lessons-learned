@@ -1,113 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-   background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-#minha_foto{
-    border-radius: 20px;
-    width: 250px;
-    display: inline-block;
-    vertical-align: text-top;
-    margin-bottom: 10px; 
+#minha_foto {
+  border-radius: 20px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-bottom: 10px;
 }
 
-#cabecalho{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(0, 128, 0, 1);  
-    height: 40px;
-    color: white;
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 128, 0, 1);
+  height: 40px;
+  color: white;
 }
 
-#borda-lateral{
-    position: fixed;
-    top: 0;
-    height: 100%;
-    width: 40px;
-    background-color: rgba(0, 128, 0, 1);
+#borda-lateral {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 40px;
+  background-color: rgba(0, 128, 0, 1);
 }
 
-#imagem-e-listas{
-    border-bottom: 1px solid black;
-    width: 103%;
+#imagem-e-listas {
+  border-bottom: 1px solid black;
+  width: 103%;
 }
 
 #design-listas {
-    display: inline-block;
-    vertical-align: text-top;
+  display: inline-block;
+  vertical-align: text-top;
 }
 
 #design-listas ul {
-    display: inline-block;
-    margin-left: 35px;
+  display: inline-block;
+  margin-left: 35px;
 }
 
 #design-listas ol {
-    margin-left: 40px;
-    display: inline-block;
+  margin-left: 40px;
+  display: inline-block;
 }
 
-#titulo{
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    letter-spacing: 2px;
+#titulo {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
-#licoes_aprendidas{
-    line-height: 20px;
+#licoes_aprendidas {
+  line-height: 20px;
 }
 
-#licoes_a_aprender{
-    line-height: 20px;
+#licoes_a_aprender {
+  line-height: 20px;
 }
 
-#rodape{
-    position: static;
-    text-align: center;
-    font-weight: bold;
-   font-size: 15px;
+#rodape {
+  position: static;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-#article{
-    line-height: 20px;
-    width: 200px;
-    height: 400px;
-   vertical-align: text-top;
+#article {
+  line-height: 20px;
+  width: 200px;
+  height: 400px;
+  vertical-align: text-top;
 }
 
-.lado-esquerdo{
-    display: inline-block;
+.lado-esquerdo {
+  display: inline-block;
 }
 
-#aside{
-    height: 400px;
-    width: 200px;
-    line-height: 20px;
-    vertical-align: text-top;
-    padding-left: 150px;
+#aside {
+  height: 400px;
+  width: 200px;
+  line-height: 20px;
+  vertical-align: text-top;
+  padding-left: 150px;
 }
 
-.lado-direito{
-    display: inline-block;
+.lado-direito {
+  display: inline-block;
 }
 
-#article-aside{
-    padding-top: 30px;
+#article-aside {
+  padding-top: 30px;
 }
 
-#logo-github{
-    position: absolute;
-    padding-top: 50px;
-    width: 40px;
+#logo-github {
+  position: absolute;
+  padding-top: 50px;
+  width: 40px;
 }
 
-#main{
-    margin: 55px;
+#main {
+  margin: 55px;
 }
