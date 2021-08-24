@@ -47,8 +47,6 @@ h2 {
     font-family: monospace;
     font-size: 15px;
     line-height: 20px;
-    margin-right: 5%;
-    margin-left: 5%;
 }
 
 #passagem {
@@ -67,4 +65,5 @@ a {
 
 #section1 {
     margin-left: 5%;
+    margin-right: 5%
 }
