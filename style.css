@@ -1,7 +1,6 @@
 header {
     position: fixed;
     top: 0;
-    
 }
 
 body {
@@ -18,4 +17,8 @@ body {
 
 #section2 {
     display: inline-block;
+}
+
+#rodape {
+    margin-bottom: 30px;
 }
