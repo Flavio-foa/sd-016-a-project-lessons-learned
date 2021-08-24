@@ -1,5 +1,84 @@
 body {
-    font-family: Montserrat;
-    font-size: 18px;
-    background-color: rgb(253, 251, 251);
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  text-align: center;
+}
+
+#cacecalho {
+  position:fixed;
+  top: 0;
+  background-color:thistle;
+  width: 100%;
+  padding: 30px 70px;  
+}
+
+#minha_foto {
+  position: absolute;
+  z-index: 1;
+  right: 150px;
+  top: 50px;
+  border-radius: 50%;
+  width: 100px;
+}
+
+#licoes_aprendidas {
+  margin: 30px 0;
+  list-style-type: inside;
+  display: table;
+  margin: auto;
+}
+#licoes_aprendidas li {
+  margin: 10px;
+}
+
+#licoes_a_aprender li {
+  margin: 10px;
+}
+
+#licoes_a_aprender {
+  margin: 30px 0;
+  display: table;
+  margin: auto;
+}
+
+#mainContent {
+  padding: 30px 70px;
+  margin-top: 190px;
+}
+
+#mainContent h2{
+  margin: 30px 0;
+}
+
+#mainContent p {
+  margin: 30px 0;
+}
+
+.mainArticle {
+  max-width: 55%;
+}
+
+#sectOne {
+  max-width: 55%;
+}
+
+#sectTwo {
+  max-width: 55%;
+}
+
+.sideBlock {
+  float: right;
+  width: 30%;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 70px;
+  font-size: 16px;
+}
+
+.links img {
+  width: 50px;
+  border-radius: 50%;
+  padding: 0 15px;
 }
