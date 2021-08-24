@@ -5,5 +5,11 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  border: solid 1px blue;
+  background-color: #345995;
+}
+
+#minha_foto {
+  position: absolute;
+  width: 200px;
+  top: 100px;
 }
