@@ -1,12 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
 }
 
 #minha_foto {
@@ -21,7 +16,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 128, 0, 1);
+  background-color: green;
   height: 40px;
   color: white;
 }
@@ -31,7 +26,7 @@ body {
   top: 0;
   height: 100%;
   width: 40px;
-  background-color: rgba(0, 128, 0, 1);
+  background-color: green;
 }
 
 #imagem-e-listas {
@@ -55,9 +50,10 @@ body {
 }
 
 #titulo {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  margin: auto;
 }
 
 #licoes_aprendidas {
@@ -71,7 +67,6 @@ body {
 #rodape {
   position: static;
   text-align: center;
-  font-weight: bold;
   font-size: 15px;
 }
 
