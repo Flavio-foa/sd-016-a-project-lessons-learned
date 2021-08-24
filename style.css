@@ -2,16 +2,18 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+header {
+  background-color: blanchedalmond;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
   right: 50%;
-  background-color:blanchedalmond;
   display: inline;
-  
 }
 
-img {
+#minha_foto {
   position: absolute;
   top: 80px;
   border-radius: 20%;
