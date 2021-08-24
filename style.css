@@ -44,4 +44,11 @@ h1 {
 #minha_foto {
   width: 200px;
   float: left;
+  margin: 0 2rem 2rem 0;
+  border-bottom-right-radius: 10px;
+}
+
+.to_learn {
+  clear: both;
+  margin-left: 2rem;
 }
