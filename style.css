@@ -6,3 +6,23 @@ body{
     position: fixed;
     top: 0%;
 }
+
+header{
+    text-align: center;
+    background-color: #036b52;
+    padding: 40px;
+    width: 100%;
+    
+}
+
+
+
+#minha_foto{
+    
+    position: relative;
+    float: left;
+    height: 270px;
+    padding: 5px;
+    padding-top: 170px;
+  
+}
