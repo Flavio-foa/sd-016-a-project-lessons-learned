@@ -1,40 +1,77 @@
-body {
-    background-color: rgb(253, 251, 251);
-}
-
-#cabecalho {
-    top: 0;
-    left: 0;
-    position: fixed;
-    background-color: #087E8B;
-    width: 100%;
-    border-bottom: 8px solid #BFD7EA;
-}
-
-#titulo {
-    margin: 8px 0;
-    text-align: center;
-    color: #BFD7EA;
-    font-family: 'Candal', sans-serif;
-    ;
-}
-
-main {
-    margin-top: 80px;
-}
-
-#minha_foto {
-    width: 300px;
-    border-radius: 50%;
-    padding: 0;
-    border: 8px solid #BFD7EA;
-}
-
-main h2,
-main h3 {
-    font-family: 'Palanquin Dark', sans-serif;
-}
-
-main {
-    font-family: 'Hind Siliguri', sans-serif;
-}
+    body {
+        background-color: rgb(253, 251, 251);
+    }
+    
+    #cabecalho {
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #087E8B;
+        width: 100%;
+        border-bottom: 8px solid #BFD7EA;
+    }
+    
+    #titulo {
+        margin: 8px 0;
+        text-align: center;
+        color: #BFD7EA;
+        font-family: 'Candal', sans-serif;
+        ;
+    }
+    
+    main {
+        margin-top: 80px;
+    }
+    
+    #minha_foto {
+        width: 300px;
+        border-radius: 50%;
+        padding: 0;
+        border: 8px solid #BFD7EA;
+    }
+    
+    main h2,
+    main h3 {
+        font-family: 'Palanquin Dark', sans-serif;
+    }
+    
+    main {
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    
+    main li {
+        line-height: 20px;
+    }
+    
+    article {
+        width: 50%;
+        text-align: justify;
+        margin-left: 10px;
+    }
+    
+    aside {
+        top: 420px;
+        position: absolute;
+        text-align: justify;
+        margin-left: 55%;
+        padding: 0px 30px;
+        background-color: #BFD7EA;
+        width: 35%;
+    }
+    
+    #lists {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    #lists ol {
+        width: 40%;
+        display: inline-block;
+    }
+    
+    #lists ul {
+        margin-left: 80px;
+        width: 40%;
+        display: inline-block;
+    }
