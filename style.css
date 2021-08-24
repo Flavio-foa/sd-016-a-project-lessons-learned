@@ -4,6 +4,9 @@ body {
 
 #cabecalho {
   position: fixed;
+  z-index: 1;
+  float: none;
+  width: 100%;
   top: 0;
   background-color: #345995;
 }
@@ -15,14 +18,21 @@ body {
   top: 80px;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   position: absolute;
   top: 80px;
   left: 220px;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   position: absolute;
   top: 80px;
   left: 720px;
+}
+
+#rodape {
+  position:relative;
+  top: 768px;
+  height: 80px;
+  background-color: #345995;
 }
