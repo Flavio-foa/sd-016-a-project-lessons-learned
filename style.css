@@ -2,7 +2,6 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgb(253, 251, 251);
-  font-family: Verdana, sans-serif;
 }
 
 #cabecalho {
@@ -14,7 +13,10 @@ body {
 }
 
 #titulo {
+  font-size: 31px;
+  color: darkblue;
   letter-spacing: 5px;
+  font-family: Verdana, sans-serif;
 }
 
 #navegacao {
