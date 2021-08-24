@@ -85,6 +85,7 @@ body {
 
 #opiniao {
   width: 600px;
+  float: left;
 }
 
 #curiosidade {
@@ -94,7 +95,9 @@ body {
 }
 
 #tabela {
-  margin: 0 auto;
+  clear: both;
+  display: inline-block;
+  margin: 100px auto;
 }
 
 #tabela, th, td {
@@ -104,4 +107,9 @@ body {
 
 #tabela th, #tabela td {
   padding: 10px;
+}
+
+#rodape {
+  padding: 50px 20px;
+  background-color: beige;
 }
