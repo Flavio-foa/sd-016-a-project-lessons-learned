@@ -1,8 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0
+  top: 0;
+  background: linear-gradient(to bottom, #CCC, #FFF);
+  width: 100%;
+  text-align: center;
+}
+
+#titulo {
+  font-family: Lato;
+  font-size: 40px;
+  margin: 16px 0;
+}
+
+.links {
+  border-top: 2px solid rgb(124, 124, 124);
+  border-bottom: 2px solid rgb(124, 124, 124);
+  list-style: none;
+  margin: 12px 0;
+}
+
+.links__item {
+  display: inline-block;
+  width: 10%;
+  border-right: 2px solid rgb(124, 124, 124);
+}
+
+.links__item:first-child {
+  border-left: 2px solid rgb(124, 124, 124);
+}
+
+.links__item:hover {
+  background-color: #CCC;
+  cursor: pointer;
+  color: purple;
+}
+
+.links__item a {
+  text-decoration: none;
+  font-size: 24px;
 }
