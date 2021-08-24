@@ -2,19 +2,31 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header {
-  background-color: blanchedalmond;
+#cabecalho {
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: blueviolet;
+  width: 100%;
+  text-align: center;
+  border: 5px inset black;
 }
 
-#cabecalho {
-  position: fixed;
-  top: 0;
-  right: 50%;
-  display: inline;
+#titulo {
+  font-family: monospace;
 }
 
 #minha_foto {
-  position: absolute;
-  top: 80px;
+  margin-top: 85px;
   border-radius: 20%;
 }
+
+#licoes_aprendidas {
+  margin-top: 20px;
+}
+
+#licoes_aprendidas li {
+  padding: 2px 0;
+  font-family: Arial, sans-serif;
+}
+
