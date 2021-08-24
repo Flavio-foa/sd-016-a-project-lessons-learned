@@ -2,3 +2,5 @@ Meu aprendizado
 Estou entrando na terceira semana estudando na Trybe e tenho aprendido bastante nesses ultimos dias, esse é o meu primeiro projeto e estou super empolgado!!
 Estou gostando muito de ter aprendido a usar e entender os comandos no terminal e principalmente estar aprendendo e praticando HTML e CSS.
 Além de todos os dias estar desenvolvendo minhas soft skills reconhecendo minhas dificuldades e ansioso para aprimorar meus pontos fortes.
+Uma Curiosidade
+No meu primeiro dia de aula logo no aquecimento do welcome days teve um momento de reunir em breakout rooms, Tive um bate-papo muito legal com a Nanci, Uma Argentina muito inteligente que apareceu no feed da trybe e que é da minha tribo.
