@@ -2,20 +2,24 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
-.cabecalho{
-    border-color: brown;
+#cabecalho{
     top: 0px;
-    background-color: black;
-    color: brown;
-    height: 400px;
+    background-color:silver;
+    height: 100px;
+}
+
+#nav-cabecalho li{
+    display: inline;
+    margin-left: 20px;
+    text-decoration: none;
 }
 
 #minha_foto{
     width: 400px;
+    padding: 5px;
 }
 
-.rodape{
-    background-color: gray;
-    color: ;
-    height: 200px;
+#rodape{
+    background-color:silver;
+    height: 70px;
 }
