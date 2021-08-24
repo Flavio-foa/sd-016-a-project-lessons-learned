@@ -1,15 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: rgb(253, 251, 251);
 }
-
+#minha_foto{
+    border-radius: 20px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 30px;
+}
 #cabecalho{
     position: fixed;
     top: 0;
+    width: 100%;
+    background-color: rgba(0, 128, 0, 1);  
+    height: 40px;
+}
+
+#borda-lateral{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 40px;
+    background-color: rgba(0, 128, 0, 1);
     
 }
 
 #titulo{
-
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 #licoes_aprendidas{
@@ -21,7 +45,10 @@ body{
 }
 
 #rodape{
-
+    position: static;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 #article{
@@ -29,5 +56,14 @@ body{
 }
 
 #aside{
-    
+
+}
+
+#logo-github{
+    position: absolute;
+    padding-top: 50px;
+    width: 40px;
+}
+#main{
+    margin: 70px;
 }
