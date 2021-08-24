@@ -1,19 +1,18 @@
-body {
+body{
   background-color: rgb(253, 251, 251);
-  margin: 0px;
 }
-#cabecalho {
+#cabecalho{
   position: fixed;
   top: 0;
   text-align: center;
   background-color: coral;
   width: 100%;
 }
-#minha_foto {
+#minha_foto{
   margin-top: 100px;
   margin-left: 20px;
 }
-#tabela {
+#tabela{
   margin-left: 26px;
   background-color: lightcyan;
   border-spacing: 5px;
