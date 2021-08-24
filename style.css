@@ -1,68 +1,64 @@
     body {
         background-color: rgb(253, 251, 251);
     }
-    
+
     #cabecalho {
         top: 0;
         left: 0;
         position: fixed;
-        background-color: #087E8B;
+        background-color: #087e8b;
         width: 100%;
-        border-bottom: 8px solid #BFD7EA;
+        border-bottom: 8px solid #bfd7ea;
     }
-    
+
     #titulo {
         margin: 8px 0;
         text-align: center;
-        color: #BFD7EA;
-        font-family: 'Candal', sans-serif;
+        color: #bfd7ea;
+        font-family: Candal, sans-serif;
         ;
     }
-    
-    main {
-        margin-top: 20px;
-    }
-    
+
     #minha_foto {
         margin-top: 80px;
         width: 300px;
         border-radius: 50%;
         padding: 0;
-        border: 8px solid #BFD7EA;
+        border: 8px solid #bfd7ea;
         clear: left;
     }
-    
-    main h2,
-    main h3 {
-        font-family: 'Palanquin Dark', sans-serif;
-    }
-    
+
     main {
-        font-family: 'Hind Siliguri', sans-serif;
+        margin-top: 20px;
+        font-family: Hind Siliguri, sans-serif;
     }
-    
+
+    main h2, main h3 {
+        font-family: Palanquin Dark, sans-serif;
+    }
+
     main li {
         line-height: 20px;
         clear: both;
     }
-    
+
     .lado-esquerdo {
         float: left;
         width: 55%;
         text-align: justify;
         margin-left: 10px;
     }
-    
+
     .lado-direito {
         float: right;
         text-align: justify;
-        padding: 0px 30px;
-        background-color: #BFD7EA;
+        padding: 0 30px;
+        background-color: #bfd7ea;
         width: 30%;
         margin-top: 20px;
         margin-right: 30px;
     }
-    
+
     footer {
         font-size: 15px;
     }
