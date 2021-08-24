@@ -2,13 +2,9 @@
 
 :root {
 
-  --color-1: rgb(53, 31, 57);
+  --color-theme: rgb(53, 31, 57);
 
-  --color-2: rgb(114, 106, 149);
-
-  --color-3: rgb(113, 159, 176);
-
-  --color-4: rgb(160, 193, 184);
+  --white: rgb(253, 251, 251);
 }
 
 * {
@@ -20,11 +16,17 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: var(--white);
+  height: 100vh;
+  color: var(--color-theme);
 }
 
 main {
   padding-top: 70px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 h1 {
@@ -33,7 +35,7 @@ h1 {
 
 #cabecalho {
   position: fixed;
-  background-color: var(--color-1);
+  background-color: var(--color-theme);
   color: white;
   width: 100vw;
   height: 70px;
@@ -48,7 +50,20 @@ h1 {
   border-bottom-right-radius: 10px;
 }
 
-.to_learn {
-  clear: both;
-  margin-left: 2rem;
+.learned {
+  float: left;
+  margin-right: 2rem;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 100px;
+  padding: 10px;
+  background-color: var(--color-theme);
+  color: var(--white)
+}
+#rodape a {
+  color: var(--white);
 }
