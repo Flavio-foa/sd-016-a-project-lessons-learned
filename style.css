@@ -4,6 +4,8 @@ body{
 
 div{
     top: 0px;
+    position: fixed;
+    left: 150px;
 }
 
 #minha_foto{
