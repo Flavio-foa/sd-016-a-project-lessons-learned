@@ -28,27 +28,18 @@ body {
     width: 450px;
 }
 
-section {
-    position: relative;
+.lists {
+    position: relative ;
     z-index: 2;
     top: 450px;
     left: 10px;
-    background-color: rgb(7, 70, 163);
     max-width: 25%;
-    border: 80px  rgb(7, 70, 163) ;
-    border-radius: 10px;
 }
 
-#licoes_aprendidas {
-    font-family: 'Special Elite', cursive;
-    color: white;
+#licoes_aprendidas , #licoes_a_aprender{
+    display: inline-block;
+    position: relative;
+    top: 450px;
     font-size: 24px;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    color: white;
-    font-size: 26px;
-    font-family: 'Special Elite' ,cursive ;
+    font-family: 'Special Elite', cursive;
 }
