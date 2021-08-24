@@ -10,6 +10,7 @@ body {
   top: 0;
   background-color: rgb(71, 248, 204);
   width: 1366px;
+  height: 110px;
   text-align: center;
 }
 
@@ -60,6 +61,7 @@ ul {
 #meu_aprendizado {
   display: inline-block;
   margin: auto;
+  width: 600px;
 }
 
 #meu_aprendizado p {
@@ -70,6 +72,9 @@ ul {
 aside {
   display: inline-block;
   margin: auto;
+  width: 250px;
+  background-color: rgb(184, 201, 197);
+  border: 2px solid rgb(71, 248, 204);
 }
 
 footer {
@@ -77,3 +82,4 @@ footer {
   padding: 20px;
   background-color: rgb(71, 248, 204);
 }
+
