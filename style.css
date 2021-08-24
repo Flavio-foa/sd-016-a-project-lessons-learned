@@ -7,3 +7,7 @@ body {
     position: fixed;
     margin-top: 0px;
 }
+#minha_foto {
+    width: 400px;
+    margin-top: 80px;
+}
