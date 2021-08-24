@@ -41,3 +41,9 @@ main {
   float: right;
   color: rgb(248, 241, 245);
 }
+
+article {
+    width: 50%;
+    color: white;
+    margin-left: 50px;
+}
