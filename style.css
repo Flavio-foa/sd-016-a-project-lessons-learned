@@ -1,10 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   margin: 0;
 }
 main{
-  margin:10px;
+  margin: 10px;
 }
 
 #cabecalho {
@@ -12,16 +12,15 @@ main{
   top: 0;
   left: 0;
   right: 0;
-  background-color: #6b705c;
+  background-color: rgb(107, 112, 92);
   padding: 10px;
   text-align: center;
-
 }
 
 #titulo{
-  font-family: 'Architects Daughter', cursive;
-  color: #fefefe;
-  text-shadow: 2px 2px #181818;
+  font-family: Architects Daughter, cursive;
+  color: rgb(254, 254, 254);
+  text-shadow: 2px 2px rgb(24, 24, 24);
   text-align: center;
   font-weight: 500;
 }
@@ -30,27 +29,24 @@ nav ul li{
   display: inline-block;
   font-size: 15px;
   margin: 0 15px;
-  
-  
 }
 
 nav ul li a{
   text-decoration: none;
   text-transform: uppercase;
-  color: #fefefe;
-  
+  color: rgb(254, 254, 254);  
 }
 
 nav ul li a:hover{
-  color: #cb997e;
+  color: rgb(203, 153, 126);
   font-weight: 500;
-  border-bottom: 3px solid #cb997e;
+  border-bottom: 3px solid rgb(203, 153, 126);
   padding: 5px;
 }
 
 #minha_foto{
   height: 200px;
-  border: 5px solid #cb997e;
+  border: 5px solid rgb(203, 153, 126);
   float: left;
   margin: 0 15px 0 0;
 }
@@ -59,22 +55,22 @@ nav ul li a:hover{
   display: flex;
   align-items: center;
   margin-top: 150px;
-  background-color: #eeeeee;
+  background-color: rgb(238, 238, 238);
   padding: 20px;
 }
+
 .quote{
-  font-family: 'Architects Daughter', cursive;
+  font-family: Architects Daughter, cursive;
   display: flex;
   align-items: center;
-  background-color: #eeeeee;
+  background-color: rgb(238, 238, 238);
   padding: 20px;
   margin: 15px auto;
   max-width: 70%;
-
 }
 
 .icon-quote{
-  margin:  0 30px;
+  margin: 0 30px;
   font-size: 35px;
-  color: #c3c3c3
+  color: rgb(195, 195, 195);
 }
