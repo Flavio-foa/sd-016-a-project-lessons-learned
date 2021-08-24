@@ -11,7 +11,18 @@
     width: 100%;
  }
 
+ .foto_borda {
+     border: 1px solid transparent;
+     background-color: #036b52;
+     color: #fff;
+     border-radius: 25px;
+     margin: 100px 0 0 0;
+     padding: 20px;
+     text-align: center;
+ }
+
  #minha_foto {
     max-width: 200px;
     max-height: 200px;
+    border-radius: 250px;
  }
