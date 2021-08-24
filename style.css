@@ -3,7 +3,7 @@ body{
 }
 
 #cabecalho{
-    top: 0px;
+    top: 0;
     background-color:silver;
     height: 100px;
 }
