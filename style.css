@@ -6,7 +6,9 @@ body {
 img {
   max-width: 400px;
   display: block;
-  float: left;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 10%;
 }
 
 #cabecalho {
@@ -31,45 +33,33 @@ main {
 }
 
 #licoes_a_aprender {
-  display: block;
+  display: inline-block;
 }
 
 .licoes-container {
-  width: 50%;
-  display: block;
-  float: right;
-}
-
-.jornada-article {
-  clear: both;
-  padding-top: 5%;
-}
-
-article, aside {
-  display: inline-block;
+  float: left;
   width: 40%;
-  margin
+  padding-left: 2%;
+  padding-top: 2%;
 }
 
 article {
-  margin-left: 5%;
-  float: left;
+  width: 40%;
+  display: block;
+  float: right;
+  padding-right: 5%;
+  padding-top: 5%;
 }
 
-aside {
-  margin-right: 5%;
-  float: right;
+.jornada-aside {
+  clear: both;
+  padding-top: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 #rodape {
-  clear: both;
-  height: 10%;
-  width: 100%;
-  display: block;
   text-align: center;
-}
-
-#rodape span {
-  display: inline-block;
-  margin-top: 2.5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
