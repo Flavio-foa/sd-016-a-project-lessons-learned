@@ -2,13 +2,19 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
-   position: fixed;
+#cabecalho {
+  position: fixed;
   top: 0;
-  color: rgb(226, 94, 0);
-  margin:20px;
-  display: inline;
+  color: rgb(255, 253, 253);
   text-align: center;
+  width: 100%;
+  background-color:rgb(5, 35, 73);
+
+}
+
+main {
+    background-color: teal;
+    margin: 20px;
 }
 
 #minha_foto {
@@ -19,15 +25,19 @@ body {
   display: block;
 }
 
-#listas  {
-    display: inline-block;
-    margin-left: 100px;
-    text-align: center;
+#listas {
+  display: inline-block;
+  margin:0px 70px;
+  text-align: center;
+  font-size: 20px;
+  
 }
 
 #licoes_aprendidas {
-    float: left;
+  float: left;
+  color: aqua;
 }
 #licoes_a_aprender {
-    float: right;
+  float: right;
+  color: rgb(248, 241, 245);
 }
