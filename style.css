@@ -1,34 +1,43 @@
-*
-{
+* {
   margin: 0;
   padding: 0;
 }
-.body
-{
+.body {
   background-color: rgb(253, 251, 251);
 }
-.header
-{
+.header {
   background-color: #006400;
   height: 180px;
 }
-.header h1
-{
+.header h1 {
   text-align: center;
   padding: 20px;
   color: #f0f8f0;
 }
-.header-menu ul
-{
+.header-menu ul {
   margin-left: 20px;
   margin-top: 40px;
 }
-.middle-image img
-{
+.middle-image img {
   margin-left: 20px;
   margin-top: 20px;
 }
-.middle-link
-{
+.middle-link {
   margin-left: 20px;
+}
+#licoes {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.middle-text {
+  margin-left: 40px;
+}
+.middle-text ol {
+  float: left;
+  margin-right: 50px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
 }
