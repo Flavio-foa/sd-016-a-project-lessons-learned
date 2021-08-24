@@ -36,6 +36,7 @@ h2 {
 #licoes_a_aprender {
   display: inline-block;
   font-family: Architects Daughter;
+  margin-right: 50%;
 }
 
 #rodape {
@@ -47,15 +48,14 @@ h2 {
   font-family: monospace;
   font-size: 15px;
   line-height: 20px;
+  width: 65%;
 }
 
 #passagem {
   border: 2px solid #013A63;
-  padding: 20px 30px;
+  padding: 5px;  
   font-family: monospace;
   font-size: 12px;
-  margin-left: 25%;
-  margin-right: 25%;
 }
 
 a {
@@ -70,4 +70,14 @@ a {
 
 table, th, td {
   border:1px solid black;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 200px;
+  margin-left: 20%;
+}
+
+.lado-esquerdo {
+  display: inline-block;
 }
