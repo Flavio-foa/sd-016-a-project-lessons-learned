@@ -14,7 +14,16 @@ body{
     position: absolute;
     z-index: 2;
     top: 10%;
-    width="200px"
+    width: 100px;
     height: 100px;
     left: 1%;
+}
+
+#licoes_aprendidas{
+    display: block;
+    z-index: 3;
+    position: relative;
+    top: 10%;
+    padding: 10%;
+    margin: 10%;
 }
