@@ -1,89 +1,85 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: rgb(253, 251, 251);
-    font-family: Helvetica, sans-serif;
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Helvetica, sans-serif;
 }
 
-nav a{
-    text-decoration: none;  
+nav a {
+  text-decoration: none;
 }
 
-table{
-    margin-bottom: 20px;
-
+table {
+  margin-bottom: 20px;
 }
 
-.lado-esquerdo{
-    margin-bottom: 20px;
-    float: left;
-    text-align: justify, center;
-    width: 50%;
+.lado-esquerdo {
+  margin-bottom: 20px;
+  float: left;
+  text-align: justify, center;
+  width: 50%;
 }
 
-.lado-direito{
-    margin-bottom: 20px;
-    float: right;
-    text-align: justify, center;
-    width: 50%;
+.lado-direito {
+  margin-bottom: 20px;
+  float: right;
+  text-align: justify, center;
+  width: 50%;
 }
 
-#cabecalho{
-    top: 0;
-    position: fixed;
-    background-color: rgb(100,149,237);
-    width: 100%;
-    padding: 0;
+#cabecalho {
+  top: 0;
+  position: fixed;
+  background-color: cornflowerblue;
+  width: 100%;
+  padding: 0;
 }
 
-#cabecalho nav li{
-    display: inline-block;
-    padding: 10px;
-    margin-bottom: 0;
+#cabecalho nav li {
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 0;
 }
 
-#titulo{
-    text-align: center;
+#titulo {
+  text-align: center;
 }
 
-#minha_foto{
-    width: 300px;
-    margin-top: 80px;
-    margin-bottom: 20px;
-    margin-left: 5px;
-    display: block;
-    border-radius: 30px;
+#minha_foto {
+  width: 300px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  display: block;
+  border-radius: 30px;
 }
 
-#licoes_aprendidas{
-    margin-left: 30px; 
-    display: inline-block;
-    
+#licoes_aprendidas {
+  margin-left: 30px;
+  display: inline-block;
 }
 
-#licoes_a_aprender{
-    margin-left: 30px;
-    display: inline-block;
-    margin-bottom: 20px;
+#licoes_a_aprender {
+  margin-left: 30px;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
-#rodape{
-    background-color: rgb(112,128,144);
-    text-align: center;
-    height: 50px;
+#rodape {
+  background-color: slategray;
+  text-align: center;
+  height: 50px;
 }
 
-#meu_link{
-    margin-bottom: 20px;
-    display: block;
-    margin-left: 90px;
-    font-size: 20px;
-    color: coral;
-    text-decoration: none;
-    line-height: 5px;
+#meu_link {
+  margin-bottom: 20px;
+  display: block;
+  margin-left: 90px;
+  font-size: 20px;
+  color: coral;
+  text-decoration: none;
+  line-height: 5px;
 }
-
-
