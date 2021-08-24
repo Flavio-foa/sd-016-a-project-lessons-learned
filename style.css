@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+#cabecalho{
+  position: static;
+  top: 0;
+  border: solid black;
+  text-align: center;
+}
+
+/*h1{
+  text-align: center;
+  font-family: Helvetica ;
+    font-family: monospace ;
+}
