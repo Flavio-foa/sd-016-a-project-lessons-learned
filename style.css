@@ -11,6 +11,8 @@ body{
     border-radius: 20px;
     width: 250px;
     display: inline-block;
+    vertical-align: text-top;
+    margin-bottom: 10px;
     
 }
 #cabecalho{
@@ -30,18 +32,24 @@ body{
     background-color: rgba(0, 128, 0, 1);
     
 }
+#imagem-e-listas{
+    border-bottom: 1px solid black;
+    width: 103%;
+    
 
+}
 #design-listas {
     display: inline-block;
-    
+    vertical-align: text-top;
 
 }
 #design-listas ul {
     display: inline-block;
-
+    margin-left: 35px;
 }
 
 #design-listas ol {
+    margin-left: 40px;
     display: inline-block;
 
 }
@@ -52,11 +60,11 @@ body{
 }
 
 #licoes_aprendidas{
-    background-color: #7777;
+    line-height: 20px;
 }
 
 #licoes_a_aprender{
-    background-color: #7777;
+    line-height: 20px;
 }
 
 #rodape{
@@ -69,7 +77,7 @@ body{
 #article{
     line-height: 20px;
     width: 200px;
-    
+    height: 400px;
     vertical-align: text-top;
 }
 .lado-esquerdo{
@@ -77,11 +85,11 @@ body{
 }
 
 #aside{
-    
+    height: 400px;
     width: 200px;
     line-height: 20px;
     vertical-align: text-top;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 .lado-direito{
