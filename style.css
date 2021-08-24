@@ -3,6 +3,7 @@
         }
         
         #cabecalho {
-            top : o;
+        position: fixed;
+        top: 0%;
         }
         
