@@ -2,48 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header id="cabecalho">
-        <h1 id="titulo">Titulo</h1>
-    </header>
-    <img id="minha_foto" src="minha_foto" alt="minha foto">
-    <ol id="licoes_aprendidas">
-        <li>licao 1</li>
-        <li>licao 2</li>
-        <li>licao 3</li>
-        <li>licao 4</li>
-        <li>licao 5</li>
-        <li>licao 6</li>
-        <li>licao 7</li>
-        <li>licao 8</li>
-        <li>licao 9</li>
-        <li>licao 10</li>
-    </ol>
-    <ul id="licoes_a_aprender">
-        <li>licao 1</li>
-        <li>licao 2</li>
-        <li>licao 3</li>
-        <li>licao 4</li>
-        <li>licao 5</li>
-        <li>licao 6</li>
-        <li>licao 7</li>
-        <li>licao 8</li>
-        <li>licao 9</li>
-        <li>licao 10</li>
-    </ul>
-    <article>
-        Praesent in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante
-        cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus
-        quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum
-    </article>
-    <a href="https://www.betrybe.com/" target="_blank">Site da Trybe</a>
-    <footer id="rodape">
-    </footer>
+  <header id="cabecalho">
+    <h1 id="titulo">Titulo</h1>
+    <nav class="navigation">
+      <li id="link_pagina_inical"><a href="https://www.google.com/" target="_blank">Página Inical</a></li>
+      <li id="link_sobre"><a href="https://www.google.com/" target="_blank">Sobre</a></li>
+      <li id="link_contato"><a href="https://www.google.com/" target="_blank">Contato</a></li>
+    </nav>
+  </header>
+  <main class="content">
+    <section class="main-content">
+      <img id="minha_foto" src="minha_foto" alt="minha foto">
+      <article>
+        <p> in mauris eu tortor porttitor accumsan. Mauris suscipit, ligula sit amet pharetra semper, nibh ante
+          cursus purus, vel sagittis velit mauris vel metus. Aenean fermentum risus id tortor. Integer imperdiet lectus
+          quis justo. Integer tempor. Vivamus ac urna vel leo pretium faucibus. Mauris elementum <a
+            href="https://www.betrybe.com/" target="_blank">Site da Trybe</a></p>
+      </article>
+    </section>
+    <section>
+      <div class="licoes_aprendidas_div">
+        <h2>Lista de lições aprendidas</h2>
+        <ol id="licoes_aprendidas">
+          <li>licao 1</li>
+          <li>licao 2</li>
+          <li>licao 3</li>
+          <li>licao 4</li>
+          <li>licao 5</li>
+          <li>licao 6</li>
+          <li>licao 7</li>
+          <li>licao 8</li>
+          <li>licao 9</li>
+          <li>licao 10</li>
+        </ol>
+      </div>
+      <div class="licoes_desejadas_div">
+        <h2>Lista de lições a aprender</h2>
+        <ul id="licoes_a_aprender">
+          <li>licao 1</li>
+          <li>licao 2</li>
+          <li>licao 3</li>
+          <li>licao 4</li>
+          <li>licao 5</li>
+          <li>licao 6</li>
+          <li>licao 7</li>
+          <li>licao 8</li>
+          <li>licao 9</li>
+          <li>licao 10</li>
+        </ul>
+      </div>
+    </section>
+    <aside>
+      <h2>Uma passgem do meu aprendizado</h2>
+      <p>placerat. In vulputate urna eu arcu. Aliquam erat volutpat. Suspendisse potenti. Morbi mattis felis at
+      </p>
+    </aside>
+  </main>
+  <footer id="rodape">
+    <section class="content-subscription">
+      <p>Conteúdo compilado por Rafael Nakashima, 2021</p>
+    </section>
+  </footer>
 </body>
 
 </html>
