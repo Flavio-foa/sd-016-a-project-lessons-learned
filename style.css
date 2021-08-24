@@ -1,11 +1,11 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   font-family: sans-serif;
-  }
+}
 
-#cabecalho{
-  margin-top: 0px;
+#cabecalho {
+  margin-top: 0;
   background-color: green;
   position: fixed;
   padding: 20px 100% 40px 40px;
@@ -13,21 +13,19 @@ body{
   color: white;
   font-size: 30px;
   line-height: 70px;
- }
+}
 
-#minha_foto{
+#minha_foto {
   width: 250px;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   display: inline-block;
   text-align: center;
-  
 }
 
-.lado-direito{
+.lado-direito {
   display: inline-block;
   width: 10%;
   text-align: center;
-  
 }
