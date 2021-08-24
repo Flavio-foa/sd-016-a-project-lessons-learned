@@ -58,13 +58,19 @@ ul {
   margin: 0 auto;
 }
 
-#meu_aprendizado {
+#lado-direito {
+  display: inline-block;
+  margin: auto;
+  width: 300px;
+}
+
+#lado-esquerdo {
   display: inline-block;
   margin: auto;
   width: 600px;
 }
 
-#meu_aprendizado p {
+#lado-esquerdo p {
   display: inline-block;
   margin: auto;
   line-height: 1,8;
