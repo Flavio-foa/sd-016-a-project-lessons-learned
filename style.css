@@ -9,9 +9,9 @@ body{
 }
 #minha_foto{
     border-radius: 20px;
-    width: 300px;
+    width: 250px;
     display: inline-block;
-    margin-left: 30px;
+    
 }
 #cabecalho{
     position: fixed;
@@ -19,6 +19,7 @@ body{
     width: 100%;
     background-color: rgba(0, 128, 0, 1);  
     height: 40px;
+    color: white;
 }
 
 #borda-lateral{
@@ -30,6 +31,20 @@ body{
     
 }
 
+#design-listas {
+    display: inline-block;
+    
+
+}
+#design-listas ul {
+    display: inline-block;
+
+}
+
+#design-listas ol {
+    display: inline-block;
+
+}
 #titulo{
     font-family: 'Bebas Neue', cursive;
     text-align: center;
@@ -37,11 +52,11 @@ body{
 }
 
 #licoes_aprendidas{
-
+    background-color: #7777;
 }
 
 #licoes_a_aprender{
-
+    background-color: #7777;
 }
 
 #rodape{
@@ -52,11 +67,29 @@ body{
 }
 
 #article{
-
+    line-height: 20px;
+    width: 200px;
+    
+    vertical-align: text-top;
+}
+.lado-esquerdo{
+    display: inline-block;
 }
 
 #aside{
+    
+    width: 200px;
+    line-height: 20px;
+    vertical-align: text-top;
+    padding-left: 100px;
+}
 
+.lado-direito{
+    display: inline-block;
+}
+
+#article-aside{
+    padding-top: 30px;
 }
 
 #logo-github{
@@ -65,5 +98,5 @@ body{
     width: 40px;
 }
 #main{
-    margin: 70px;
+    margin: 55px;
 }
