@@ -1,7 +1,15 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-#cabecalho #titulo {
-    margin-top: 0px;
+#titulo{
+    top: 0;
+    background-color: rosybrown;
+    color: seashell;
     text-align: center;
+    margin: 20px 100px;
+}
+#minha_foto {
+    margin: 10px 50px;
+    width:200px;
+
 }
