@@ -6,16 +6,20 @@ body{
 }
 
 #cabecalho{
+    position: fixed;
     background-color: #00ba89;
     top: 0;
 
+
 }
 nav{
+    padding-top: 250px;
     display: block;
     padding-left: 100px;
 }
 #titulo{
     padding: 50px;
+    padding-right: 1152px;
 }
 
 #rodape{
