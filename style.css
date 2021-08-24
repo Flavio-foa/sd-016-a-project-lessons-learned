@@ -5,11 +5,17 @@
  #cabecalho {
     position: fixed;
     top: 0;
+    padding: 25px;
     border: 1px solid transparent;
     background-color: #036b52;
     color: #fff;
     width: 100%;
+    text-align: center;
  }
+
+  #titulo {
+    font-size: 2em;
+  }
 
  .foto_borda {
      border: 1px solid transparent;
