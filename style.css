@@ -16,3 +16,15 @@ body {
 #minha_foto {
   margin-top: 100px;
 }
+
+#licoes {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#licoes_aprendidas,
+#licoes_a_aprender {
+  padding: 50px;
+  line-height: 25px;
+}
