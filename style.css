@@ -15,7 +15,6 @@ body {
 #cabecalho li {
     list-style: none;
     display: inline-block;
-    margin-top: 0px;
 }
 
 #cabecalho a {
@@ -31,7 +30,6 @@ body {
 }
 
 h1 {
-    margin-bottom: 0px;
     font-family: Acme, sans-serif;
     text-transform: uppercase;
 }
@@ -48,7 +46,28 @@ section {
     margin: auto;
 }
 
-ol, ul {
+ol,ul {
     width: fit-content;
     margin: 0 auto;
+}
+
+#meu_aprendizado {
+    display: inline-block;
+    width: 1166px;
+    margin: auto;
+}
+
+aside {
+    display: inline-block;
+    width: 190px;
+    margin: auto;
+}
+
+#aprendizado {
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
 }
