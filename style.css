@@ -32,11 +32,11 @@ h3 {
     margin-top: 30px;
 }
 
-#licoes_aprendidas {
-    position: absolute;
+.listas {
+    display: inline-block;
 }
 
-#licoes_a_aprender {
-    position: absolute;
-    left: 300px;
+#rodape {
+    background-color: green;
 }
+
