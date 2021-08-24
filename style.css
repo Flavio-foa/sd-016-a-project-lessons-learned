@@ -1,98 +1,97 @@
 * {
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color:rgb(253, 251, 251);
-    font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /*cabeçalho*/
 
 #cabecalho {
-    width: 100%;
-    height:10vh;
-    background-color:#3DB2FF;
-    color:white;
-    text-align:center;
-    line-height:10vh;
-    font-size:2rem;
-    position:fixed;
-    top:0;
-    z-index:2;
+  width: 100%;
+  height: 10vh;
+  background-color: #3DB2FF;
+  color: white;
+  text-align: center;
+  line-height: 10vh;
+  font-size: 2rem;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
 
 /*Imagem e descrição*/
 
 .description-box {
-    width:100%;
-    margin-top:10vh;
-    height:500px;
-    text-align: justify;
-    border-bottom:1px solid black
+  width: 100%;
+  margin-top: 10vh;
+  height: 500px;
+  text-align: justify;
+  border-bottom: 1px solid black
 }
 
 .box {
-    height:500px;
-    overflow:hidden;
-    float: left;
-    margin: 0 40px 0 0;
-
+  height: 500px;
+  overflow: hidden;
+  float: left;
+  margin: 0 40px 0 0;
 }
 
-.box img{
-   width:400px;
-   border:1px solid black;
+.box img {
+   width: 400px;
+   border: 1px solid black;
 }
 
 #description-paragrafo {
   display: inline-block;
-  width:60%;
+  width: 60%;
   margin-top: 60px;
-  font-size:2rem;
+  font-size: 2rem;
   font-style: italic;
 }
 
 /*Liçoes Aprendidas*/
 
 #licoes_aprendidas {
-  width:20vw;
-  margin:20px;
+  width: 20vw;
+  margin: 20px;
   list-style-type: none;
   text-align: center;
-  background-color:#FFB830;
-  border-radius:20px;
-  font-size:1.5rem;
-  color:white;
-  padding:50px 0 ;
+  background-color: #FFB830;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  color: white;
+  padding: 50px 0 ;
 }
 
 #licoes_a_aprender {
-  width:20vw;
-  margin:20px;
+  width: 20vw;
+  margin: 20px;
   list-style-type: none;
   text-align: center;
-  background-color:#FFB830;
-  border-radius:20px;
-  font-size:1.5rem;
-  color:white;
-  padding:50px 0;
+  background-color: #FFB830;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  color: white;
+  padding: 50px 0;
 }
 
-h2{
-  margin-bottom:20px;
+h2 {
+  margin-bottom: 20px;
 }
 
 #aprendizado{
-  box-sizing:border-box;
-  padding:50px;
-  width:40vw;
-  height:76vh;
-  background-color:#FFB830;
-  font-size:2.5rem;
-  border-radius:20px;
-  color:white;
+  box-sizing: border-box;
+  padding: 50px;
+  width: 40vw;
+  height: 76vh;
+  background-color: #FFB830;
+  font-size: 2.5rem;
+  border-radius: 20px;
+  color: white;
   text-align: justify;
 }
 
@@ -103,50 +102,48 @@ h2{
 /*rodape*/
 
 #rodape{
-  width:100%;
-  height:40vh;
-  background-color:#FF2442;
+  width: 100%;
+  height: 40vh;
+  background-color: #FF2442;
   text-align: center;
-  margin-top:80px;
-  font-size:4rem;
-  color:white;
-  line-height:40vh;
+  margin-top: 80px;
+  font-size: 4rem;
+  color: white;
+  line-height: 40vh;
 }
 
-
 #linkedin{
-  width:80px;
-  position:absolute;
-  top:500px;
-  left:440px;
-
+  width: 80px;
+  position: absolute;
+  top: 500px;
+  left: 440px;
 }
 
 #github{
-  width:60px;
-  position:absolute;
-  top:510px;
-  left:540px;
+  width: 60px;
+  position: absolute;
+  top: 510px;
+  left: 540px;
 }
 
 #aside{
-  width:70vw;
-  padding:50px;
-  box-sizing:border-box;
-  font-size:2rem;
-  background-color:#FFB830;
+  width: 62vw;
+  padding: 50px;
+  box-sizing: border-box;
+  font-size: 2rem;
+  background-color: #FFB830;
   text-align: justify;
-  margin:auto;
-  color:white;
-  border-radius:25px;
+  margin: auto;
+  color: white;
+  border-radius: 25px;
 }
 #aside h2{
   text-align: center;
 }
 
 .container{
-  margin-top:40px;
-  display:flex;
+  margin-top: 40px;
+  display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
