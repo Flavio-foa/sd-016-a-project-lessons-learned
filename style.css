@@ -41,29 +41,29 @@ body {
 
 .rodape {
 
-    background-color: rgb(0, 161, 54);
-    color: white;
-    height: 50px;
-    text-align: center;
+        background-color: rgb(0, 161, 54);
+        color: white;
+        height: 50px;
+        text-align: center;
     
 
 }
 
 .links {
 
-    text-decoration: none;
-    color: white;
+        text-decoration: none;
+        color: white;
 
 }
 
 #licoes_a_aprender {
 
-    float: right;
+        float: right;
 
 }
 
 #passagem {
 
-    float: right;
+        float: right;
 
 }
