@@ -3,10 +3,19 @@ body{
 }
 
 .cabecalho{
+    border-color: brown;
     top: 0px;
-
+    background-color: black;
+    color: brown;
+    height: 400px;
 }
 
 #minha_foto{
     width: 400px;
+}
+
+.rodape{
+    background-color: gray;
+    color: ;
+    height: 200px;
 }
