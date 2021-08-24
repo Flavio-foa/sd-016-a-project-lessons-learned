@@ -54,3 +54,11 @@ article {
     margin: 30px;
 }
 
+#lateral {
+    display: inline-block;
+    width: 300px;
+    border-style: dashed;
+    text-align: center;
+}
+
+
