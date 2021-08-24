@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+:root {
+
+  --color-1: rgb(53, 31, 57);
+
+  --color-2: rgb(114, 106, 149);
+
+  --color-3: rgb(113, 159, 176);
+
+  --color-4: rgb(160, 193, 184);
+}
+
 * {
   margin: 0;
   padding: 0;
   outline: none;
   box-sizing: border-box;
   font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
 }
