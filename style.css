@@ -46,3 +46,9 @@ height: 30px;
     text-align: center;
     color: white;
 }
+.style-text{
+    margin: 12px;
+    padding: 30px;
+    border: solid 3px rgb(20, 220, 37);
+    width: 300px;
+}
