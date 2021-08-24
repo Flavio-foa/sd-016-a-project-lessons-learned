@@ -1,13 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
   margin-top: 0px;
+  font-size: large;
 }
-
-#titulo {
-
-}
-
 #cabecalho {
+  position: fixed;
   top: 0;
   text-align: center;
   background-color: green;
@@ -15,8 +12,15 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   color: aliceblue;
+  width: 100%;
 }
-
 #minha_foto {
   width: 200px;
+}
+#rodape {
+  margin-top: auto;
+  background-color: limegreen;
+}
+main {
+  margin-top: 110px;
 }
