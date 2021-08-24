@@ -31,3 +31,15 @@ main {
   font-size: 20px;
   line-height: 30px; 
 }
+
+.lado-esquerdo {
+  max-width: 40%;
+}
+
+.lado-direito {
+  max-width: 40%;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 330px;
+}
