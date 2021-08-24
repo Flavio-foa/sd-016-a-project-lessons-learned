@@ -3,21 +3,20 @@ body{
 }
 
 #cabecalho{
-    position: fixed;
-    top: 0px;
-    width: 99%;
-    background-color: yellow;
-    border: 2px solid black;
+  position: fixed;
+  top: 0px;
+  width: 99%;
+  background-color: yellow;
+  border: 2px solid black;
 }
 
 #titulo {
-    text-align: center;
-
+  text-align: center;
 }
 
 #minha_foto{
-    width: 200px;
-    height: 220px;
-    margin-top: 80px;
-    
+  width: 200px;
+  height: 220px;
+  margin-top: 80px;  
 }
+
