@@ -40,7 +40,7 @@ body {
 
 }
 
-img{
+.box img{
    width:400px;
    border:1px solid black;
 }
@@ -94,4 +94,19 @@ h2{
   font-size:4rem;
   color:white;
   line-height:40vh;
+}
+
+
+#linkedin{
+  width:80px;
+  position:absolute;
+  top:240%;
+  right:40px;
+}
+
+#github{
+  width:60px;
+  position:absolute;
+  top:241%;
+  right:120px;
 }
