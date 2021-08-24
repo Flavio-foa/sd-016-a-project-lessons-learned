@@ -53,11 +53,11 @@ a:visited {
   text-decoration: none;
 }
 
-table ,th ,td {
+table , th , td {
   border: 1px solid black;
   font-size: 10px;
   line-height: 5px;
-  font-family: "Franklin Gothic Medium";
+  font-family:monospace;
 }
 
 .lado-esquerdo {
