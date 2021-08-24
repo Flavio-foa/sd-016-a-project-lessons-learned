@@ -57,25 +57,25 @@ body {
 /*Liçoes Aprendidas*/
 
 #licoes_aprendidas {
-  width:70%;
-  margin:50px auto;
+  width:20vw;
+  margin:20px;
   list-style-type: none;
   text-align: center;
   background-color:#FFB830;
   border-radius:20px;
-  font-size:2.5rem;
+  font-size:1.5rem;
   color:white;
   padding:50px 0 ;
 }
 
 #licoes_a_aprender {
-  width:70%;
-  margin: auto;
+  width:20vw;
+  margin:20px;
   list-style-type: none;
   text-align: center;
   background-color:#FFB830;
   border-radius:20px;
-  font-size:2.5rem;
+  font-size:1.5rem;
   color:white;
   padding:50px 0;
 }
@@ -87,10 +87,10 @@ h2{
 #aprendizado{
   box-sizing:border-box;
   padding:50px;
-  width:70vw;
+  width:40vw;
+  height:76vh;
   background-color:#FFB830;
-  margin:40px auto;
-  font-size:2rem;
+  font-size:2.5rem;
   border-radius:20px;
   color:white;
   text-align: justify;
@@ -142,4 +142,12 @@ h2{
 }
 #aside h2{
   text-align: center;
+}
+
+.container{
+  margin-top:40px;
+  display:flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
 }
