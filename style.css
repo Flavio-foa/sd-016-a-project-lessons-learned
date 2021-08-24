@@ -17,13 +17,19 @@ body{
     width: 100px;
     height: 100px;
     left: 1%;
+    float: right;
+    margin-right: 100px;
 }
 
 #licoes_aprendidas{
-    display: block;
+    display: inline-block;
     z-index: 3;
     position: relative;
-    top: 10%;
-    padding: 10%;
-    margin: 10%;
+    margin-block-end: 10%;
+    top: 1000%;
+    
+}
+
+#licoes_a_aprender{
+    display: inline-block;
 }
