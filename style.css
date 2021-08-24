@@ -1,10 +1,10 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 99%;
   background-color: yellow;
   border: 2px solid black;
@@ -14,17 +14,17 @@ body{
   text-align: center;
 }
 
-#minha_foto{
+#minha_foto {
   width: 200px;
-  margin-top: 90px;  
-  display:block;
+  margin-top: 110px;  
+  display: block;
 }
 
-#licoes_aprendidas{
-  display:inline-block;
+#licoes_aprendidas {
+  display: inline-block;
 }
 
-#licoes_a_aprender{
-  display:inline-block ;  
+#licoes_a_aprender {
+  display: inline-block ;  
 }
 
