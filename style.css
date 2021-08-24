@@ -9,3 +9,29 @@ body {
     width: 100%;
     background-color: green;
 }
+
+#titulo {
+    margin: 5px;
+    text-align: center;
+    font-family: 'Staatliches';
+    font-size: 50px;
+    color: ivory;
+}
+
+#nav_list {
+    text-align: center;
+    font-family: 'Staatliches';
+    color: ivory;
+    margin: auto;
+}
+
+#nav_list li {
+    display: inline;
+    list-style: none;
+    padding: 80px;
+}
+
+#minha_foto {
+    margin-top: 90px;
+    border-radius:50%
+}
