@@ -6,4 +6,34 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    background-color: rgb(71, 248, 204);
+    width: 1366px;
+    text-align: center;
+}
+#cabecalho li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0px;
+}
+#cabecalho a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: "Acme", sans-serif;
+}
+#cabecalho a:hover {
+    color: rgb(247, 248, 241);
+    background-color: aquamarine;
+}
+h1 {
+    margin-bottom: 0px;
+    font-family: "Acme", sans-serif;
+    text-transform: uppercase;
+}
+#minha_foto {
+    display: block;
+    margin: auto;
+    width: 400px;
+    margin-top: 110px;
+    border-radius: 50%;
 }
