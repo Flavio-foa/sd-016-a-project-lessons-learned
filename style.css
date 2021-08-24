@@ -1,3 +1,19 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
+#cabecalho {
+    top: 0;
+    margin: 0% 50% 100% 50%;
+    text-align: center;
+    display: inline;
+    position: top;
+}
+
+#titulo {
+
+}
+
+#minha_foto {
+border-radius: 20%;
+}
