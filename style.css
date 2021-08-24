@@ -12,15 +12,19 @@ body {
     background-color: seagreen;
     border: slategrey;
     
+    
 }
 
 #titulo {
  text-align: center;
+ color: rgb(22, 6, 114);
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #minha_foto {
     width: 300px;
-    margin-top: 150px;
+    float: left;
+    margin-right: 20px;
 }
 
 #licoes_aprendidas {
@@ -31,3 +35,37 @@ body {
 
 }
 
+section {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    margin: 20px 50px;
+    text-align: left;
+}
+
+.button-primary {
+    color: white;
+    background-color: rgb(22, 6, 114);
+    padding: 3px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+article {
+    width: 600px;
+    margin-top: 150px;
+}
+
+h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(22, 6, 114);
+}
