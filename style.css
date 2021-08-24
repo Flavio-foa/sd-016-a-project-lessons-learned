@@ -12,22 +12,23 @@ nav a{
     text-decoration: none;  
 }
 
-article{
+table{
+    margin-bottom: 20px;
+
+}
+
+.lado-esquerdo{
     margin-bottom: 20px;
     float: left;
     text-align: justify, center;
     width: 50%;
 }
 
-aside{
+.lado-direito{
     margin-bottom: 20px;
     float: right;
     text-align: justify, center;
     width: 50%;
-}
-
-table{
-    display: block;
 }
 
 #cabecalho{
@@ -78,7 +79,11 @@ table{
 #meu_link{
     margin-bottom: 20px;
     display: block;
-    margin-left: 110px;
+    margin-left: 90px;
+    font-size: 20px;
+    color: coral;
+    text-decoration: none;
+    line-height: 5px;
 }
 
 
