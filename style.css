@@ -3,14 +3,28 @@ body {
 }
 
 #cabecalho{
-  position: static;
+  position: fixed;
   top: 0;
   border: solid black;
   text-align: center;
+}
+
+#minha_foto{
+  margin-top: 90px;
+}
+
+#licoes_aprendidas{
+  display: inline-block;
+  font-family: monospace 
+}
+
+#licoes_a_aprender{
+  display: inline-block;
+  font-family: monospace 
 }
 
 /*h1{
   text-align: center;
   font-family: Helvetica ;
     font-family: monospace ;
-}
+}*/
