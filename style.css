@@ -5,12 +5,13 @@ body {
 }
 
 #cabecalho {
-    left: 31%;
+    left: 29%;
     position: fixed;
     top: 0;
     color: seagreen;
     font-family: Hina Mincho, sans-serif;
     font-size: 20px;
+    z-index: 2;
 }
 
 #minha_foto {
@@ -28,12 +29,13 @@ body {
     line-height: 25px;
 }
 
-#licoes_aprendidas {
-    border: 5px solid salmon;
-    padding-right: 10px;
+#aprendidas {
+    border: solid salmon;
+    padding-left: 10px;
     top: 83%;
     display: inline-block;
-    
+    padding-right: 10px;
+    background-color: lightyellow; 
 }
 
 #licoes_aprendidas h2 {
@@ -41,12 +43,13 @@ body {
     color: seagreen;
 }
 
-#licoes_a_aprender {
-    border: 5px solid rebeccapurple;
+#a_aprender {
+    border: solid rebeccapurple;
     display: inline-block;
     margin-left: 30px;
-    padding-right: 10px;
+    padding-left: 10px;
     width: 483px;
+    background-color: lightcyan;
 }
 
 #licoes_a_aprender h2 {
@@ -70,7 +73,7 @@ footer {
 }
 
 nav {
-    margin-top: 40px;
+    margin-top: 150px
 }
 
 h2 {
@@ -78,16 +81,26 @@ h2 {
 }
 
 #artigo-aside {
-    margin: 0 auto;
-    width: auto;
+    line-height: 25px;
+    display: inline-block;
 }
 
 .lado-esquerdo {
     border: solid burlywood;
     padding: 2%;
+    display: inline-block;
+    width: 600px;
+    position: absolute;
+    background-color: lemonchiffon;
+    z-index: 1;
 }
 
 .lado-direito {
+    display: inline-block;
     border: solid burlywood;
     padding: 2%;
+    width: 450px;
+    margin-left: 150%;
+    background-color: lemonchiffon;
+
 }
