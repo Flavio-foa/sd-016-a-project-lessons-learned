@@ -34,3 +34,11 @@ section {
     line-height: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.lado-esquerdo {
+    text-align: left;
+    float: left;
+}
+.lado-direito {
+    text-align: right;
+    float: right;
+}
