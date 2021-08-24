@@ -1,17 +1,21 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
 }
-#cabecalho{
+
+#cabecalho {
     top: 0;
     text-align: center;
 }
-#titulo{
+
+#titulo {
     font-weight: normal;
 }
-#foto{
+
+#foto {
     text-align: center;
 }
-#minha_foto{
+
+#minha_foto {
     width: 200px;
     border-radius: 50%;
 }
