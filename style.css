@@ -3,7 +3,7 @@ body {
   font-family: Roboto, sans-serif;
   margin: 0;
 }
-main{
+main {
   margin: 10px;
 }
 
@@ -17,7 +17,7 @@ main{
   text-align: center;
 }
 
-#titulo{
+#titulo {
   font-family: Architects Daughter, cursive;
   color: rgb(254, 254, 254);
   text-shadow: 2px 2px rgb(24, 24, 24);
@@ -25,33 +25,33 @@ main{
   font-weight: 500;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   font-size: 15px;
   margin: 0 15px;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: rgb(254, 254, 254);  
+  color: rgb(254, 254, 254);
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   color: rgb(203, 153, 126);
   font-weight: 500;
   border-bottom: 3px solid rgb(203, 153, 126);
   padding: 5px;
 }
 
-#minha_foto{
+#minha_foto {
   height: 200px;
   border: 5px solid rgb(203, 153, 126);
   float: left;
   margin: 0 15px 0 0;
 }
 
-.conteudo-texto{
+.conteudo-texto {
   display: flex;
   align-items: center;
   margin-top: 150px;
@@ -59,7 +59,7 @@ nav ul li a:hover{
   padding: 20px;
 }
 
-.quote{
+.quote {
   font-family: Architects Daughter, cursive;
   display: flex;
   align-items: center;
@@ -69,7 +69,7 @@ nav ul li a:hover{
   max-width: 70%;
 }
 
-.icon-quote{
+.icon-quote {
   margin: 0 30px;
   font-size: 35px;
   color: rgb(195, 195, 195);
