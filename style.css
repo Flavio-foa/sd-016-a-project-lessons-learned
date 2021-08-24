@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Epilogue', sans-serif;
 }
 
 #cabecalho {
@@ -11,8 +12,41 @@ body {
 
 #titulo {
   text-align: center;
+  font-weight: normal;
+  color: #fff;
+  margin: 40px auto;
 }
 
 #minha_foto {
   width: 300px;
+}
+
+.navegacao {
+  display: inline-block;
+  width: 100%;
+  margin: 105px auto 0 auto;
+}
+
+.navegacao ul {
+  text-align: center;
+}
+
+.navegacao li {
+  display: inline-block;
+  list-style-type: none;
+  width: 145px;
+  margin: 20px;
+}
+
+.navegacao a {
+  text-decoration: none;
+  color: #036b52;
+}
+
+.navegacao .inicio {
+  margin: 20px 0 20px 20px;
+}
+
+.navegacao .aprendizado {
+  margin: 20px 20px 20px 0;
 }
