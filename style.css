@@ -1,50 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
 body{background-color: rgb(253,251,251);
     margin: 10px;
+    border: 20px solid white;
 }
+p, h1, h2, h3 , li, a{font-family: 'Open Sans Condensed', sans-serif;}
+
+#sumario a{color:white;
+    text-decoration: none;
+    margin-right: 100px;
+    margin-left: 100px;}
+a{color: white;
+text-decoration: none;}
 
 #cabecalho{position: fixed;
     display: block;
-    width: 98%;
+    width: 100%;
     top:0;
-    border:solid 3px black;
+    border:solid 2px rgb(70, 41, 12);
     text-align: center;
     margin: 5px; 
 }
 
-#sumario{border:solid 3px black;
-    margin-top:90px;
+#sumario{border:  2px;
+    margin-top:70px;
+    width: 98%;
+    background-color: rgb(70, 41, 12);
 }
 
-#minha_foto{border:solid 3px black;
+#minha_foto{border:20px solid white ;
     display: inline-block;
     height: 250px;
-    width: %;
+    margin-left: 50px;
+
 }
 
 #aprendido{display: inline-block;
-    border:solid 3px black;
+    border: 3px ;
     margin-top: 10px;  
     width: 32%;
-    
-    ;
 }
 
 #aprender{display: inline-block;
-    border:solid 3px black;  
+    border: 3px;  
     width: 32%;
 }
 
-#artigo{border:solid 3px black;
-    display: inline-block;
-    width: %;
+#artigo{display: inline-block;
+    background-color:rgb(70, 41, 12);
 }
 
-#anotacoes{border:solid 3px black;
-    display: inline-block;
+#anotacoes{display: inline-block;
 
 
 }
 
-#rodape{border:solid 3px black;
-    position:end;
+#rodape{border: 3px;
 }
+
