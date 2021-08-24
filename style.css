@@ -72,18 +72,37 @@
      line-height: 1.4;
    }
 
-    .artigo_dois {
-
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
-    .meu_aprendizado {
+    .lado-esquerdo {
+      float: left;
       border: 1px solid #ddd;
       border-radius: 25px;
       max-width: 40%;
       width: 40%;
-      margin: 20px 0 0 20px;
+      margin: 20px 0 20px 20px;
       padding: 22px;
       line-height: 1.4;
+    }
+
+    .lado-direito {
+        float: right;
+        border: 1px solid #ddd;
+        border-radius: 25px;
+        max-width: 40%;
+        width: 40%;
+        height: 40%;
+        margin-right: 100px;
+    }
+
+    .passagem {
+        padding: 22px;
+        line-height: 1.4;
     }
 
    #rodape {
@@ -93,6 +112,7 @@
      text-align: center;
      margin-top: 20px;
      border-top: 1px solid #ddd;
+     clear: both;
    }
 
   strong {
