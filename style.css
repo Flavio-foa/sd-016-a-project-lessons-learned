@@ -89,3 +89,8 @@ ul , ol {
 #rodape a {
   color: var(--white);
 }
+
+table * {
+  border: var(--color-theme) 2px solid;
+  padding: 0 10px;
+}
