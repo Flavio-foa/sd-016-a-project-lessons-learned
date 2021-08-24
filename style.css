@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, sans-serif;
 }
 
 #cabecalho {
@@ -67,4 +68,23 @@ body {
   display: inline-block;
   margin-right: 50px;
   padding-top: 18px;
+}
+
+#conteudo_escrito {
+  padding-left: 20px;
+  margin-bottom: 100px;
+}
+
+#opiniao, #curiosidade {
+  display: inline-block;
+}
+
+#opiniao {
+  width: 600px;
+}
+
+#curiosidade {
+  width: 600px;
+  float: right;
+  margin-right: 20px;
 }
