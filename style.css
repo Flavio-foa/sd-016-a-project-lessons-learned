@@ -43,7 +43,7 @@ main li {
 
 .lado-esquerdo {
   float: left;
-  width: 55%;
+  max-width: 50%;
   text-align: justify;
   margin-left: 10px;
 }
@@ -53,7 +53,7 @@ main li {
   text-align: justify;
   padding: 0 30px;
   background-color: #bfd7ea;
-  width: 30%;
+  max-width: 30%;
   margin-top: 20px;
   margin-right: 30px;
 }
