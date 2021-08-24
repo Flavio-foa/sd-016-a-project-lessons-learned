@@ -1,8 +1,51 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+  line-height: 40px;
+  font-size: 1.3em;
 }
 
 #cabecalho {
+  width: 100%;
+  background-color: cyan;
   position: fixed;
   top: 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 50%;
+  margin: auto;
+  border: 5px solid black;
+}
+
+a {
+  color: red;
+  font-weight: 1000;
+  text-decoration: none;
+}
+
+ul , ol {
+  text-align: center;
+  list-style: none;
+}
+
+article , aside {
+  display: block;
+  width: 40%;
+  padding-right: 40px;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+footer {
+  text-align: center;
+  clear: both;
 }
