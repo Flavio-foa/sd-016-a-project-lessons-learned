@@ -24,17 +24,38 @@
 #minha_foto{
     display: block;
     width: 250px;
-    border-radius: 8px;
+    border-radius: 50%;
 }
 
 #licoes_aprendidas{
-    color: blue;
+    color: black;
 }
 
 .green{
-    color: green;
+    display: inline;
+    font-size: 30px;
+    font-weight: 900;
+    color: gold;
+    background-color: black;
+    padding: 20px 50px;
+    border-radius: 50%;
 }
 
 #rodape{
     color: indianred;
 }
+.h3{
+    font-size: 30px;
+    color: black;
+}
+
+.link {
+    color: black;
+    background-color: gold;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none ;
+  }
