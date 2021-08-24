@@ -20,7 +20,7 @@ li {
 }
 
 #titulo {
-  font-weight: normal;
+  font-weight: 100;
 }
 
 #foto {
@@ -57,7 +57,7 @@ table, th, td {
   border: 1px solid black;
   font-size: 10px;
   line-height: 5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', sans-serif;
 }
 
 .lado-esquerdo {
