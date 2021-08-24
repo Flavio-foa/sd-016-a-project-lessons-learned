@@ -46,7 +46,12 @@ section {
   margin: auto;
 }
 
-ol ,ul {
+ol {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+ul {
   width: fit-content;
   margin: 0 auto;
 }
@@ -65,13 +70,4 @@ aside {
   display: inline-block;
   width: 190px;
   margin: auto;
-}
-
-#aprendizado {
-  margin: 0px;
-  margin-bottom: 0px;
-}
-
-h2 {
-  margin-top: 0px;
 }
