@@ -1,0 +1,35 @@
+html, 
+body {
+  width: 1366px;
+  height: 768px;
+
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+img {
+  max-width: 400px; 
+  display: block; 
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  height: 15%;
+  width: 100%;
+  background-color: lightcoral;
+}
+
+main {
+  margin-top: 12%;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+}
