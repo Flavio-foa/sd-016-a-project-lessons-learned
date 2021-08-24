@@ -1,9 +1,36 @@
 body {
-	background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-	position: fixed;
-	top: 0;
-	left: 40%;
+  position: fixed;
+  top: 0;
+  left: 40%;
+}
+
+#minha_foto {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid;
+}
+
+article {
+  line-height: 1.5;
+  color: gray;
+  font-size: 1.5em;
+  font-family: Georgia, Times New Roman, Times, serif;
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  max-width: 50%;
+}
+
+.lado-direito {
+  float: right;
+  max-width: 50%;
+}
+
+aside {
+  display: inline-block;
 }
