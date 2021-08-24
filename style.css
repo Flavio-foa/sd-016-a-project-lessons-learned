@@ -1,8 +1,25 @@
+* {
+  font-family: 'Urbanist', sans-serif;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  background-color: rgb(83, 153, 83);
+}
+
+#cabecalho h1 {
+  text-align: center;
+  color: white;
+}
+
+#minha_foto {
+  margin-top: 100px;
+  margin-left: 25px;
 }
