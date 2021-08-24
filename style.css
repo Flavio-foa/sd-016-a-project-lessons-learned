@@ -16,7 +16,6 @@ header{
 }
 
 
-
 #minha_foto{
     
     position: relative;
@@ -25,4 +24,10 @@ header{
     padding: 5px;
     padding-top: 170px;
   
+}
+
+#licoes_aprendidas{
+
+    padding-top: 500px;
+    
 }
