@@ -50,7 +50,6 @@ body {
 }
 
 #titulo {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   letter-spacing: 1px;
   margin: auto;
@@ -68,6 +67,7 @@ body {
   position: static;
   text-align: center;
   font-size: 15px;
+  font-family: monospace;
 }
 
 #article {
