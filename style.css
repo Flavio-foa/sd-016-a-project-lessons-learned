@@ -38,5 +38,10 @@ h3 {
 
 #rodape {
     background-color: green;
+    height: 30px;
 }
 
+#trybe {
+    padding: 5px;
+    color: white;
+}
