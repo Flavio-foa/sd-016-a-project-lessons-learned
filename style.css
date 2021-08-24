@@ -1,7 +1,16 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0px;
 }
 #cabecalho {
   position: fixed;
   top: 0;
+  text-align: center;
+  background-color: coral;
+  width: 100%;
+  margin: 0px;
+}
+#minha_foto {
+  margin-top: 100px;
+  margin-left: 20px;
 }
