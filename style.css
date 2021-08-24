@@ -1,7 +1,21 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: "Times New Roman", Times, serif;
+  color: blueviolet;
+  font-size: large;
+  line-height: 1.25;
 }
-
+main {
+  margin: 0 16em;
+}
+img {
+  width: 8em;
+}
+section {
+  margin: 0 auto;
+  padding: 2em;
+  border: solid;
+}
 #cabecalho {
   position: fixed;
   top: 0;
