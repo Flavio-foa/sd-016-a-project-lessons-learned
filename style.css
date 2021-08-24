@@ -1,12 +1,16 @@
 
 body {
     background-color: rgb(253, 251, 251);
+    font-family: Source Sans Pro, sans-serif;
 }
 
 #cabecalho {
     left: 31%;
     position: fixed;
     top: 0;
+    color: seagreen;
+    font-family: Hina Mincho, sans-serif;
+    font-size: 20px;
 }
 
 #minha_foto {
@@ -21,6 +25,7 @@ body {
 
 #licoes {
     display: inline-block;
+    line-height: 25px;
 }
 
 #licoes_aprendidas {
@@ -28,10 +33,12 @@ body {
     padding-right: 10px;
     top: 83%;
     display: inline-block;
+    
 }
 
 #licoes_aprendidas h2 {
     padding-left: 7px;
+    color: seagreen;
 }
 
 #licoes_a_aprender {
@@ -44,15 +51,18 @@ body {
 
 #licoes_a_aprender h2 {
     padding-left: 7px;
+    color: seagreen;
 }
 
 #tabela {
     margin-top: 40px;
+    margin-left: 28%;
 }
 
 table {
     padding: 5px;
     margin-bottom: 40px;
+    margin-left: 15px;
 }
 
 footer {
@@ -61,4 +71,23 @@ footer {
 
 nav {
     margin-top: 40px;
+}
+
+h2 {
+    color: seagreen;
+}
+
+#artigo-aside {
+    margin: 0 auto;
+    width: auto;
+}
+
+.lado-esquerdo {
+    border: solid burlywood;
+    padding: 2%;
+}
+
+.lado-direito {
+    border: solid burlywood;
+    padding: 2%;
 }
