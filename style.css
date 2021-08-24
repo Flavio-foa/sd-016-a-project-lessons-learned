@@ -19,13 +19,15 @@
   }
 
  .foto_borda {
-     border: 1px solid transparent;
-     background-color: #333;
-     color: #fff;
+     border: 1px solid #ddd;
+     background-color: #fff;
+     color: #333;
      border-radius: 25px;
-     margin: 100px 0 0 0;
+     margin: 100px 0 0 20px;
      padding: 20px;
      text-align: center;
+     min-width: 40%;
+     max-width: 40%;
  }
 
  .foto_borda figcaption {
