@@ -1,5 +1,19 @@
 body{
   background-color: rgb(253, 251, 251);
+  margin: 0;
+}
+h1, h2, h3{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: darkslategrey;
+}
+h2{
+  font-size: 25px;
+  margin-left: 15px;
+}
+p, li{
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: 0.5px;
+  margin-left: 15px;
 }
 #cabecalho{
   position: fixed;
@@ -17,4 +31,36 @@ body{
   background-color: lightcyan;
   border-spacing: 5px;
   border-color: rgb(253, 251, 251);
+}
+#licoes_aprendidas{
+  float: left;
+  width: 250px;
+  margin-top: 70px;
+  border left: 100px;
+  border-right: 200px;
+  margin-right: 120px;
+}
+#licoes_a_aprender{
+  margin-top: 70px;
+  padding-left: 17px;
+  margin-right: 1px;
+  
+}
+#h3aprendidas{
+  margin-top: 35px;
+  margin-left: 15px;
+  width: 200px;
+  float: left;
+  position:absolute;
+  margin-right: 12px;
+}
+#h3aprender{
+  margin-top: -35px;
+  margin-left: 380px;
+  width: 250px;
+  float: left;
+  position:absolute;
+  margin-bottom: 1px;
+  margin-right: 300px;
+  border-right
 }
