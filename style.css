@@ -17,12 +17,8 @@ body {
 }
 
 #minha_foto {
-  position: absolute;
-  z-index: 1;
-  right: 150px;
-  top: 50px;
   border-radius: 50%;
-  width: 100px;
+  width: 200px;
 }
 
 #licoes_aprendidas {
