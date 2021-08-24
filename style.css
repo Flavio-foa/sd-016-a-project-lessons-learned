@@ -13,6 +13,10 @@ body {
   padding-left: 20px;
 }
 
+#titulo {
+  letter-spacing: 5px;
+}
+
 #navegacao {
   margin-top: 80px;
   background-color: burlywood;
@@ -87,4 +91,17 @@ body {
   width: 600px;
   float: right;
   margin-right: 20px;
+}
+
+#tabela {
+  margin: 0 auto;
+}
+
+#tabela, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#tabela th, #tabela td {
+  padding: 10px;
 }
