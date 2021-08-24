@@ -6,6 +6,22 @@ body {
     margin: 0;
 }
 
+/* HELPER CLASS */
+
+.bg-green {
+    background-color: #264653;
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #ffb703;
+}
+
 /* HEADER */
 
 #cabecalho {
@@ -15,8 +31,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #264653;
-    color: whitesmoke;
     box-shadow: 0px 15px 50px -20px #264653;
     -webkit-box-shadow: 0px 15px 50px -20px #264653; 
 }
@@ -45,4 +59,12 @@ body {
 
     .secao-licoes ol {
         border-left: 2px dotted #264653;
+    }
+
+    /* FOOTER */
+
+    footer {
+        width: 100%;
+        text-align: center;
+        padding: 0.5em;
     }
