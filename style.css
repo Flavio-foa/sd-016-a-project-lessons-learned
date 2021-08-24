@@ -27,6 +27,13 @@ body {
     margin-top: 30px;
 }
 
-table, th, td{
+table, th, td {
     border: 1px solid black;
+}
+
+#artigo, #secao {
+    border: 5px solid greenyellow;
+    text-align: justify;
+    padding: 0px 15px;
+    margin:30px;
 }
