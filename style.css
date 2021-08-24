@@ -52,9 +52,9 @@ h2 {
 
 #passagem {
   border-left:2px solid #013a63;
-  padding: 5px;
   font-family: monospace;
   font-size: 12px;
+  padding: 5px;
 }
 
 a {
@@ -74,11 +74,12 @@ table ,th ,td {
 .lado-direito {
   display: inline-block;
   width: 200px;
+  float: right;
 }
 
 .lado-esquerdo {
   display: inline-block;
-  float: inline-end;
+  float: left;
   width: 80%;
 }
 
