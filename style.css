@@ -23,8 +23,7 @@ body {
   width: 100%;
 }
 
-#licoes_aprendidas,
-#licoes_a_aprender {
+.licoes_box {
   padding: 50px;
   line-height: 25px;
 }
