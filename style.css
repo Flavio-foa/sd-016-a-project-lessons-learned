@@ -1,3 +1,7 @@
 body {
   background-color: aqua;
 }
+#cabecalho {
+  position: fixed;
+  top: 0;
+}
