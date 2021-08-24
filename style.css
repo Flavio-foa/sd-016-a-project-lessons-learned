@@ -8,16 +8,20 @@ body {
   text-align: center;
 }
 
-#cacecalho {
+#cabecalho {
   position: fixed;
   top: 0;
   background-color: thistle;
+  padding: 30px 70px;
   width: 100%;
 }
 
 #minha_foto {
   border-radius: 50%;
-  width: 200px;
+  width: 100px;
+  position: absolute;
+  right: 170px;
+  top: 50px;
 }
 
 #licoes_aprendidas {
@@ -84,7 +88,7 @@ body {
   max-width: 55%;
 }
 
-#tableTechs, th, td {
+#tableTechs , th , td {
   border: 1px solid black;
   border-collapse: collapse;
   margin: auto;
