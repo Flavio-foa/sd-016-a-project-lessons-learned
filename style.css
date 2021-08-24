@@ -5,3 +5,7 @@ header {
     position: fixed;
     top: 0px;
 }
+#minha_foto {
+    width: 300px;
+    margin-top: 60px;
+}
