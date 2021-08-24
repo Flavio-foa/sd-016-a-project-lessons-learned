@@ -23,6 +23,18 @@ body {
 
 main {
   padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+aside {
+  float: right;
+  width: 40%;
+  padding: 1rem;
+}
+
+article {
+  clear: both;
+  margin: 1rem;
 }
 
 h3 {
@@ -31,6 +43,10 @@ h3 {
 
 h1 {
   font-weight: 300;
+}
+
+ul, ol {
+  line-height: 16px;
 }
 
 #cabecalho {
@@ -50,9 +66,14 @@ h1 {
   border-bottom-right-radius: 10px;
 }
 
+.learn {
+  margin-top: 10px;
+}
+
 .learned {
   float: left;
   margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 #rodape {
