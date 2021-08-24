@@ -3,6 +3,7 @@ body {
     height: 768px;
     background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
     position: fixed;
     top: 0;
@@ -10,34 +11,44 @@ body {
     width: 1366px;
     text-align: center;
 }
+
 #cabecalho li {
     list-style: none;
     display: inline-block;
     margin-top: 0px;
 }
+
 #cabecalho a {
     text-decoration: none;
     padding: 10px;
     color: black;
-    font-family: "Acme", sans-serif;
+    font-family: Acme, sans-serif;
 }
+
 #cabecalho a:hover {
     color: rgb(247, 248, 241);
     background-color: aquamarine;
 }
+
 h1 {
     margin-bottom: 0px;
-    font-family: "Acme", sans-serif;
+    font-family: Acme, sans-serif;
     text-transform: uppercase;
 }
+
 #minha_foto {
     display: block;
     margin: auto;
     width: 400px;
     margin-top: 110px;
 }
+
 section {
     text-align: center;
     margin: auto;
-    
+}
+
+ol, ul {
+    width: fit-content;
+    margin: 0 auto;
 }
