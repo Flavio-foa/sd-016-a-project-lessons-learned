@@ -35,3 +35,26 @@ body {
     margin-top: 90px;
     border-radius:50%
 }
+
+#meu_aprendizado {
+    line-height: 25px ;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+}
+
+.lado-direito {
+    display: inline-block;
+    max-width: 50%;
+    margin-right: 40px;
+    float: right;
+}
+
+/* section {
+    border:2px solid lightcoral;
+}
+
+div {
+    border:2px solid green;
+} */
