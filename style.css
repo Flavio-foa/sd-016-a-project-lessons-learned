@@ -20,6 +20,7 @@ body {
     font-size:2rem;
     position:fixed;
     top:0;
+    z-index:2;
 }
 
 /*Imagem e descrição*/
@@ -83,6 +84,22 @@ h2{
   margin-bottom:20px;
 }
 
+#aprendizado{
+  box-sizing:border-box;
+  padding:50px;
+  width:70vw;
+  background-color:#FFB830;
+  margin:40px auto;
+  font-size:2rem;
+  border-radius:20px;
+  color:white;
+  text-align: justify;
+}
+
+#aprendizado h2{
+  text-align: center;
+}
+
 /*rodape*/
 
 #rodape{
@@ -100,13 +117,14 @@ h2{
 #linkedin{
   width:80px;
   position:absolute;
-  top:240%;
-  right:40px;
+  top:500px;
+  left:450px;
+
 }
 
 #github{
   width:60px;
   position:absolute;
-  top:241%;
-  right:120px;
+  top:510px;
+  left:550px;
 }
