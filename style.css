@@ -1,17 +1,33 @@
 body{
   background-color: rgb(253, 251, 251);
   margin: 0;
-  
-}
+  font-family: sans-serif;
+  }
 
 #cabecalho{
   margin-top: 0px;
   background-color: green;
   position: fixed;
+  padding: 20px 100% 40px 40px;
+  border: solid;
+  color: white;
+  font-size: 30px;
+  line-height: 70px;
+ }
+
+#minha_foto{
+  width: 250px;
+}
+
+.lado-esquerdo{
+  display: inline-block;
   text-align: center;
   
 }
 
-#minha_foto{
-  width: 250px;
+.lado-direito{
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  
 }
