@@ -17,19 +17,34 @@ body{
     width: 100px;
     height: 100px;
     left: 1%;
-    float: right;
     margin-right: 100px;
 }
 
-#licoes_aprendidas{
+#tudo{
+    width: 66%;
     display: inline-block;
+}
+
+#artigo{
+    position:relative;
     z-index: 3;
+    max-width: 1200px;
+    height: 20%;
+    top: 50%;
+    padding: 15%;
+    margin-right: 10%;
+    flex-grow: 1;
+
+}
+
+#licoes_aprendidas{
+    z-index: 4;
     position: relative;
-    margin-block-end: 10%;
-    top: 1000%;
-    
+    display: inline-block;
+    margin: auto;
 }
 
 #licoes_a_aprender{
-    display: inline-block;
+    display: block;
+    margin-bottom: auto;
 }
