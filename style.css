@@ -1,19 +1,23 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
 header {
     position: fixed;
     top: 0px;
 }
+
 #minha_foto {
     width: 300px;
     margin-top: 60px;
     display: block;
 }
+
 #licoes_aprendidas {
     display: inline-block;
     margin-left: 20px;
 }
+
 #licoes_a_aprender {
     display: inline-block;
     margin-left: 40px;
