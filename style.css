@@ -13,7 +13,6 @@ body {
   top: 0;
   background-color: thistle;
   width: 100%;
-  padding: 30px 70px;
 }
 
 #minha_foto {
@@ -79,4 +78,14 @@ body {
   width: 50px;
   border-radius: 50%;
   padding: 0 15px;
+}
+
+#sectThree {
+  max-width: 55%;
+}
+
+#tableTechs, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
 }
