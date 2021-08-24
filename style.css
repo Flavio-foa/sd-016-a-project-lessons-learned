@@ -72,12 +72,16 @@
      line-height: 1.4;
    }
 
+    .artigo_dois {
+
+    }
+
     .meu_aprendizado {
       border: 1px solid #ddd;
       border-radius: 25px;
       max-width: 40%;
       width: 40%;
-      margin-top: 20px;
+      margin: 20px 0 0 20px;
       padding: 22px;
       line-height: 1.4;
     }
