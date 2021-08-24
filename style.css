@@ -53,5 +53,8 @@ body {
     text-decoration: none;
     border-radius: 5%;
     margin-left: 30px;
-    
+}
+
+article {
+    margin-top: 50px;
 }
