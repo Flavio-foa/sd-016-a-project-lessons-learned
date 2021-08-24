@@ -70,10 +70,14 @@ ul {
   width: 600px;
 }
 
+aside p {
+  line-height: 2;
+}
+
 #lado-esquerdo p {
   display: inline-block;
   margin: auto;
-  line-height: 1,8;
+  line-height: 2;
 }
 
 aside {
@@ -82,10 +86,6 @@ aside {
   width: 250px;
   background-color: rgb(184, 201, 197);
   border: 2px solid rgb(71, 248, 204);
-}
-
-aside p {
-  line-height: 1,8;
 }
 
 footer {
