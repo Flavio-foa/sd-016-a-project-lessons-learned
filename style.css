@@ -3,15 +3,18 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+p{
+    font-size: 18px;
+}
 #cabecalho{
     width: 100%;
-    background-color: slategray;
+    background-color: #00ffbf;
     position: fixed;
     top: 0;
 }
 
 #cabecalho h1{
-    background-color: slategray;
+    background-color: #00ffbf;
     text-align: center;
 }
 
@@ -19,10 +22,4 @@
   width: 300px;
 }
 
-.lado-esquerdo{
-    display: inline-block;
-}
 
-.lado-direito{
-    display: inline-block;
-}
