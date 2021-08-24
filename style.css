@@ -7,4 +7,14 @@ body{
     top: 0;
     text-align: center;
     left: 700px;
+    z-index: 1;
+}
+
+#minha_foto{
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    width="200px"
+    height: 100px;
+    left: 1%;
 }
