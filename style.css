@@ -31,14 +31,15 @@ p{
   display: inline-block; 
 }
 
-.lado-direito, .lado-esquerdo{
+.lado-esquerdo, .lado-direito{
   width: 500px;
   display: inline-block;
+	line-height: 25px;
+	padding-left: 30px;
+	text-align: justify;
 }
 
-.lado-esquerdo{
-  padding-left: 30px;
-}
+
 
 
 
