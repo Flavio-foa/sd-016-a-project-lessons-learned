@@ -27,7 +27,7 @@ main {
 
 #listas {
   display: inline-block;
-  margin:0px 70px;
+  margin:0px 20px;
   text-align: center;
   font-size: 20px;
   
@@ -43,7 +43,29 @@ main {
 }
 
 article {
-    width: 50%;
+    width: 30%;
     color: white;
     margin-left: 50px;
+    font-size: 20px;
+    display: inline-block;
+    margin-block-end: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+}
+
+nav {
+    text-align: center;
+}
+aside {
+    float: right;
+    display: inline-block;
+    width: 30%;
+    font-size: 20px;
+    color:white;
+}
+h3 {
+    color: rgb(34, 8, 126);
 }
