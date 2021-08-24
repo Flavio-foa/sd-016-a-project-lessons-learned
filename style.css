@@ -30,6 +30,10 @@ body {
 
 #rodape {
   margin-bottom: 2px;
-  position: fixed;
   bottom: 0;
+}
+
+#passagem {
+  display :inline-block;
+  border: 2px solid black;
 }
