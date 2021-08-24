@@ -53,6 +53,7 @@ li {
 
 ul, ol {
     padding: 50px 200px 80px 100px;
+    width: 300px;
 }
 
 p {
