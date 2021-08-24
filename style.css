@@ -89,9 +89,11 @@ table {
   text-align: center;
   background-color: aquamarine;
 }
+
 td {
   font-size: 20px;
 }
+
 tr {
   background-color: aqua;
 }
