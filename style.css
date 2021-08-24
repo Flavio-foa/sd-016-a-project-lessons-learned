@@ -9,11 +9,17 @@ body{
     background-color: green;
     width: 100%;
     height: 120px;
+    
 }
 
 #cabecalho h1{
     color: white;
     text-align: center;
+}
+#cabecalho p{
+    color: white;
+    margin-left: 40px;
+    display: inline-block;
 }
 
 #minha_foto{
