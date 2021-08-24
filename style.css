@@ -6,7 +6,7 @@ body {
     top: 0;
     margin: 0% 50% 100% 50%;
     text-align: center;
-    display: inline;
+    display: inline-block;
     position: top;
     position: fixed;
 }
@@ -16,13 +16,23 @@ body {
 }
 
 #minha_foto {
-border-radius: 20%;
+    border-radius: 20%;
+    display: inline-block;
+    margin-top: 300px;
+}
+
+#button-perfil {
+    padding: 100px;
 }
 
 #licoes_aprendidas {
-
+    display: inline-block;
 }
 
 #licoes_a_aprender {
+    display: inline-block;
+}
+
+#rodape {
 
 }
