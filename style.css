@@ -2,6 +2,12 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
-header{
+#cabecalho{
     position: fixed;
+    top:0;
+    background-color: #008000;
+}
+
+#minha_foto{
+    width: 300px;
 }
