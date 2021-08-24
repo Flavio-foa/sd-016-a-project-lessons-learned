@@ -65,6 +65,8 @@ ul {
 
 #meu_aprendizado p {
   width: 1000px;
+  display: inline-block;
+  margin: auto;
 }
 
 aside {
