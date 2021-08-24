@@ -69,7 +69,7 @@ body {
   margin: 20px;
   list-style-type: none;
   text-align: center;
-  background-color: rgb(255, 184, 48);
+  background-color: rgb(255, 36, 66);
   border-radius: 20px;
   font-size: 1.5rem;
   color: white;
@@ -85,7 +85,7 @@ h2 {
   padding: 50px;
   width: 40vw;
   height: 76vh;
-  background-color: rgb(255, 184, 48);
+  background-color: rgb(255, 36, 66);
   font-size: 2.5rem;
   border-radius: 20px;
   color: white;
