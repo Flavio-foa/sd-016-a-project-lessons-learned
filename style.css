@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   color: blueviolet;
   font-size: large;
   line-height: 1.25;
@@ -30,8 +30,7 @@ li {
   top: 0;
 }
 
-.lado-esquerdo,
-.lado-direito {
+.lado-esquerdo , .lado-direito {
   border: solid springgreen;
   padding: 1em;
   margin: 1em;
