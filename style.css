@@ -25,4 +25,17 @@ main {
 
 #minha_foto {
   margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.lessons {
+  display: inline-block;
+  margin-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+}
+
+.lessons h2 {
+  margin-top: 10px;
 }
