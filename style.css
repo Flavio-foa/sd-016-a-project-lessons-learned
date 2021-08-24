@@ -5,18 +5,42 @@ body {
   font-size: large;
   line-height: 1.25;
 }
+
 main {
   margin: 0 16em;
 }
+
 img {
   width: 8em;
 }
+
 section {
   margin: 0 auto;
   padding: 2em;
   border: solid;
+  display: flex;
 }
+
+li {
+  display: inline;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
+}
+
+.lado-esquerdo,
+.lado-direito {
+  border: solid springgreen;
+  padding: 1em;
+  margin: 1em;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
 }
