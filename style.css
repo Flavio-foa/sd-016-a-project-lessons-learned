@@ -1,13 +1,26 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0px;
 }
 
 #cabecalho {
   position: fixed;
+  display: block;
   top: 0;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: aquamarine;
+  padding: 8px;
+  border: 2px;
 }
 
 #minha_foto {
   width: 200px;
-  margin-top: 80px;
+  border-radius: 50%;
+}
+
+main {
+  margin-top: 126px;
+  margin-left: 20px;
 }
