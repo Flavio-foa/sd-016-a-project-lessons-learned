@@ -118,7 +118,7 @@ h2{
   width:80px;
   position:absolute;
   top:500px;
-  left:450px;
+  left:440px;
 
 }
 
@@ -126,5 +126,20 @@ h2{
   width:60px;
   position:absolute;
   top:510px;
-  left:550px;
+  left:540px;
+}
+
+#aside{
+  width:70vw;
+  padding:50px;
+  box-sizing:border-box;
+  font-size:2rem;
+  background-color:#FFB830;
+  text-align: justify;
+  margin:auto;
+  color:white;
+  border-radius:25px;
+}
+#aside h2{
+  text-align: center;
 }
