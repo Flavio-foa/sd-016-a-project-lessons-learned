@@ -2,7 +2,6 @@
   background-color: rgb(253, 251, 251);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 p{
   font-size: 18px;
 }
@@ -12,26 +11,20 @@ p{
   position: fixed;
   top: 0;
 }
-
 #cabecalho h1{
   background-color: #1f9fcd;
   color: white;
   text-align: center;
   font-size: 30px;
 }
-
-
 #minha_foto{
   width: 200px;
   padding: 60px 0px 0px 0px;
 	
 }
-
-
 .table-lessons{
   display: inline-block; 
 }
-
 .lado-esquerdo, .lado-direito{
   width: 500px;
   display: inline-block;
