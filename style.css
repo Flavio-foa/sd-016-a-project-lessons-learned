@@ -1,17 +1,12 @@
-html, 
-body {
-  width: 1366px;
-  height: 768px;
-
-}
-
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 img {
-  max-width: 400px; 
-  display: block; 
+  max-width: 400px;
+  display: block;
+  float: left;
 }
 
 #cabecalho {
@@ -20,10 +15,15 @@ img {
   height: 15%;
   width: 100%;
   background-color: lightcoral;
+  text-align: center;
+}
+
+#cabecalho nav {
+  text-align: left;
 }
 
 main {
-  margin-top: 12%;
+  margin-top: 16%;
 }
 
 #licoes_aprendidas {
@@ -31,5 +31,45 @@ main {
 }
 
 #licoes_a_aprender {
+  display: block;
+}
+
+.licoes-container {
+  width: 50%;
+  display: block;
+  float: right;
+}
+
+.jornada-article {
+  clear: both;
+  padding-top: 5%;
+}
+
+article, aside {
   display: inline-block;
+  width: 40%;
+  margin
+}
+
+article {
+  margin-left: 5%;
+  float: left;
+}
+
+aside {
+  margin-right: 5%;
+  float: right;
+}
+
+#rodape {
+  clear: both;
+  height: 10%;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#rodape span {
+  display: inline-block;
+  margin-top: 2.5%;
 }
