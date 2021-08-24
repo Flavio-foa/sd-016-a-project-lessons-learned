@@ -34,14 +34,15 @@ body {
 #licoes_aprendidas , #licoes_a_aprender{
     display: inline-block;
     position: relative;
-    top: 480px;
+    top: 30px;
     font-size: 24px;
     font-family: 'Special Elite', cursive;
-    left: 35px;
-    background-color: #DCDCDC;
+    left: 400px;
     max-width: 30%;
     text-align: center;
     border-radius: 5px;
+    line-height: 40px;
+    margin: auto;
 
 }
 
@@ -54,7 +55,14 @@ body {
     color: white;
     left: 0;
     right: 0;
+}
 
+#p_rodape {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+
+    
 }
 
 .links {
@@ -66,7 +74,7 @@ body {
     right: 0;
     height: 40px;
     margin-left: 50px;
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: #DCDCDC ;
 }
 
@@ -75,4 +83,39 @@ a{
     font-size: 28px; 
     margin: 50px;
     text-decoration: none;
+    color: rgb(1, 40, 148);
+}
+
+#article {
+    position: relative;
+    top: 170px;
+    max-width: 45%;
+    left: 540px;
+    background-color:#DCDCDC;
+}
+
+h2 {
+    font-size: 28px;
+    font-family:'Special Elite', cursive ;
+    text-align: center;
+    padding: 15px;
+}
+
+p {
+    font-family:'Special Elite', cursive ; 
+    font-size: 24px;
+    text-align: justify; 
+    border-radius: 2px; 
+
+}
+
+#destaque {
+    max-width: 20%;
+    background-color:#DCDCDC ;
+}   
+
+#destaque_aside {
+    position: relative;
+    left: 1420px;
+    bottom: 120px;
 }
