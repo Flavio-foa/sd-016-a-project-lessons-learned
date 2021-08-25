@@ -20,6 +20,8 @@ p{
 #minha_foto{
   width: 200px;
   padding: 60px 0px 0px 0px;
+	border: 1px solid black;
+	margin: auto;
 	
 }
 .table-lessons{
@@ -32,6 +34,10 @@ p{
 	padding-left: 30px;
 	text-align: justify;
 }
+
+
+
+
 
 
 
