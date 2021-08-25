@@ -24,6 +24,15 @@ div {
   display: inline-block;
 }
 
+table {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+table caption {
+  margin-right: 370px;
+}
+
 .lado-esquerdo {
   padding: 10px;
   border: aqua;
