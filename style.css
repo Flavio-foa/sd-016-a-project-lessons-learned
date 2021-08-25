@@ -63,7 +63,7 @@ body {
   z-index: 1;
 }
 
-#artigo section {
+.lado-esquerdo {
   margin-top: 80px;
   margin-left: 30px;
 }
@@ -94,6 +94,6 @@ body {
   right: 30px;
 }
 
-.barra-lateral {
+.lado-direito {
   text-align: center;
 }
