@@ -3,36 +3,44 @@
     <head>
         <meta charset="UTF-8">
         <title>Document</title>
-        <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
     </head>
     
     <body>
         <header id="cabecalho">
            <h1 id="titulo">Projeto 1 - Lessons Learned</h1>
         </header>
+        
         <nav class="links">
            <a href="https://www.linkedin.com/in/daniel-s-de-souza/" target="_blank">Linkedin</a>
+          <a href="https://github.com/daniel-s-souza" target="_blank">GitHub</a>
+        
         </nav>
         
         <main>
             <br><br><img id="minha_foto" src="img/photo1629410682.jpeg" alt="Daniel olhando paisaggem">
-          
-            <article id="article">
-                <section>
-                <H2>A jornada até aqui:</H2>
-                <p>O aprendizado na <strong>Trybe </strong> tem sido intenso desde o seu processo seletivo, mas agora estamos aqui, colocando em prática o conhecimento adquirido nessas poucas mais que duas semanas, e que diferença faz, parando pra pensar o que falava de não ter disciplina para estudar em casa em metodologia ativa, estou bstante satisfeito com meu desempenho até aqui e animado para o que está por vir.</p></section>
-            </article>
-            <aside id="destaque_aside">
-                <article id="destaque">
+            <article id="article" class="lado-esquerdo">    
+            <div>
+                <h2>A jornada até aqui:</h2>
+                <p>O aprendizado na <strong>Trybe </strong> tem sido intenso desde o seu processo seletivo, mas agora estamos aqui, colocando em prática o conhecimento adquirido nessas poucas mais que duas semanas, parando pra pensar o que falava de não ter disciplina para estudar em casa em metodologia ativa, estou bstante satisfeito com meu desempenho até aqui e animado para o que está por vir.</p>
+            </div>
+                <br>
+                <div>
+                <article>
                 <h4>Destaque de experiência:</h4>
                 <p>Uma passagem sobre meu aprendizado, que está em partes fora do conteúdo abordado, foi um erro que estava dando no meu terminal e tive que fazer bastante pesquisa para achar como resolver o problema</p>
             </article>
-            </aside>
-        </main>
-            <section id="listas">
+        </div>
+            </article>
+        </div>
+            <section id="listas"><aside class="lado-direito">
     <ol id="licoes_aprendidas"> <h3>O que aprendi:</h3>
         <li>Fundamentos do Desenvolvimento Web</li>
         <li>Unix & Bash</li>
@@ -57,10 +65,11 @@
             <li>Ciência da Computação</li>
             <li>Autogestão</li>
         </ul>
+    </aside>
     </section>
-  <footer id="rodape">
-    <p id="p_rodape"><strong>PROJETO LEASSONS LEARNED / TRYBE / TRUMA 16 - TRIBO A</strong></p>
-</footer>
+</main>
     </body>
- 
+    <footer id="rodape">
+        <p id="p_rodape"><strong>PROJETO LEASSONS LEARNED / TRYBE / TRUMA 16 - TRIBO A</strong></p>
+    </footer>
     </html>
