@@ -1,6 +1,6 @@
 
 #titulo{
-    color: rgba(245, 229, 2, 0.863);
+    color: rgba(120, 1, 131, 0.747);
 }
 body{
     margin: 0;
@@ -39,4 +39,8 @@ body{
     #licoes_aprendidas{
         font-size: large;
     }
+    .licoes_a_aprender{
+        font-size: large;
+    }
+   
     
