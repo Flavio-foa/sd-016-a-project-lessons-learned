@@ -9,6 +9,7 @@ body{
     text-align: center;
     left: 700px;
     z-index: 1;
+    font-size: 20px;
 }
 
 #minha_foto{
@@ -19,11 +20,6 @@ body{
     height: 100px;
     left: 1%;
     margin-right: 100px;
-}
-
-#tudo{
-    width: 66%;
-    display: inline-block;
 }
 
 #artigo{
@@ -41,11 +37,13 @@ body{
 #licoes_aprendidas{
     z-index: 4;
     position: relative;
-    display: inline-block;
     margin: auto;
 }
 
 #licoes_a_aprender{
-    display: block;
     margin-bottom: auto;
+}
+
+h2{
+  font-size: 18px;
 }
