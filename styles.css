@@ -12,3 +12,13 @@ body {
   position: absolute;
   top: 100px;
 }
+
+#licoes_aprendidas {
+  position: absolute;
+  top: 340px;
+}
+
+.licoes_aprendidas_title {
+  position: absolute;
+  top: 300px;
+}
