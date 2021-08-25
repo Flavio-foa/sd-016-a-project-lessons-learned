@@ -1,21 +1,24 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(253, 251, 251);
+  font-family: 'Times New Roman', Times, serif'
+    
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    background-color: rgb(30, 74, 219);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 160%;
-    padding-block-end: 1%;
-    align-self: auto;
-    align-content: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(30, 74, 219);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 160%;
+  padding-block-end: 1%;
+  align-self: auto;
+  align-content: center;
+
 }
 
 #minha_foto {
-    margin-top: 10%;
-    
+  margin-top: 10%;
+
 }
+
 
