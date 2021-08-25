@@ -11,7 +11,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background: linear-gradient(to bottom, #CCC, #FFF);
+  background: linear-gradient(to bottom, #ccc, rgb(253, 251, 251));
   width: 100%;
   text-align: center;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .links__item:hover {
-  background-color: #CCC;
+  background-color: #ccc;
   cursor: pointer;
   color: purple;
 }
@@ -48,4 +48,104 @@ body {
 .links__item a {
   text-decoration: none;
   font-size: 24px;
+}
+
+main {
+  margin-top: 10%;
+}
+
+.perfil__nome {
+  text-align: center;
+  margin: 0px auto 16px auto;
+}
+
+#minha_foto {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 250px;
+}
+
+#meu_aprendizado {
+  margin-top: 20px;
+}
+
+.lado-esquerdo {
+  width: 55%;
+}
+
+.lado-direito {
+  width: 30%;
+}
+
+.aprendizado {
+  display: inline-block;
+  padding: 20px;
+  margin: 0 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.aprendizado__titulo {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.aprendizado p {
+  line-height: 18px;
+}
+
+.todas-licoes {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.licoes {
+  display: inline-block;
+  width: 45%;
+  margin-top: 24px;
+}
+
+.tabela {
+  text-align: center;
+  margin: 40px auto;
+  width: 80%;
+}
+
+.tabela h3 {
+  margin: 20px auto;
+}
+
+.tabela table, .tabela td, .tabela th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.tabela td, .tabela th {
+  width: 20%;
+  padding: 5px;
+}
+
+.tabela th {
+  color: white;
+  background-color: black;
+  border-color: grey;
+}
+
+#rodape {
+  background: linear-gradient(to bottom, rgb(253, 251, 251), #ccc);
+  padding: 20px;
+  text-align: center;
+}
+
+#rodape a {
+  display: inline-block;
+  width: 20px;
+}
+
+#rodape span {
+  display: inline-block;
+  width: 100%;
+  margin-top: 4px;
 }

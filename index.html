@@ -28,42 +28,74 @@
 
     <main>
       <section class="perfil">
+        <h2 class="perfil__nome">Gustavo (Wolfi) Meira</h2>
         <img src="./gustavo-meira.jpg" alt="Uma foto do Gustavo Meira" id="minha_foto">
-        <a href="https://github.com/gustavo-meira" target="_blank" >Meu Github!</a>
       </section>
-      <article>
+      <article id="meu_aprendizado" class="lado-esquerdo aprendizado">
+        <h2 class="aprendizado__titulo">Meus aprendizados na Trybe!</h2>
         <p>Até o momento na Trybe eu aprendi sobre Unix que é um poderosíssimo sistema operacional, Bash que é um interpretador de comandos para o sistema operacional, Git que é a ferramenta de versionamento de código que simplifica muito a nossa vida, ainda mais com o GitHub que é um agregador para esses códigos, HTML que é a linguagem de marcação da web e CSS que é o que dá estilo as nossas páginas web.</p>
       </article>
-      <aside>
+      <aside class="lado-direito aprendizado">
+        <h2 class="aprendizado__titulo">Passagem sobre meu aprendizado</h2>
         <p>Foi maravilhoso aprender sobre Unix, eu nunca tinha mexido com terminal, e é simplesmente mágico ver as coisas acontecendo com você digitando alguns comandos.</p>
       </aside>
-      <ol id="licoes_aprendidas">
-        <li>Unix</li>
-        <li>Bash</li>
-        <li>Git</li>
-        <li>Github</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>HTML Sêmantico</li>
-        <li>Shell</li>
-        <li>Internet</li>
-        <li>HTTP</li>
-      </ol>
-      <ul id="licoes_a_aprender">
-        <li>JavaScript</li>
-        <li>CSS Responsivo</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>MongoDB</li>
-        <li>Flexbox</li>
-        <li>Jest</li>
-        <li>JavaScript Assíncrono</li>
-        <li>DOM</li>
-        <li>Web Storage</li>
-      </ul>
+      <div class="todas-licoes">
+        <section class="licoes">
+          <h3>Lições aprendidas</h3>
+          <ol id="licoes_aprendidas">
+            <li>Unix</li>
+            <li>Bash</li>
+            <li>Git</li>
+            <li>Github</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>HTML Sêmantico</li>
+            <li>Shell</li>
+            <li>Internet</li>
+            <li>HTTP</li>
+          </ol>
+        </section>
+        <section class="licoes">
+          <h3>Lições que quero aprender</h3>
+          <ul id="licoes_a_aprender">
+            <li>JavaScript</li>
+            <li>CSS Responsivo</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>MongoDB</li>
+            <li>Flexbox</li>
+            <li>Jest</li>
+            <li>JavaScript Assíncrono</li>
+            <li>DOM</li>
+            <li>Web Storage</li>
+          </ul>
+        </section>
+      </div>
+      <section class="tabela">
+        <h3>Blocos de estudo da Trybe sobre Fundamentos</h3>
+        <table>
+          <tr>
+            <th id="bloco__1">Bloco 01</th>
+            <th id="bloco__2">Bloco 02</th>
+            <th id="bloco__3">Bloco 03</th>
+            <th id="bloco__4">Bloco 04</th>
+            <th id="bloco__5">Bloco 05</th>
+          </tr>
+          <tr>
+            <td headers="bloco__1">Unix e Bash</td>
+            <td headers="bloco__2">Git, GitHub e Internet</td>
+            <td headers="bloco__3">Introdução à HTML e CSS</td>
+            <td headers="bloco__4">Introdução à JavaScript e Lógica de Programação</td>
+            <td headers="bloco__5">JavaScript: DOM, Eventos</td>
+          </tr>
+        </table>
+      </section>
     </main>
 
-    <footer id="rodape"></footer>
+    <footer id="rodape">
+      <a href="https://github.com/gustavo-meira" target="_blank" ><img src="./github.svg" alt="Logo do GitHub"></a>
+      <span>Todos os direitos reservados a Gustavo Meira</span>
+    </footer>
 
   </body>
 
