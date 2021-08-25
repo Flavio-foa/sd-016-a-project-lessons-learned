@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0 auto;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
 }
 
 h2 {
@@ -11,7 +11,7 @@ h2 {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #125642;
+  background-color: rgb(2, 86, 66);
   width: 100%;
   text-align: center;
   color: white;
@@ -59,26 +59,41 @@ h2 {
 }
 
 .lado-esquerdo {
+  height: 200px;
   width: 300px;
-  border: 1px solid #125642;
+  border: 1px solid rgb(2, 86, 66);
   margin-left: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: justify;
-  display: inline-block;
+  float: left;
 }
 
 .lado-direito {
-  margin-left: 100px;
-  width: 400px;
+  width: 500px;
+  height: 200px;
+  border: 1px solid rgb(2, 86, 66);
   display: inline-block;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+
+table {
+  float: right;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
 }
 
 #rodape {
   width: 100%;
-  background-color: #cccccc;
+  background-color: rgb(200, 200, 200);
   position: fixed;
   bottom: 0;
   text-align: center;
