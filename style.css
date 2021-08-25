@@ -1,5 +1,4 @@
 /* BODY */
-
 body {
     background-color: rgb(253, 251, 251);
     font-family: 'Montserrat', sans-serif;
@@ -8,6 +7,9 @@ body {
 }
 
 /* HELPER CLASS */
+html {
+    scroll-behavior: smooth;
+}
 
 .bg-green {
     background-color: #264653;
@@ -24,7 +26,6 @@ a:hover {
 }
 
 /* HEADER */
-
 #bloco-1, #bloco-2, #bloco-3, #topo {
     padding-top: 65px;
     margin-top: -65px;
@@ -52,6 +53,12 @@ nav ul {
     -webkit-box-shadow: 0px 15px 50px -20px #264653; 
 }
 
+@media screen and (max-width: 725px){
+    #cabecalho {
+        flex-direction: column;
+    }
+}
+
 #titulo {
     font-size: 1rem;
     text-transform: uppercase;
@@ -65,12 +72,24 @@ nav ul {
 }
 
 /* MAIN */
-
     main {
-        margin-top: 80px;
+        margin-top: 5rem;
         display: flex;
         justify-content: center;
         color: #2b2d42;
+    }
+
+    @media screen and (max-width: 768px) {
+        main {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 725px) {
+        main {
+            margin-top: 8rem;
+        }
     }
     
     section {
@@ -101,11 +120,9 @@ nav ul {
 
     article {
         max-width: 600px;
-        padding: 2em;
     }
 
     /* ASIDE */
-
     aside {
         background-color: #f3f3f3;
         padding: 5em 7em;
@@ -119,9 +136,9 @@ nav ul {
     }
 
     /* FOOTER */
-
     footer {
         width: 100%;
         text-align: center;
         padding: 0.5em;
     }
+    
