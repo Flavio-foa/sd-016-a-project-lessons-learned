@@ -53,13 +53,14 @@ body{
 }
 
 
-#licoes_aprendidas{
+#licoes ol{
     display: inline-block;
 }
 
-#licoes_a_aprender{
+#licoes ul{
     display: inline-block;
 }
+
 
 table{
     border-spacing: 40px;
