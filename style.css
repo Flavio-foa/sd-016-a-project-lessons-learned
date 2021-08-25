@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato:400,400i,900,900i&display=swap');
 
 body {
+  --cor_primaria: #ff8707;
+
   background-color: rgb(253, 251, 251);
-  /* font-family: 'lato', serif; */
+  font-family: 'lato', serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 2em;
@@ -11,6 +13,15 @@ body {
 header {
   position: fixed; /* pré requisito */
   top: 0; /* pré requisito */
+  background-color: var(--cor_primaria);
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 40px;
+  line-height: 38px;
+  font-weight: 500;
 }
 
 
