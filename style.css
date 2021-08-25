@@ -19,5 +19,5 @@ body{background-color:rgb(253, 251, 251);
                   padding:1px;
                   border:1px solid black;}
 
-.lado-esquerdo{display:inline-block;border:1px solid yellow;width:40%;position:relative;float:left;}
+.lado-esquerdo{ display:inline-block;border:1px solid yellow;width:40%;position:relative;float:left;}
 
