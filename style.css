@@ -6,6 +6,9 @@ header {
   top: 0;
   position: fixed;
   width: 100%;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  color: darkblue;
 }
 
 #cabecalho {
@@ -60,4 +63,5 @@ header {
 #artigo {
   max-width: 50% ;
   margin-bottom: 100px;
+  line-height: 25px;
 }
