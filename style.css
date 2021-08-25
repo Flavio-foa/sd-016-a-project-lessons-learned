@@ -75,8 +75,8 @@
   border-radius: 25px;
   max-width: 40%;
   width: 40%;
-  margin: 20px 0 20px 20px;
-  padding: 22px;
+  margin: 20px 0 20px 100px;
+  padding: 20px;
   line-height: 1.4;
 }
 
@@ -86,7 +86,7 @@
     border-radius: 25px;
     max-width: 40%;
     width: 40%;
-    height: 40%;
+    max-height: 40%;
     margin-right: 100px;
 }
 
@@ -96,7 +96,7 @@
 }
 
  .artigo_um {
-     margin: 20px 0 0 20px;
+     margin: 20px 0 0 50px;
      display: flex;
      flex-direction: row;
      justify-content: space-evenly;
@@ -119,6 +119,10 @@
      padding: 22px;
      text-align: center;
      line-height: 1.4;
+   }
+
+   .secao_dois {
+     margin-right: 100px;
    }
 
    #tabela {
