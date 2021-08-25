@@ -11,15 +11,12 @@ body {
     color: forestgreen;
     width: 100%;
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact;
     font-size: large;
     margin: 0px;
     padding: 1px;
     margin-top: 0px;
     border: 0px;
-    
-    
-
 }
 
 #rodape {
