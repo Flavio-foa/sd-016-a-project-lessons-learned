@@ -27,3 +27,17 @@ body {
   padding: 50px;
   line-height: 25px;
 }
+
+#rodape {
+  background-color: rgb(86, 171, 145);
+  height: 100px;
+}
+
+.rodape_link {
+  text-align: center;
+}
+
+.rodape_icon {
+  display: block;
+  padding: 50px;
+}
