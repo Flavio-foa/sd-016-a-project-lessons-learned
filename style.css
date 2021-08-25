@@ -3,13 +3,46 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+.limit-size-header {
+  width: 100%;
+  height: 81px;
+  background-color: green;
+}
+
+.limit-size-main {
+  width: 850px;
+  margin: 81px 0 0 150px;
+  /* background-color: blue; */
+}
+
+.limit-size-article {
+  margin: 8px;
+  padding: 8px;
+  /* background-color: red; */
+}
+
+.limit-size-section {
+
+}
+
 #cabecalho {
   top: 0;
-  background-color: green;
   position: fixed;
-  width: 100%;
 }
 
 #titulo {
-  display: block;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+#minha_foto {
+  height: 300px;
+  width: 50%;
+  border-radius: 50%;
+}
+
+main {
 }
