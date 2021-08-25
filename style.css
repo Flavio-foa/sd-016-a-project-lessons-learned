@@ -1,28 +1,38 @@
+html {
+  width: 1366px;
+}
+
 body {
   margin: 0;
   background-color: rgb(253, 251, 251);
 }
 
 .limit-size-header {
-  width: 100%;
+  width: 1366px;
   height: 81px;
   background-color: green;
 }
 
 .limit-size-main {
-  width: 850px;
-  margin: 81px 0 0 150px;
+  width: 60%;
+  height: 100%;
+  margin: 81px 0 0 24%;
   /* background-color: blue; */
 }
 
 .limit-size-article {
-  margin: 8px;
-  padding: 8px;
+  margin: 4%;
+  padding: 4%;
   /* background-color: red; */
 }
 
 .limit-size-section {
+  /* background-color: orange; */
+}
 
+hr {
+  border: 4px solid rgb(253, 251, 251);
+  border-top: 4px solid rgb(9, 97, 3);
 }
 
 #cabecalho {
@@ -34,15 +44,13 @@ body {
   text-align: center;
 }
 
-.image {
+.article-image {
   text-align: center;
 }
 
 #minha_foto {
-  height: 300px;
+  height: 50%;
   width: 50%;
   border-radius: 50%;
 }
 
-main {
-}
