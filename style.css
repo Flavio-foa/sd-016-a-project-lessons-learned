@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -17,3 +18,19 @@ body {
   height: 200px;
   margin-top: 80px;
 }
+
+#lists {
+  border: solid 1px black;
+  margin-left: 10px;
+}
+
+#licoes_aprendidas {
+  position: absolute;
+}
+
+#licoes_a_aprender {
+  position: absolute;
+  float: left;
+  margin-left: 50%;
+}
+
