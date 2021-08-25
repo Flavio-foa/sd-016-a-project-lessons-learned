@@ -27,17 +27,25 @@ body {
 #licoes_a_aprender {
   position: absolute;
   top: 80px;
-  left: 720px;
+  left: 650px;
 }
 
 #rodape {
-  position:relative;
+  position: relative;
   top: 768px;
   height: 80px;
-  background-color: #345995;
+  background-color: rgb(52, 89, 149);
 }
 
 #artigo {
   position: absolute;
   top: 400px;
+}
+
+#experiencia {
+  position: absolute;
+  right: 50px;
+  width: 300px;
+  text-align: justify;
+  top: 95px;
 }
