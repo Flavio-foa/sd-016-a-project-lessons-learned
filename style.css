@@ -31,6 +31,11 @@
   color  : black;
 }
 
+#licoes_a_aprender {
+  display: inline-block;
+  color  : black;
+}
+
 .green {
   display         : inline;
   font-size       : 30px;
