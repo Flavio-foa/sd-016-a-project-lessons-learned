@@ -2,7 +2,6 @@
     background-color: rgb(253, 251, 251);
     font-family:"Open Sans";
 }
-
 #cabecalho{
     background-color: green;
     position: fixed;
@@ -14,24 +13,19 @@
     line-height: 170%;
     text-align: center;
 }
-
 #titulo{
-    
     color: gold;
     font-size: 40px;
 }
-
 #minha_foto{
     display: inline-block;
     width: 250px;
     border-radius: 50%;
 }
-
 #licoes_aprendidas{
     display: inline-block;
     color: black;
 }
-
 .green{
     display: inline;
     font-size: 30px;
@@ -42,7 +36,6 @@
     border-radius: 10px;
     border: 3px solid black;
 }
-
 #rodape{
     color: indianred;
 }
@@ -50,7 +43,6 @@
     font-size: 30px;
     color: black;
 }
-
 .link {
     color: black;
     background-color: gold;
@@ -61,7 +53,6 @@
     font-weight: 700;
     text-decoration: none ;
   }
-
   aside {
     width: 50%;
     padding-left: 15px;
