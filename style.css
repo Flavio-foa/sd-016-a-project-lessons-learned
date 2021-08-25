@@ -1,6 +1,18 @@
 body {
   background-color: rgb(253, 251, 251);
+  text-align: center;
 }
-header {
-  top: 0;
+ 
+#cabecalho {
+  position: fixed;
+  top: 0;  
+  font-family: cursive;
+  color: rgb(25, 116, 25);
+}
+
+.ul-header li {
+  margin-top: 70px;
+  margin-left: 50px;
+  display: inline-block;
+
 }
