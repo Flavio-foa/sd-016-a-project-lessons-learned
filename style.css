@@ -9,7 +9,7 @@ body {
   left: 0;
   width: 100%;
   height: 10%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-radius: 20px;
   background-color: #21a179;
   z-index: 1;
@@ -26,13 +26,13 @@ body {
   color: rgb(253, 251, 251);
   border-radius: 0;
   display: block;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 #conteudo_principal {
   margin-top: 5em;
   padding: 20px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 #minha_foto {
@@ -40,21 +40,22 @@ body {
   margin-right: 20px;
   border-radius: 15%;
   width: 250px;
-  border: 5px solid #F79256;
+  /* border: 5px solid #F79256; */
 }
 
 #artigo {
   padding: 10px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .lado-esquerdo {
   margin-right: 40%;
   padding: 5px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 #conteudo_texto {
+  text-align: center;
   max-width: 80%;
   font-size: 90%;
 }
@@ -62,17 +63,17 @@ body {
 .section_lista {
   padding: 5px;
   position: relative;
-  border: 2px solid green;
-  margin: auto auto auto 250px;
+  /* border: 2px solid green; */
+  margin: auto auto auto 265px;
   max-width: 80%;
   max-height: 250px;
   text-align: end;
-  display: block
+  display: block;
 }
 
 .lista {
   position: inherit;
-  bottom: .7vw;
+  bottom: 0.5vw;
   text-align: start;
   display: inline-block;
   margin: auto;
@@ -81,8 +82,7 @@ body {
   width: fit-content;
   height: auto;
   font-size: 1.2vw;
-  margin: auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .lista li {
@@ -90,5 +90,4 @@ body {
   max-width: 100%;
   width: auto;
   font-size: inherit;
-  border: inherit;
 }
