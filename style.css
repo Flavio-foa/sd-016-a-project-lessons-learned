@@ -6,6 +6,8 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   position: relative;
+  min-height: 100vh;
+  padding-bottom: 29px;
 }
 
 #cabecalho {
@@ -13,20 +15,24 @@ body {
   top: 0;
   width: 100%;
   background-color: rgb(83, 153, 83);
+  height: 60px;
+  display: table;
+  text-align: center;
 }
 
 #cabecalho h1 {
-  text-align: center;
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
   color: white;
 }
 
 main {
-  margin-left: 30px;
-  min-height: 100vh;
+  text-align: center;
 }
 
 #minha_foto {
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 0;
   border-radius: 50%;
   border: 5px solid rgb(219, 219, 219);
@@ -35,7 +41,6 @@ main {
 #name-below-photo {
   margin-top: 0;
   margin-bottom: 5px;
-  width: 210px;
   text-align: center;
   font-weight: 400;
 }
@@ -46,7 +51,7 @@ main {
   padding-left: 10px;
   padding-right: 10px;
   border: 1px solid black;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .lessons h2 {
@@ -91,6 +96,19 @@ main {
 }
 
 #external-links {
-  width: 210px;
-  margin-left: -12px;
+  margin-left: -30px;
+}
+
+#learning-article {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#learning-article h2 {
+  margin-bottom: 0;
+}
+
+#learning-article p {
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
