@@ -1,19 +1,24 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+  color: darkcyan;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #025642;
+  background-color: #125642;
   width: 100%;
   text-align: center;
-  color: #fff;
+  color: white;
 }
 
 #minha_foto {
-  width: 250px;
+  width: 300px;
   margin-left: 20px;
   margin-top: 100px;
   float: left;
@@ -22,7 +27,7 @@ body {
 #licoes {
   margin-top: 75px;
   display: inline-block;
-  width: 50%;
+  width: 60%;
   text-align: center;
 }
 
@@ -36,6 +41,7 @@ body {
 
 #licoes_aprendidas {
   font-size: 14px;
+  line-height: 18px;
 }
 
 #licoes_a_aprender_container {
@@ -45,31 +51,34 @@ body {
 #licoes_a_aprender {
   font-size: 14px;
   margin-left: 40px;
+  line-height: 18px;
 }
 
 #licoes_a_aprender_title {
   margin-left: 60px;
 }
 
-article {
-  margin-left: 20px;
-  height: 200px;
-}
-
-aside {
-  float: right;
+.lado-esquerdo {
   width: 300px;
-  border: 1px solid #025642;
-  margin-right: 20px;
-  margin-top: 100px;
+  border: 1px solid #125642;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: justify;
+  display: inline-block;
+}
+
+.lado-direito {
+  margin-left: 100px;
+  width: 400px;
+  display: inline-block;
 }
 
 #rodape {
   width: 100%;
-  background-color: #ccc;
+  background-color: #cccccc;
   position: fixed;
   bottom: 0;
   text-align: center;
