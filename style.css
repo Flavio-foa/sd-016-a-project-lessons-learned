@@ -8,8 +8,8 @@ body {
 
 #cabecalho {
   position: fixed;
-    top: 0;
-      left: 80%;
+  top: 0;
+  left: 80%;
 }
 
 #listas {
@@ -18,26 +18,26 @@ body {
 
 table ,th ,td {
   border: 2px solid black;
-    text-align: center;
+  text-align: center;
 }
 
 article p ,aside {
   border: double;
-    padding: 10px 15px;
-      margin: 20px;
+  padding: 10px 15px;
+  margin: 20px;
 }
 
 .lado-esquerdo {
   float: left;
-    max-width: 47%;
+  max-width: 47%;
 }
 
 .lado-direito {
   float: right;
-    max-width: 47%;
+  max-width: 47%;
 }
 
 #rodape {
   clear: both;
-    text-align: center;
+  text-align: center;
 } 
