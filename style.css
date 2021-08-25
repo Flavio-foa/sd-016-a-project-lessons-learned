@@ -44,7 +44,7 @@ body {
   margin: 20px;
 }
 
-.navegacao a {
+.nav-link {
   text-decoration: none;
   color: rgb(3, 107, 82);
 }
@@ -100,4 +100,27 @@ aside .lado-direito {
 .fonte-aside {
   font-size: 19px;
   margin: 90px auto 30px;
+}
+
+#rodape {
+  background-color: rgb(250, 255, 254);
+  padding: 20px;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+}
+
+caption {
+  margin: 20px auto;
+}
+
+th {
+  padding: 5px 30px;
+  font-weight: 500;
+}
+
+td {
+  width: 300px;
 }
