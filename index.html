@@ -19,14 +19,20 @@
     <!-- HEADER -->
     <header id="cabecalho" class="bg-green">
         <h1 id="titulo">Project: Lessons Learned by Joel Almeida.</h1>
-        <img src="./minha-foto.jpg" alt="Joel Almeida" id="minha_foto">
+        <nav>
+            <ul>
+                <li><a href="#bloco-1">Bloco I</a></li>
+                <li><a href="#bloco-2">Bloco II</a></li>
+                <li><a href="#bloco-3">Bloco III</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
 
         <!-- ARTICLE -->
         <article>
-            <h2>Aprendendo a aprender</h2>
+            <h2 id="topo">Aprendendo a aprender</h2>
 
             <p>Finalmente meu primeiro projeto aqui na Trybe! Rodeado de profissionais incríveis, colegas de turma
                 sensacionais.
@@ -37,7 +43,7 @@
             <p>Desde os Welcome Days, foram três blocos dentro do módulo de Fundamentos do Desenvolvimento Web. Vou
                 contar um pouquinho sobre minha experiência e o que venho aprendendo desde então. #VQV</p>
 
-            <h3>Bloco 01: Unix e Bash</h3>
+            <h3 id="bloco-1">Bloco 01: Unix e Bash</h3>
 
             <p>Neste bloco aprendi conceitos importantes sobre o sistema operacional Unix. Criado por Ken Thompson,
                 Dennis Ritchie e sua equipe em 1973 como um sistema multiúso e multitarefas.</p>
@@ -52,7 +58,7 @@
             <p>Também aprendi sobre busca de arquivos através do comando “find”, concatenação de comandos utilizando o
                 “|”, processos e permissões em arquivos e mais.</p>
 
-            <h3>Bloco 02: Git, GitHub e Internet</h3>
+            <h3 id="bloco-2">Bloco 02: Git, GitHub e Internet</h3>
 
             <p>Neste bloco aprendi sobre sistemas de versionamento local e remoto. Algo importantíssimo para qualquer
                 desenvolvedor, proporcionando um trabalho colaborativo muito mais ágil e seguro.</p>
@@ -64,7 +70,7 @@
                 protocolos de segurança, requisições etc. Informações importantes que servirão de base durante os
                 estudos sobre aplicações web.</p>
 
-            <h3>Bloco 03: Introdução à HTML e CSS</h3>
+            <h3 id="bloco-3">Bloco 03: Introdução à HTML e CSS</h3>
 
             <p>Neste bloco aprendi sobre como estruturar documentos HTML de forma semântica, utilizando tags que trazem
                 mais significado a nossas páginas, além de facilitar a leitura das páginas nos readers.</p>
@@ -79,18 +85,26 @@
                 São habilidades paralelas que com certeza fazem toda a diferença dentro do ambiente de trabalho e
                 estudo.</p>
 
-                <ul>
-                    <li>Inteligência Emocional</li>
-                    <li>Comunicação</li>
-                    <li>Colaboração</li>
-                    <li>Pensamento crítico</li>
-                    <li>Criatividade</li>
-                    <li>Liderança</li>
-                </ul>
+            <ul>
+                <li>Inteligência Emocional</li>
+                <li>Comunicação</li>
+                <li>Colaboração</li>
+                <li>Pensamento crítico</li>
+                <li>Criatividade</li>
+                <li>Liderança</li>
+            </ul>
         </article>
 
         <!-- SEÇÃO DE LIÇÕES APRENDIDAS & APRENDER -->
         <section class="secao-licoes">
+
+            <section class="profile">
+                <img src="./minha-foto.jpg" id="minha_foto" alt="Foto de Joel Almeida." id="profile-pic">
+                <p><strong>Joel S. Almeida.</strong> <br>
+                    Estudante de Desenvolvimento Full Stack. <br>
+                    Turma 16 - Tribo A.
+                </p>
+            </section>
 
             <h2>Lições aprendidas</h2>
 
@@ -121,13 +135,32 @@
                 <li>Python</li>
                 <li>Programação orientada a objetos</li>
             </ol>
+
+            <aside>
+                <h2>Passagem sobre meu aprendizado</h2>
+
+                <p>Antes de começar o curso de Desenvolvimento Full Stack na Trybe, eu já vinha estudando alguns
+                    conteúdos
+                    relacionados a programação e desenvolvimento web.</p>
+
+                <p>Dentre esses conteúdos, alguns deles me causaram certa intimidação, especialmente assuntos
+                    relacionados a
+                    terminal e linhas de comandos.</p>
+
+                <p>Eu achava tudo muito complicado e até tinha dificuldade em entender o por que de certas coisas terem
+                    que
+                    ser feitas de uma forma tão “estranha”.</p>
+
+                <p>Hoje, pouco mais de duas semanas de curso, este medo foi embora. No lugar disso veio a satisfação de
+                    poder trabalhar na “tela preta” aproveitando ao máximo os recursos do terminal.</p>
+            </aside>
         </section>
 
     </main>
 
     <footer id="rodape" class="bg-green">
         <p>Project: Lessons Learned by <a href="https://www.linkedin.com/in/joelalmeidasa/" target="_blank"
-                rel="noopener noreferrer">Joel Almeida</a> - 2021</p>
+                rel="noopener noreferrer">Joel Almeida</a> - 2021 <a href="#topo">Topo</a></p>
     </footer>
 
 </body>
