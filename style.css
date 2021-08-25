@@ -11,11 +11,13 @@ body{background-color:rgb(253, 251, 251);
            }
 
 .lado-direito{display:inline-block;
+              position:relative;
+              float:left;
                   width:40%;
                   border:1px solid black;
                   margin:1px;
                   padding:1px;
                   border:1px solid black;}
 
-.lado-esquerdo{display:inline-block;border:1px solid yellow;width:40%;}
+.lado-esquerdo{display:inline-block;border:1px solid yellow;width:40%;position:relative;float:left;}
 
