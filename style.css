@@ -4,4 +4,10 @@ body {
 #cabecalho {
     background-color: rgb(51, 102, 255);
     top: 0;
+    height: 80px;
+    text-align: center; 
+}
+#titulo {
+    color: seashell;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
