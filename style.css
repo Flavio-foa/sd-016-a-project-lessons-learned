@@ -29,9 +29,14 @@ body{
        
        
     }
+    .alinhamento2{
+        margin-top: -278px;
+        margin-left: 48%;
+    }
     #font{
         font-size: 25px;
     }
     #licoes_aprendidas{
         font-size: large;
     }
+    
