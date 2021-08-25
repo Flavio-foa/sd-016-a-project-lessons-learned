@@ -32,7 +32,8 @@ body {
 section > ol#licoes_aprendidas {
     float:left;
     padding-bottom: 50px;
-    margin-right: 52px;
+    margin-right: 80px;
+    display: inline-block;
 }
 .lorem {
     text-align: justify;
