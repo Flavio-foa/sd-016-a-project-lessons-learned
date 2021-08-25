@@ -11,6 +11,13 @@
 <body>
     <header id="cabecalho">
         <h1 id="titulo">Lessons Learned</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#home">Link 2</a></li>
+                <li><a href="#home">Link 3</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -20,42 +27,52 @@
         <a href="https://www.linkedin.com/in/felipemmmori/" target="_blank" id="link-externo">Felipe Matheus - Linkedin</a>
     
         <section id="listas">
-            Lições aprendidas
-            <ol id="licoes_aprendidas">
-                <li>Unix</li>
-                <li>Shell</li>
-                <li>Git</li>
-                <li>Github</li>
-                <li>Pull requests</li>
-                <li>Internet</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Box Model</li>
-                <li>HTML Semântico</li>
-            </ol>
-    
-            Lições a aprender
-            <ul id="licoes_a_aprender">
-                <li>Flexbox</li>
-                <li>React</li>
-                <li>Componentes</li>
-                <li>Bibliotecas</li>
-                <li>Testes automatizados</li>
-                <li>Redux</li>
-                <li>SQL</li>
-                <li>REST</li>
-                <li>SOLID</li>
-                <li>POO</li>
-            </ul>
+            <table class="tabela">
+                <tr>
+                    <td>Lições aprendidas</td>
+                    <td>Lições a aprender</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <ol id="licoes_aprendidas">
+                            <li>Unix</li>
+                            <li>Shell</li>
+                            <li>Git</li>
+                            <li>Github</li>
+                            <li>Pull requests</li>
+                            <li>Internet</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Box Model</li>
+                            <li>HTML Semântico</li>
+                        </ol>
+                    </td>
+                    <td>
+                        <ul id="licoes_a_aprender">
+                            <li>Flexbox</li>
+                            <li>React</li>
+                            <li>Componentes</li>
+                            <li>Bibliotecas</li>
+                            <li>Testes automatizados</li>
+                            <li>Redux</li>
+                            <li>SQL</li>
+                            <li>REST</li>
+                            <li>SOLID</li>
+                            <li>POO</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>            
         </section>
 
-        <section id="aprendizado">
-            <article>
+        <section>
+            <article class="lado-esquerdo">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque voluptas odio sunt. Hic, rerum obcaecati sequi accusantium earum qui voluptas ipsa necessitatibus totam asperiores saepe nulla accusamus officiis dolores numquam.
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque voluptas odio sunt. Hic, rerum obcaecati sequi accusantium earum qui voluptas ipsa necessitatibus totam asperiores saepe nulla accusamus officiis dolores numquam.
             </article>
         
-            <aside>
+            <aside class="lado-direito">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque voluptas odio sunt. Hic, rerum obcaecati sequi accusantium earum qui voluptas ipsa necessitatibus totam asperiores saepe nulla accusamus officiis dolores numquam.
             </aside>
         </section>
