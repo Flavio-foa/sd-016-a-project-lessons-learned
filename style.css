@@ -62,7 +62,7 @@ li {
     background-color: rgb(220, 233, 40);
 }
 
-#paragraph {
+.paragraph {
     line-height: 30px;
      margin-right: 800px;
      margin-bottom: 100px;
