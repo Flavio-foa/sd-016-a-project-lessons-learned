@@ -53,14 +53,13 @@ body {
     color: white;
     left: 0;
     right: 0;
+    height: 30px;
 }
 
 #p_rodape {
     text-align: center;
     font-size: 15px;
-    font-weight: bold;
-
-    
+    padding: 10px;
 }
 
 .links {
