@@ -23,11 +23,10 @@ img {
 }
 
 .lado-esquerdo {
-  background-color: slateblue;
   width: 50%;
   text-align: center;
   float: left;
-  padding: 10px 0;
+  padding: 43px 0;
 }
 
 .lado-esquerdo p {
@@ -35,11 +34,10 @@ img {
 }
 
 .lado-direito {
-  background-color: teal;
   width: 50%;
   text-align: center;
   float: right;
-  padding: 93px 0;
+  padding: 92px 0;
 }
 
 .lado-direito ol,
@@ -51,6 +49,16 @@ img {
   margin-right: 150px;
 }
 
-.aside .footer {
+aside {
   clear: both;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  display: inline-block;
 }
