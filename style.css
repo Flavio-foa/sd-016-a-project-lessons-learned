@@ -2,21 +2,25 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
 }
+
 h1 , h2 , h3 {
   font-family: Geneva, Verdana, sans-serif;
   margin-left: 15px;
   color: darkslategrey;
   margin-bottom: 1px;
 }
+
 h2 {
   font-size: 25px;
 }
+
 p , li , a {
   font-family: Times, serif;
   letter-spacing: 0.5px;
   margin-left: 15px;
   line-height: 25px;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -25,10 +29,12 @@ p , li , a {
   height: 80px;
   width: 100%;
 }
+
 #minha_foto {
   margin-top: 100px;
   margin-left: 20px;
 }
+
 #tabela {
   margin-left: 26px;
   background-color: lightcyan;
@@ -36,12 +42,14 @@ p , li , a {
   border-color: rgb(253, 251, 251);
   margin-bottom: 20px;
 }
+
 .lado-esquerdo {
   float: left;
   position: absolute;
   width: 50%;
   margin-top: auto;
 }
+
 .lado-direito {
   margin-top: 25px;
   margin-left: 57%;
@@ -51,17 +59,20 @@ p , li , a {
   border: 1px solid gray;
   background-color: rgb(250, 252, 238);
 }
+
 #licoes_aprendidas {
   float: left;
   width: 250px;
   margin-top: auto;
   margin-right: 120px;
 }
+
 #licoes_a_aprender {
   margin-top: 70px;
   padding-left: 17px;
   margin-right: 1px;
 }
+
 #h3aprendidas {
   margin-top: -35px;
   margin-left: 15px;
@@ -69,10 +80,11 @@ p , li , a {
   float: left;
   margin-right: 12px;
 }
+
 #h3aprender {
   margin-top: -35px;
   margin-left: 380px;
   width: 250px;
-  position:absolute;
+  position: absolute;
   margin-bottom: 1px;
 }
