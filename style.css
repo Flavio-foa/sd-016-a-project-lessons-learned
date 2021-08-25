@@ -41,9 +41,6 @@ p, li, a{
   position: absolute;
   width: 50%;
   margin-top: auto;
-  border left: 100px;
-  border-right: 200px;
-  margin-right: 200px;
 }
 .lado-direito{
   margin-top: 25px;
@@ -59,8 +56,6 @@ p, li, a{
   float: left;
   width: 250px;
   margin-top: auto;
-  border left: 100px;
-  border-right: 200px;
   margin-right: 120px;
 }
 #licoes_a_aprender{
