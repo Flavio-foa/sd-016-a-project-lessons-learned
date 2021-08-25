@@ -2,6 +2,10 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+main {
+    margin-top: 100px;
+}
+
 #cabecalho {
     position: fixed;
     top: 0;
@@ -10,4 +14,10 @@ body {
 #minha_foto {
     width: 100px;
     border-radius: 50%;
+}
+
+#link-externo {
+    text-decoration: none;
+    font-size: 16px;
+    background-color: lightcoral;
 }
