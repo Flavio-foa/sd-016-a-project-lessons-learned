@@ -16,12 +16,12 @@ body {
   position: relative;
 }
 
-table ,th ,td {
+table , th , td {
   border: 2px solid black;
   text-align: center;
 }
 
-article p ,aside {
+article p , aside {
   border: double;
   padding: 10px 15px;
   margin: 20px;
