@@ -1,0 +1,17 @@
+.background{
+  background-color: #25251251;
+}
+.header{
+  margin:auto;
+  padding: 5px;
+  max-width: 1300px;
+}
+.header-txt{
+  float: right;
+  max-width: 1300px;
+
+  }
+  .artigo{
+    clear:both
+
+  }
