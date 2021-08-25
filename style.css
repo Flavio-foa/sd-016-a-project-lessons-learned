@@ -8,7 +8,7 @@ body {
   top: 0;
   width: 100%;
   background-color: rgb(52, 89, 149);
-  height: 80px;
+  height: 90px;
 }
 
 #titulo {
@@ -56,13 +56,30 @@ body {
   top: 95px;
 }
 
-#indice {
-  position: absolute;
-  top: 40px;
+#indice th{
+  position: relative;
+  left: 10px;
+  top: 50px;
   z-index: 1;
 }
 
-#indice li {
-  display: inline-block;
-  width: 200px;
+th {
+  width: 100px;
 }
+
+table {
+  width: 40%;
+}
+
+table a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  width: 130px;
+}
+
+table a:hover {
+  background-color: cornflowerblue;
+  padding: 0px 20px;
+}
+
