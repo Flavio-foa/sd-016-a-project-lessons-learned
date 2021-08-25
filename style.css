@@ -111,6 +111,7 @@ main {
 #learning-article p {
   margin-top: 10px;
   margin-bottom: 15px;
+  line-height: 25px;
 }
 
 #learning-quote {
@@ -119,7 +120,7 @@ main {
   margin-right: 15%;
   font-size: 30px;
   font-style: italic;
-  opacity: 70%;
+  opacity: 50%;
   transition: opacity 1s;
 }
 
@@ -165,4 +166,27 @@ main {
 
 .add-side-space {
   padding: 0 15px;
+}
+
+.lado-direito {
+  float: right;
+  position: relative;
+  margin-right: 45%;
+}
+
+.lado-esquerdo {
+  float: left;
+  position: relative;
+  margin-left: 45%;
+}
+
+#disclaimer {
+  clear: both;
+  margin-bottom: 0;
+}
+
+#disclaimer-second-line {
+  font-size: 15px;
+  margin-top: 5px;
+  font-style: italic;
 }
