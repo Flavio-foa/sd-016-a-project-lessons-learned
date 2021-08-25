@@ -48,6 +48,7 @@ body {
 .lessons li{
     font-family: 'Russo One', sans-serif;
     color: #a8a194;
+    font-size: 25px;
 }
 
 .sub-titlle {
@@ -60,13 +61,13 @@ body {
 
 #licoes_aprendidas {
     display: inline-block;
-    max-width: 10%;
+    max-width: 15%;
     margin-left: 23em;
 }
 
 #licoes_a_aprender {
     display: inline-block;
-    max-width: 10%;
+    max-width: 15%;
     float: right;
     margin-right: 23em;
     
