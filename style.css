@@ -20,6 +20,8 @@ body {
   max-width: 400px;
   padding: 10px 20px;
   padding-top: 2%;
+  border: none;
+  border-radius: 2px;
 }
 
 .nome {
@@ -44,6 +46,8 @@ body {
 .links {
   text-decoration: none;
   color: white;
+  margin: auto;
+  padding: auto;
 }
 
 #aprendizado {
