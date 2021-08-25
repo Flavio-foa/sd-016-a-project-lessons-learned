@@ -3,7 +3,6 @@ body {
     margin-top: 120px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12pt;
-    letter-spacing: 1px;
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
@@ -22,6 +21,7 @@ body {
     color: white;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
+    line-height: 25px;
 }
 
 #cabecalho p {
