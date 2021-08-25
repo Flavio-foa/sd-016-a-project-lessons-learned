@@ -32,6 +32,7 @@ h1{
   align-items: left;
   border: solid black;;
   width: 400px;
+  padding: 10px 2px;
 }
 
 .lado-direito{
@@ -41,6 +42,7 @@ h1{
   width: 30%;*/
   /*position:absolute;
 right:0px;*/
+padding: 10px 2px;
 width:200px;
 background-color: blue;
 
