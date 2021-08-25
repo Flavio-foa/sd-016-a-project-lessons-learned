@@ -18,7 +18,10 @@ letter-spacing: 1px;
 }
 #minha_foto{
 width: 300px;
-margin-top: 270px;    
+margin-top: 270px; 
+border-radius: 150px;
+padding: 10px;
+background-color: rgb(73, 224, 73);
 }
 #licoes_aprendidas{
 margin: 0px;
@@ -72,4 +75,12 @@ p{
     font-family: 'Roboto', sans-serif;
     color: darkgreen;
     letter-spacing: 0,5px;  
+}
+.lado-direito{
+   margin: 10px;
+}
+.lado-esquerdo{
+   margin-left: 780px;
+   margin-top: -300px;
+   margin-bottom: 220px; 
 }
