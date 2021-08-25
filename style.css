@@ -1,5 +1,5 @@
 body {
-  background-color:  rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
   }
 
 #cabecalho {
@@ -12,7 +12,7 @@ body {
   }
 
 main {
-  background-color:  rgb(15, 6, 95);
+  background-color: rgb(15, 6, 95);
   margin: 20px;
   }
 
@@ -27,7 +27,7 @@ main {
     color: rgb(15, 15, 129);
     font-style: italic;
     margin-left: 20px;
-    border-style:double;
+    border-style: double;
     width: 400px;
     text-align: center;
     display: block;
@@ -43,10 +43,10 @@ section h1 {
   text-align: center;
   width: 400px;
   }
-  
+
 section #licoes_aprendidas {
   font-size: 20px;
-  color: rgb(0, 0, 0);
+  color: white;
   display: inline-block;
   margin: 20px 15px;
   border-style: solid;
@@ -59,7 +59,6 @@ section #licoes_a_aprender {
   display: inline-block;
   margin: 20px 15px;
   border-style: solid;
-
   background-color: rgb(41, 41, 43);
   }
   
@@ -68,7 +67,7 @@ article {
   color: white;
   margin-left: 50px;
   font-size: 20px;
-  display:inline-block;
+  display: inline-block;
   margin-block-end: 5px;
   text-align: center;
   }
@@ -94,6 +93,6 @@ nav {
   }
 
 h3 {
-  color: rgb(255, 255, 255);
+  color:white;
   }
 
