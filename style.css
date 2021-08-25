@@ -14,12 +14,14 @@ body{
             font-size: 20px;
             padding: 3px;
             text-align: center;
+            z-index: 2;
        
     }
     #minha_foto{
-        
+        position: absolute;
+        z-index: 1;
         bottom: 0;
-        top: 106px;
+        top: 108px;
         left: 0;
         width: 15%;
         
