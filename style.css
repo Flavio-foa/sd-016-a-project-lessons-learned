@@ -16,15 +16,16 @@ body {
   width: 100%;
   background-color: rgb(83, 153, 83);
   height: 60px;
-  display: table;
   text-align: center;
 }
 
 #cabecalho h1 {
   height: 60px;
-  display: table-cell;
   vertical-align: middle;
   color: white;
+  margin-top: 12px;
+  margin-bottom: 0;
+  height: 48px;
 }
 
 main {
@@ -32,7 +33,7 @@ main {
 }
 
 #minha_foto {
-  margin-top: 70px;
+  margin-top: 100px;
   margin-bottom: 0;
   border-radius: 50%;
   border: 5px solid rgb(219, 219, 219);
@@ -125,4 +126,26 @@ main {
 
 #learning-quote:hover {
   opacity: 100%;
+}
+
+#navigation ul li {
+  display: inline-block;
+  margin-right: 15px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#navigation ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#navigation ul {
+  margin-top: 0;
+  background-color: rgb(72, 124, 72);
+}
+
+#navigation {
+  margin-left: -23px;
 }
