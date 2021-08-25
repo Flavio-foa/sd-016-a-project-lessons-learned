@@ -49,7 +49,7 @@ header {
   margin: 0;
 }
 
-#aside {
+/* #aside {
   background-color: silver;
   width: 200px;
   float: right;
@@ -58,10 +58,32 @@ header {
   right: 10px;
   padding: 10px;
   
-}
+} */
 
 #artigo {
-  max-width: 50% ;
+  /* max-width: 50% ; */
   margin-bottom: 100px;
   line-height: 25px;
+  vertical-align:super ;
+}
+
+.lado-esquerdo{
+  width: 700px;
+  margin-right: 50px;
+  text-align: justify;
+  display: inline-block;
+  position: relative;
+  /* float: left; */
+  
+}
+
+.lado-direito{
+  width: 300px;
+  padding: 10px 40px;
+  text-align: justify;
+  display: inline-block;
+  background-color: silver;
+  position: relative;
+  float: right;
+
 }
