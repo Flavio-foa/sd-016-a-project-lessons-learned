@@ -1,86 +1,156 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
-#cabecalho{
-position: fixed;
-top: 0px;
-left: 0px;
-background-color: rgb(64, 204, 64);
-width: 1400px;
-height: 200px;
+
+#cabecalho {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(64, 204, 64);
+  width: 1400px;
+  height: 200px;
 }
-#titulo{
-text-align: center;    
-color: white;
-font-size:70px ;
-font-family:'Open Sans Condensed', sans-serif;
-letter-spacing: 1px;
+
+#titulo {
+  text-align: center;    
+  color: white;
+  font-size:70px ;
+  font-family:'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
 }
-#minha_foto{
-width: 300px;
-margin-top: 270px; 
-border-radius: 150px;
-padding: 10px;
-background-color: rgb(73, 224, 73);
+#minha_foto {
+  width: 300px;
+  margin-top: 230px; 
+  border-radius: 150px;
+  padding: 10px;
+  background-color: rgb(73, 224, 73);
+  margin-left: 16px;
 }
-#licoes_aprendidas{
-margin: 0px;
-display: inline-block;
-font-family: 'Roboto', sans-serif;
-color: rgb(87, 84, 84);
+#licoes_aprendidas {
+  margin: 0px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(87, 84, 84);
+  margin-left: 580px;
+  margin-top: -96px;
+  margin-bottom: 200px;
 }
-#licoes_a_aprender{
-margin: 0px;
-margin-left: 200px;
-margin-top: -178px;
-font-family: 'Roboto', sans-serif;
-color: rgb(87, 84, 84);
+#licoes_a_aprender {
+  margin: 0px;
+  margin-top: -178px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(87, 84, 84);
+  margin-left: 1050px;
+  margin-top: -390px;
+  margin-bottom: 190px;
 }
-#footer{
+#footer {
 
 }    
-#liçoes{
-background-color: rgb(17, 161, 12); 
-text-align: center;
-color: white;
-width: 150px;
-height: 30px;
-font-family: 'Roboto', sans-serif; 
+#liçoes {
+  background-color: rgb(17, 161, 12); 
+  text-align: center;
+  color: white;
+  width: 150px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif; 
 }
-.elementos1{
- background-color: rgb(3, 65, 3);
- text-align: center; 
- color: white;
- font-family: 'Roboto', sans-serif;  
+.elementos1 {
+  background-color: rgb(3, 65, 3);
+  text-align: center; 
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  width: 300px;
+  height: 35px;  
 }
-.elementos2{
-    background-color: rgb(10, 141, 76);
-    text-align: center;
-    color: white;
-    font-family: 'Roboto', sans-serif;
+.elementos2 {
+  background-color: rgb(10, 141, 76);
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
-.style-text{
-    margin: 12px;
-    padding: 30px;
-    border: solid 3px rgb(20, 220, 37);
-    width: 300px;
+.style-text {
+  margin: 12px;
+  padding: 30px;
+  border: solid 3px rgb(20, 220, 37);
+  width: 300px;
+  margin-top: -90px;
 }
-h2{
-    font-family: 'Roboto', sans-serif;
-    color: rgb(26, 155, 26);
-    font-size: 35px;
-    margin-left: 100px;
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(26, 155, 26);
+  font-size: 35px;
+  margin-left: 830px;
+  margin-top: -270px;
+  margin-bottom: 180px;
 }
-p{
-    font-family: 'Roboto', sans-serif;
-    color: darkgreen;
-    letter-spacing: 0,5px;  
+p {
+  font-family: 'Roboto', sans-serif;
+  color: darkgreen;
+  letter-spacing: 0,5px;  
 }
-.lado-direito{
-   margin: 10px;
+.lado-direito { 
+  margin: 10px;
+  margin-left: 150px;
+  margin-top: 90px;
 }
-.lado-esquerdo{
-   margin-left: 780px;
-   margin-top: -300px;
-   margin-bottom: 220px; 
+.lado-esquerdo {
+  margin-left: 780px;
+  margin-top: -300px;
+  margin-bottom: 220px; 
+}
+
+#nome {
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  margin: 50px;
+  color: rgb(46, 146, 46);
+}
+
+#dados {
+  margin-left: 630px;
+  margin-top: -450px;
+  margin-bottom: 350px;
+  font-family: 'Roboto';
+  color: #40cc40;
+  font-size: 35px;
+}
+
+table {
+  margin-left: 580px;
+  margin-bottom: 150px;    
+}
+
+#style-bg {
+  background-color: #a7f3a7;
+  width: 360px;
+  margin-left: 9px;
+  height: 750px;
+  border-radius: 45px;    
+}
+
+h4 {  
+  font-family: 'Roboto';
+  margin-left: 110px;
+  margin-top: -20px;
+  color: #7b7b7b;    
+}
+
+#h2-estilizado {
+  margin-top: 20px;
+  margin-left: 450px;
+}
+
+#style-bg-depoiments {
+  background-color: rgb(185 230 185);
+  margin-left: -10px;
+  height: 500px;
+  width: 1400px;
+}
+h5 {
+  font-size: 45px;
+  margin-top: 255px;
+  margin-left: 50px;
+  font-family: 'Roboto';
+  color: green;
 }
