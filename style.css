@@ -20,12 +20,11 @@ body {
 }
 
 #cabecalho h1 {
-  height: 60px;
+  height: 48px;
   vertical-align: middle;
   color: white;
   margin-top: 12px;
   margin-bottom: 0;
-  height: 48px;
 }
 
 main {
