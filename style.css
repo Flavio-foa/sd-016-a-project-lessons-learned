@@ -16,10 +16,12 @@ body{
     position: absolute;
     z-index: 2;
     top: 10%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     left: 1%;
-    margin-right: 100px;
+    margin-right: 400px;
+    border-radius: 50%;
+    float: left;
 }
 
 #artigo{
@@ -31,19 +33,28 @@ body{
     padding: 15%;
     margin-right: 10%;
     flex-grow: 1;
+    float: right;
+    left: 250px;
 
 }
 
-#licoes_aprendidas{
+ #licoes_aprendidas {
     z-index: 4;
-    position: relative;
-    margin: auto;
-}
+    display: inline-block;
+ }
 
-#licoes_a_aprender{
-    margin-bottom: auto;
+#licoes_a_aprender {
+    display: inline-block;
 }
 
 h2{
   font-size: 18px;
+}
+
+.licao1 {
+    float: left;
+}
+
+.licao2 {
+    float: right;
 }
