@@ -11,10 +11,10 @@ body {
   color: forestgreen;
   width: 100%;
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: large;
   margin: 2px 1em 0 auto;
-  padding: 12px 1em 0 1em;
+  padding: initial;
   margin-top: 0.1%;
   border: double;
 }
