@@ -13,7 +13,10 @@ html {
   margin-top: 0;
   padding: 10px;
   background-color: black;
-  top: 0px;
+  top: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
 #titulo {
@@ -25,12 +28,13 @@ html {
 
 #minha_foto {
   border-radius: 50%;
-  margin-top: 25px;
+  margin-top: 250px;
   width: 40%;
   max-width: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-family: ;
 }
 
 #licoes_aprendidas {
@@ -81,8 +85,8 @@ html {
 }
 
 .lists {
-padding: 50px;
-line-height: 30px;
+  padding: 50px;
+  line-height: 30px;
 }
 
 .table {
