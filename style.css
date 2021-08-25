@@ -64,17 +64,24 @@ article {
     margin-top: 50px;
 }
 
-.lado-esquerdo {
-    min-width: 40%;
-    text-align: left;
-    display: inline;
-} 
-
 .lado-direito {
-    min-width: 40%;
+    float: right;
+    margin-left: 30px;
+    max-width: 50%;
     text-align: left;
-    display: inline;
+    margin-right: 20px;
+    display: inline-block;
+  
 }
 
+.lado-esquerdo {
+   margin-left: 30px;
+   max-width: 45%;
+   float: left;
+}
+
+div {
+    margin-bottom: 100px;
+}
 
    
