@@ -32,14 +32,14 @@ h1 {
   float: right;
   width: 45%;
   margin-right: 10px;
-} 
+}
 
 .lado-esquerdo {
   width: 45%;
   margin-left: 20px;
 }
 
-ul, ol {
+ul,ol {
   margin-left: 10px;
 }
 
