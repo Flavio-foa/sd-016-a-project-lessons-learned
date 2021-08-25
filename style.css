@@ -1,43 +1,43 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
     font-family: sans-serif;
-    color: darkblue;
-    font-size: 20px;
-    line-height: -1px;
+      color: darkblue;
+        font-size: 20px;
+          line-height: -1px;
 }
 
 #cabecalho {
-    position: fixed;
+  position: fixed;
     top: 0;
-    left: 80%;
+      left: 80%;
 }
 
 #listas {
-    position: relative;
+  position: relative;
 }
 
 table ,th ,td {
-    border: 2px solid black;
+  border: 2px solid black;
     text-align: center;
 }
 
 article p ,aside {
-    border: double;
+  border: double;
     padding: 10px 15px;
-    margin: 20px;
+      margin: 20px;
 }
 
 .lado-esquerdo {
-    float: left;
+  float: left;
     max-width: 47%;
 }
 
 .lado-direito {
-    float: right;
+  float: right;
     max-width: 47%;
 }
 
 #rodape {
-    clear: both;
+  clear: both;
     text-align: center;
 } 
