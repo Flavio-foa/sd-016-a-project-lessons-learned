@@ -159,7 +159,7 @@ main {
   border-collapse: collapse;
 }
 
-table , tr , th , td {
+#content-table table , tr , th , td {
   border: 1px solid black;
 }
 
