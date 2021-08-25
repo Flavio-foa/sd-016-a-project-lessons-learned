@@ -27,23 +27,37 @@ body {
   margin-top: 100px;
 }
 
-#lists {
-  border: solid 1px black;
-  margin-left: 10px;
+#licoes_aprendidas {
 }
 
-#licoes_aprendidas {
-  position: absolute;
+#image02 {
 }
 
 #licoes_a_aprender {
-  position: absolute;
   float: left;
   margin-left: 50%;
+  margin-bottom: 200%;
 }
 
 #rodape {
-  position: absolute;
   margin-top: 100%;
+}
+
+#lado-esquerdo {
+  padding-top: 350px;
+  float: left;
+  position: absolute;
+  display: block;
+  margin-right: 65%;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+#lado-direito {
+  position: absolute;
+  padding-top: 350px;
+  margin-left: 70%;
+  float: right;
+  text-align: justify;
 }
 
