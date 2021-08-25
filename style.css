@@ -1,4 +1,4 @@
-body { 
+body {
   background: rgb(253, 251, 251);
   font-family: Times, serif;
   color: rgb(44, 43, 43);
@@ -16,7 +16,7 @@ body {
 }
 
 .foto img {
-  vertical-align: middle; 
+  vertical-align: middle;
   max-width: 400px;
   padding: 10px 20px;
   padding-top: 2%;
