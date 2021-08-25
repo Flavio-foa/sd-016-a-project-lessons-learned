@@ -16,18 +16,18 @@ body {
 .limit-size-main {
   width: 60%;
   height: 100%;
-  margin: 81px 0 0 24%;
-  /* background-color: blue; */
+  margin: 89px 0 0 24%;
+  background-color: blue;
 }
 
 .limit-size-article {
-  margin: 4%;
-  padding: 4%;
-  /* background-color: red; */
+  margin: 0.5%;
+  padding: 0.5%;
+  background-color: red;
 }
 
 .limit-size-section {
-  /* background-color: orange; */
+  background-color: orange;
 }
 
 hr {
