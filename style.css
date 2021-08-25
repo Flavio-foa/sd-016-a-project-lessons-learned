@@ -13,6 +13,7 @@ html {
   margin-top: 0;
   padding: 10px;
   background-color: black;
+  top: 0px;
 }
 
 #titulo {
@@ -80,10 +81,13 @@ html {
 }
 
 .lists {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 5%;
+padding: 50px;
+line-height: 30px;
+}
+
+.table {
+  margin: auto;
+  align-self: center;
 }
 
 .lado-esquerdo {
@@ -97,6 +101,7 @@ html {
   font-family: 'Fira Code', sans-serif;
   font-size: 15px;
   text-align: justify;
+  line-height: 25px;
 }
 
 h2 {
@@ -116,4 +121,5 @@ h2 {
   font-family: 'Fira Code', sans-serif;
   font-size: 15px;
   text-align: justify;
+  line-height: 25px;
 }
