@@ -41,14 +41,6 @@ a{
     vertical-align: middle;
 }
 
-.lado-esquerdo{
-    border: blue;
-}
-
-.lado-direito{
-   margin-top: 50px;
-}
-
 ul, ol{
     width: 25%;
     margin: 10px;
