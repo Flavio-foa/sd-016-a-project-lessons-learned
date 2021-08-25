@@ -1,5 +1,7 @@
 
-
+#titulo{
+    color: rgba(245, 229, 2, 0.863);
+}
 body{
     margin: 0;
     background-color: rgb(253,251,251);
@@ -10,16 +12,14 @@ body{
             background-color: royalblue;
             position: fixed;
             font-size: 20px;
-            padding: 50px;
-            
+            padding: 3px;
             text-align: center;
-        z-index: 2;
+       
     }
     #minha_foto{
         position: absolute;
         top: 31.6%;
         left: 0;
-        z-index: 1;
         width: 15%;
         
     }
