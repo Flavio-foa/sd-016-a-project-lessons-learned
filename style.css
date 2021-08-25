@@ -1,31 +1,37 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
 }
-header{
+
+header {
   top: 0;
   position: fixed;
   width: 100%;
 }
-#cabecalho{
+
+#cabecalho {
   top: 0;
   background-color: slategrey;
   height: 100px;
 }
-#nav-cabecalho li{
+
+#nav-cabecalho li {
   display: inline;
   margin-left: 20px;
   text-decoration: none;
 }
-#minha_foto{
+
+#minha_foto {
   margin-top: 100px;
   width: 400px;
   padding: 5px;
 }
-#rodape{
+
+#rodape {
   background-color:  slategrey;
   height: 70px;
 }
-#tabela{
+
+#tabela {
   background-color: silver;
   display: inline-block;
   margin-left: 10px;
@@ -35,20 +41,23 @@ header{
   border: black;
   text-align: center;
 }
-.titulo-tabela{
+
+.titulo-tabela {
   margin: 0;
 }
-#aside{
-    background-color: silver;
-    width: 200px;
-    float: right;
-    position: relative;
-    top: 20px;
-    right: 10px;
-    padding: 10px;
-    
+
+#aside {
+  background-color: silver;
+  width: 200px;
+  float: right;
+  position: relative;
+  top: 20px;
+  right: 10px;
+  padding: 10px;
+  
 }
-#artigo{
-    max-width: 50% ;
-    margin-bottom: 100px;
+
+#artigo {
+  max-width: 50% ;
+  margin-bottom: 100px;
 }
