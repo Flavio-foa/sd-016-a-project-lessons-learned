@@ -1,23 +1,23 @@
-body{background-color:rgb(253, 251, 251);
-    font-size:3em;
-    color:#3f3f00;
-    line-height:2em;
-    font-family:helvetica; 
-    }
+body { background-color: (253, 251, 251);
+  font-size : 3em;
+  line-height : 2em;
+  font-family : Arial, Helvetica, sans-serif;}
 
 
-#cabecalho{position:fixed;
-           top:0;
-           }
+#cabecalho { position : fixed;
+  top : 0;}
 
-.lado-direito{display:inline-block;
-              position:relative;
-              float:left;
-                  width:40%;
-                  border:1px solid black;
-                  margin:1px;
-                  padding:1px;
-                  border:1px solid black;}
+.lado-direito { display : inline-block;
+  color : white;
+  position : relative;
+  float : left;
+  width : 40%;
+  border : 1px solid black;
+  margin : 1px;
+  padding : 1px;}
 
-.lado-esquerdo{ display:inline-block;border:1px solid yellow;width:40%;position:relative;float:left;}
-
+.lado-esquerdo { display : inline-block;
+  border : 1px solid yellow;
+  width : 40%;
+  position : relative;
+  float : left;}
