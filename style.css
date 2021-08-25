@@ -6,15 +6,15 @@ body {
   top: 0;
   left: 0;
   position: fixed;
-  background-color: #087e8b;
+  background-color: rgb(8, 126, 139);
   width: 100%;
-  border-bottom: 8px solid #bfd7ea;
+  border-bottom: 8px solid rgb(191, 215, 234);
 }
 
 #titulo {
   margin: 8px 0;
   text-align: center;
-  color: #bfd7ea;
+  color: rgb(191, 215, 234);
   font-family: Candal, sans-serif;
 }
 
@@ -23,7 +23,7 @@ body {
   width: 300px;
   border-radius: 50%;
   padding: 0;
-  border: 8px solid #bfd7ea;
+  border: 8px solid rgb(191, 215, 234);
   clear: left;
 }
 
@@ -32,7 +32,7 @@ main {
   font-family: Hind Siliguri, sans-serif;
 }
 
-main h2, main h3 {
+main h2, h3 {
   font-family: Palanquin Dark, sans-serif;
 }
 
@@ -52,7 +52,7 @@ main li {
   float: right;
   text-align: justify;
   padding: 0 30px;
-  background-color: #bfd7ea;
+  background-color: rgb(191, 215, 234);
   max-width: 30%;
   margin-right: 30px;
 }
