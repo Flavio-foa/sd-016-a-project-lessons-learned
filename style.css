@@ -1,33 +1,30 @@
-
-body {
+body { 
     background-color: rgb(253, 251, 251);
     font-family: Source Sans Pro, sans-serif;
+    padding: 3%; 
 }
-#cabecalho {
+#cabecalho { 
     left: 29%;
     position: fixed;
     top: 0;
     color: seagreen;
     font-family: Hina Mincho, sans-serif;
     font-size: 20px;
-    z-index: 2;
+    z-index: 2; 
 }
-#minha_foto {
+#minha_foto { 
     width: 300px;
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
 }
-body {
-    padding: 3%;
+h2 { 
+    color: seagreen; 
 }
-h2 {
-    color: seagreen;
-}
-#licoes {
+#licoes { 
     display: inline-block;
-    line-height: 25px;
+    line-height: 25px; 
 }
-#aprendidas {
+#aprendidas { 
     border: solid salmon;
     padding-left: 10px;
     top: 83%;
@@ -35,55 +32,55 @@ h2 {
     padding-right: 10px;
     background-color: lightyellow; 
 }
-h2 #aprendidas{
+h2 #aprendidas { 
     padding-left: 7px;
-    color: seagreen;
+    color: seagreen; 
 }
-#a_aprender {
+#a_aprender { 
     border: solid rebeccapurple;
     display: inline-block;
     margin-left: 30px;
     padding-left: 10px;
     width: 483px;
-    background-color: lightcyan;
+    background-color: lightcyan; 
 }
-h2 #a_aprender{
+h2 #a_aprender { 
     padding-left: 7px;
-    color: seagreen;
+    color: seagreen; 
 }
-#tabela {
+#tabela { 
     margin-top: 40px;
-    margin-left: 28%;
+    margin-left: 28%; 
 }
-table {
+table { 
     padding: 5px;
     margin-bottom: 40px;
-    margin-left: 15px;
+    margin-left: 15px; 
 }
-footer {
-    margin-top: 40px;
+footer { 
+    margin-top: 40px; 
 }
-nav {
-    margin-top: 150px;
+nav { 
+    margin-top: 150px; 
 }
 #artigo-aside {
     line-height: 25px;
-    display: inline-block;
+    display: inline-block; 
 }
-.lado-esquerdo {
+.lado-esquerdo { 
     border: solid burlywood;
     padding: 2%;
-    display: inline-block;;
+    display: inline-block;
     width: 600px;
     position: absolute;
     background-color: lemonchiffon;
-    z-index: 1;
+    z-index: 1; 
 }
-.lado-direito {
+.lado-direito { 
     display: inline-block;
     border: solid burlywood;
     padding: 2%;
     width: 450px;
     margin-left: 150%;
-    background-color: lemonchiffon;
+    background-color: lemonchiffon; 
 }
