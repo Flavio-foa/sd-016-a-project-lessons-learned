@@ -110,7 +110,7 @@ main {
 
 #learning-article p {
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 
 #learning-quote {
@@ -147,4 +147,22 @@ main {
 
 #navigation {
   margin-left: -23px;
+}
+
+#content-table {
+  width: auto;
+  margin-bottom: 50px;
+}
+
+#content-table table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table , tr , th , td {
+  border: 1px solid black;
+}
+
+.add-side-space {
+  padding: 0 15px;
 }
