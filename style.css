@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #2fc18c;
+  background-color: teal;
   text-align: center;
   padding-top: 50px;
   height: 250px;
@@ -48,8 +48,7 @@ img {
   padding: 92px 0;
 }
 
-.lado-direito ol,
-.lado-direito ul {
+.lado-direito ol , .lado-direito ul {
   display: inline-block;
 }
 
