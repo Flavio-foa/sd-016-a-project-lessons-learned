@@ -30,7 +30,7 @@ header {
 }
 
 #rodape {
-  background-color:  slategrey;
+  background-color: slategrey;
   height: 70px;
 }
 
@@ -49,35 +49,21 @@ header {
   margin: 0;
 }
 
-/* #aside {
-  background-color: silver;
-  width: 200px;
-  float: right;
-  position: relative;
-  top: 20px;
-  right: 10px;
-  padding: 10px;
-  
-} */
-
 #artigo {
-  /* max-width: 50% ; */
   margin-bottom: 100px;
   line-height: 25px;
-  vertical-align:super ;
+  vertical-align:super;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   width: 700px;
   margin-right: 50px;
   text-align: justify;
   display: inline-block;
   position: relative;
-  /* float: left; */
-  
 }
 
-.lado-direito{
+.lado-direito {
   width: 300px;
   padding: 10px 40px;
   text-align: justify;
@@ -85,5 +71,4 @@ header {
   background-color: silver;
   position: relative;
   float: right;
-
 }
