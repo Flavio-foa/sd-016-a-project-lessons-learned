@@ -7,6 +7,7 @@ body {
   top: 0;
   border: solid black;
   background-color: black;
+  width: 100%;
 }
 
 h1{
@@ -21,13 +22,27 @@ h1{
   margin-top: 100px;
 }
 
-#licoes_aprendidas{
+.section-style{
   display: inline-block;
   font-family: monospace 
 }
 
-#licoes_a_aprender{
+.lado-esquerdo{
   display: inline-block;
-  font-family: monospace 
+  align-items: left;
+  border: solid black;;
+  width: 400px;
+}
+
+.lado-direito{
+  display: inline-block;
+  /*align-items: right;
+  border: solid black;;
+  width: 30%;*/
+  /*position:absolute;
+right:0px;*/
+width:200px;
+background-color: blue;
+
 }
 
