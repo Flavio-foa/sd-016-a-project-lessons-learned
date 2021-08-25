@@ -1,10 +1,13 @@
+*{
+    text-decoration: none;
+}
+
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
     font-family: 'Hind Siliguri', serif;
     font-weight: 400;
     font-size: 18px;
-    
 }
 
 #cabecalho {
@@ -38,6 +41,7 @@ body {
 
 #articles {
     text-align: center;
+    line-height: 32px;
     margin-top: 2.5em;
 }
 
@@ -49,9 +53,15 @@ body {
     font-family: 'Russo One', sans-serif;
     color: #a8a194;
     font-size: 25px;
+    line-height: 40px;
+}
+
+.lessons a{
+    color: #a8a194;
 }
 
 .sub-titlle {
+    font-family: 'Amatic SC', cursive;
     font-weight: 700;
     font-size: 44px;
     text-align: center;
@@ -90,6 +100,7 @@ body {
 .lado-esquerdo {
     display: inline-block;
     max-width: 32%;
+    padding-top: 25px;
 
     font-size: 29px;
     border: 2px solid black;
@@ -99,10 +110,16 @@ body {
     background-color: #b1d8ec;
 }
 
-/* p, a {
-    color: #ccc;
+#rodape {
+    background-color: #795735;
+    height: 4em;
+    text-align: center;
 }
 
-h3 {
-    color: #535353;
-} */
+#rodape p{
+    margin: 0;
+    padding: 22px 22px 0;
+    color: #463e3e;
+    text-decoration: none;
+}
+
