@@ -1,40 +1,39 @@
 body {
-    font-family: 'Montserrat', sans-serif;;
-    background-color: rgb(253, 251, 251);
-    /* background-color: #F5DFBB; */
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 10%;
-    border: 2px solid red;
-    border-radius: 20px;
-    background-color: #21a179;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: #21a179;
 }
 
 #titulo {
-    text-align: start;
-    margin-top: 0;
-    padding: 5px;
-    font-weight: 550;
-    font-size: 18pt;
-    line-height: 18pt;
-    background-color: seagreen;
-    color: #243e36;
-    border-radius:0;
-    display: block;
-    border: 2px solid red;
+  text-align: start;
+  margin-top: 0;
+  padding: 5px;
+  font-weight: 550;
+  font-size: 18pt;
+  line-height: 18pt;
+  background-color: seagreen;
+  color: #243e36;
+  border-radius: 0;
+  display: block;
+  border: 2px solid red;
 }
 
 #conteudo_principal {
-    margin-top: 5em;
-    border: 2px solid blue;
+  margin-top: 5em;
+  border: 2px solid blue;
 }
 
 #minha_foto {
-    border-radius: 15%;
-    width: 250px;
+  border-radius: 15%;
+  width: 250px;
 }
