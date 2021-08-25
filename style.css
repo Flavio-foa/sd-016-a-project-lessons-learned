@@ -34,52 +34,51 @@ body {
 
 #licoes_aprendidas {
   position: absolute;
-  top: 80px;
-  left: 320px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 25px;
   font-size: 13px;
-  border: 2px solid rgb(52, 89, 149);
+  width: 300px;
+  top: 100px;
 }
 
 #licoes_a_aprender {
   position: absolute;
-  top: 300px;
-  left: 950px;
+  top: 420px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
-  width: 250px;
+  width: 300px;
   line-height: 25px;
-  border: 2px solid rgb(52, 89, 149);
 }
 
 #rodape {
   position: relative;
-  top: 768px;
-  height: 80px;
+  top: 720px;
+  height: 50px;
   background-color: rgb(52, 89, 149);
+  color: white;
+  text-align: end;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  line-height: 80px;
+  font-size: 13px;
 }
 
 #artigo {
   position: absolute;
-  top: 400px;
+  top: 80px;
   line-height: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  width: 600px;
   font-size: 15px;
-  border: 2px solid rgb(52, 89, 149);
 }
 
 #experiencia {
   position: absolute;
-  right: 50px;
-  width: 350px;
+  top: 400px;
+  width: 600px;
   text-align: justify;
-  top: 95px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 25px;
-  border: 2px solid rgb(52, 89, 149);
 }
 
 #indice th {
@@ -112,9 +111,20 @@ table a:hover {
   color: white;
   padding: 7px;
   background-color: green;
-  border-radius: 25px; 
+  border-radius: 25px;
 }
 
 #titulo a:hover {
-  background-color:lightseagreen;
+  background-color: lightseagreen;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 600px;
+  position: relative;
+}
+
+.lado-direito {
+  float: right;
+  width: 350px;
 }
