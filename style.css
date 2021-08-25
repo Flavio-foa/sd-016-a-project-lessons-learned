@@ -35,7 +35,7 @@ h2 {
     padding-right: 10px;
     background-color: lightyellow; 
 }
-#licoes_aprendidas h2 {
+h2 #aprendidas{
     padding-left: 7px;
     color: seagreen;
 }
@@ -47,7 +47,7 @@ h2 {
     width: 483px;
     background-color: lightcyan;
 }
-#licoes_a_aprender h2 {
+h2 #a_aprender{
     padding-left: 7px;
     color: seagreen;
 }
@@ -64,7 +64,7 @@ footer {
     margin-top: 40px;
 }
 nav {
-    margin-top: 150px
+    margin-top: 150px;
 }
 #artigo-aside {
     line-height: 25px;
@@ -73,7 +73,7 @@ nav {
 .lado-esquerdo {
     border: solid burlywood;
     padding: 2%;
-    display: inline-block;
+    display: inline-block;;
     width: 600px;
     position: absolute;
     background-color: lemonchiffon;
