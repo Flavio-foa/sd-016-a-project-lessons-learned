@@ -22,6 +22,7 @@ p, li, a{
   top: 0;
   text-align: center;
   background-color: coral;
+  height: 80px;
   width: 100%;
 }
 #minha_foto{
