@@ -1,17 +1,20 @@
 body {
   background-color: rgb(253, 251, 251);
+  padding: 0;
+  margin: 0;
 }
 
 #cabecalho {
   margin-top: 0;
   padding: 10px;
-  background-color: #000000;
+  background-color: rgb(0, 0, 0);
+  margin-top: 0px;
 }
 
 #titulo {
   text-align: center;
-  font-family: 'Press Start 2P', sans-serif;
-  color: white;
+  font-family: "Press Start 2P", sans-serif;
+  color: rgb(255, 255, 255);
   font-size: 35px;
 }
 
@@ -26,13 +29,13 @@ body {
 }
 
 #licoes_aprendidas {
-  font-family: 'Fira Code', sans-serif;
+  font-family: "Fira Code", sans-serif;
   font-size: 20px;
   display: inline-block;
 }
 
 #licoes_a_aprender {
-  font-family: 'Fira Code', sans-serif;
+  font-family: "Fira Code", sans-serif;
   font-size: 20px;
   display: inline-block;
 }
@@ -43,60 +46,58 @@ body {
 }
 
 #rodape {
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
   padding: 30px;
   clear: both;
-  margin: 0px;
 }
 
 #infos {
-  font-family: 'Fira Code', sans-serif;
+  font-family: "Fira Code", sans-serif;
   font-size: 25px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
 .links {
   padding: 20px;
-  font-family: 'Fira Code', sans-serif;
+  font-family: "Fira Code", sans-serif;
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   display: inline-block;
 }
 
 .center {
   display: flex;
   justify-content: space-between;
-  padding-left:40% ;
-  padding-right:40% ;
+  padding-left: 40%;
+  padding-right: 40%;
 }
 
 .lists {
   display: flex;
   justify-content: space-between;
-  padding-left:5% ;
-  padding-right:5% ;
+  padding-left: 5% ;
+  padding-right: 5% ;
 }
 
 .lado-esquerdo {
   float: left;
   padding: 20px;
-  background-color: #eee;
+  background-color: rgb(248,248,255);
   align-items: center;
   max-width: 60%;
-  margin: 0px;
 }
 
 .lado-esquerdo p {
-  font-family: 'Fira Code', sans-serif;
+  font-family: "Fira Code", sans-serif;
   font-size: 15px;
   text-align: justify;
 }
 
 h2 {
-  font-family: 'Fira Code', sans-serif;
+  font-family: "Fira Code", sans-serif;
   font-size: 25px;
   text-align: center;
   margin-bottom: 50px;
@@ -109,7 +110,7 @@ h2 {
 }
 
 .lado-direito p {
-  font-family: 'Fira Code', sans-serif;
+  font-family: "Fira Code", sans-serif;
   font-size: 15px;
   text-align: justify;
 }
