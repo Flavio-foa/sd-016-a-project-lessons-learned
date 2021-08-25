@@ -74,13 +74,13 @@ text-decoration: none;
 .lado-esquerdo{float: left;
 
 }
-#anotacoes{display: inline-block;
+#passagem{display: inline-block;
     width: 48%;
     border: solid 2px black;
     padding-bottom: 135px;    
 }
 
-#anotacoes p, h2{margin-left: 15px; 
+#passagem p, h2{margin-left: 15px; 
 }
 
 .lado-direito{float: right;}
