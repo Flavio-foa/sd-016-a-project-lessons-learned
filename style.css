@@ -1,36 +1,43 @@
 body {
     background-color: rgb(253, 251, 251);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     color: darkblue;
     font-size: 20px;
     line-height: -1px;
 }
+
 #cabecalho {
     position: fixed;
     top: 0;
     left: 80%;
 }
+
 #listas {
     position: relative;
 }
-table, th, td {
+
+table ,th ,td {
     border: 2px solid black;
     text-align: center;
 }
-article p, aside {
+
+article p ,aside {
     border: double;
     padding: 10px 15px;
     margin: 20px;
 }
+
 .lado-esquerdo {
     float: left;
     max-width: 47%;
 }
+
 .lado-direito {
     float: right;
     max-width: 47%;
 }
+
 #rodape {
     clear: both;
     text-align: center;
-}
+} 
