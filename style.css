@@ -82,9 +82,8 @@ h2 {
 
 #aprendizado {
   box-sizing: border-box;
-  padding: 50px;
+  padding: 120px 50px;
   width: 40vw;
-  height: 76vh;
   background-color: rgb(255, 36, 66);
   font-size: 2.5rem;
   border-radius: 20px;
