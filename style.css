@@ -62,16 +62,15 @@ article .lado-esquerdo {
   width: 70%;
   float: left;
   padding-top: 45px;
+  line-height: 19px;
+  margin-left: 40px;
 }
 
 aside .lado-direito {
   float: right;
   width: 20%;
   text-align: center;
-  margin-right: 20px;
-}
-
-#artigo p {
+  margin-right: 50px;
   line-height: 19px;
 }
 
@@ -84,16 +83,18 @@ aside .lado-direito {
 .secao-lista {
   display: inline-block;
   width: 100%;
-  clear: both;
-  margin-top: 900px;
+  text-align: center;
 }
 
 .aprendidos_aprender {
+  width: 220px;
+  margin: 50px 40px;
   display: inline-block;
-}
-
-#aside p {
-  line-height: 18px;
+  border: 1px solid rgb(3, 107, 82);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(250, 255, 254);
+  line-height: 20px;
 }
 
 .fonte-aside {
