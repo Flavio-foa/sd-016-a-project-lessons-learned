@@ -50,7 +50,7 @@ table {
   background-color: darkgrey;
   float: left;
   width: 40%;
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 15%;
 }
 
@@ -66,12 +66,14 @@ article {
   float: left;
   width: 35%;
   text-align: center;
+  margin-top: 5%;
 }
 
 .licoes {
   float: left;
   width: 40%;
   clear: both;
+  margin-top: 5%;
 }
 
 img {
