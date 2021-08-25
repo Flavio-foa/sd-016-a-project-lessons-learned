@@ -6,7 +6,6 @@ body {
 
 .barra {
 
-        text-align: center;
         background-color: rgb(0, 161, 54);
         color: white;
         position: fixed;
@@ -14,6 +13,7 @@ body {
         left: 0;
         right: 0%;
         height: 100px;
+        text-align: center;
 
 }
 
@@ -21,12 +21,12 @@ body {
 
         max-width: 400px;
         padding: 10px 20px;
-        padding-top: 10%;
+        padding-top: 2%;
 
 }
 
 .nome {
-
+        padding-left: 2%;
         text-decoration: none;
         color: black;
 
@@ -35,7 +35,7 @@ body {
 .lista {
 
         align-items: center;
-        display: inline-block;    
+        display: inline-block;
 
 }
 
@@ -45,7 +45,7 @@ body {
         color: white;
         height: 50px;
         text-align: center;
-    
+
 
 }
 
