@@ -10,12 +10,12 @@ body{background-color:rgb(253, 251, 251);
            top:0;
            }
 
-#article-passagem{display:inline-block;
+.lado-direito{display:inline-block;
                   width:40%;
                   border:1px solid black;
                   margin:1px;
                   padding:1px;
                   border:1px solid black;}
 
-#aside-passagem{display:inline-block;border:1px solid yellow;width:40%;}
+.lado-esquerdo{display:inline-block;border:1px solid yellow;width:40%;}
 
