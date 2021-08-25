@@ -29,14 +29,15 @@ h1 {
 }
 
 .lado-direito {
+  max-width: 40%;
+  margin: 20px;
   float: right;
-  width: 45%;
-  margin-right: 10px;
 }
 
 .lado-esquerdo {
-  width: 45%;
-  margin-left: 20px;
+  max-width: 40%;
+  margin: 20px;
+  float: left;
 }
 
 ul , ol {
@@ -45,4 +46,5 @@ ul , ol {
 
 #tabela {
   margin-left: 20px;
+  clear: both;
 }
