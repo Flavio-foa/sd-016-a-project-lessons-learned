@@ -1,23 +1,23 @@
-body{
+body {
   background-color: rgb(253, 251, 251);
   margin: 0;
 }
-h1, h2, h3{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1 , h2 , h3 {
+  font-family: Geneva, Verdana, sans-serif;
   margin-left: 15px;
   color: darkslategrey;
   margin-bottom: 1px;
 }
-h2{
+h2 {
   font-size: 25px;
 }
-p, li, a{
-  font-family:'Times New Roman', Times, serif;
+p , li , a {
+  font-family: Times, serif;
   letter-spacing: 0.5px;
   margin-left: 15px;
   line-height: 25px;
 }
-#cabecalho{
+#cabecalho {
   position: fixed;
   top: 0;
   text-align: center;
@@ -25,24 +25,24 @@ p, li, a{
   height: 80px;
   width: 100%;
 }
-#minha_foto{
+#minha_foto {
   margin-top: 100px;
   margin-left: 20px;
 }
-#tabela{
+#tabela {
   margin-left: 26px;
   background-color: lightcyan;
   border-spacing: 5px;
   border-color: rgb(253, 251, 251);
   margin-bottom: 20px;
 }
-.lado-esquerdo{
+.lado-esquerdo {
   float: left;
   position: absolute;
   width: 50%;
   margin-top: auto;
 }
-.lado-direito{
+.lado-direito {
   margin-top: 25px;
   margin-left: 57%;
   padding-left: 2px;
@@ -50,31 +50,29 @@ p, li, a{
   margin-right: 300px;
   border: 1px solid gray;
   background-color: rgb(250, 252, 238);
-  margin-bottom: auto;
 }
-#licoes_aprendidas{
+#licoes_aprendidas {
   float: left;
   width: 250px;
   margin-top: auto;
   margin-right: 120px;
 }
-#licoes_a_aprender{
+#licoes_a_aprender {
   margin-top: 70px;
   padding-left: 17px;
   margin-right: 1px;
 }
-#h3aprendidas{
+#h3aprendidas {
   margin-top: -35px;
   margin-left: 15px;
   width: 200px;
   float: left;
   margin-right: 12px;
 }
-#h3aprender{
+#h3aprender {
   margin-top: -35px;
   margin-left: 380px;
   width: 250px;
   position:absolute;
   margin-bottom: 1px;
-  margin-right: 300px;
 }
