@@ -3,6 +3,8 @@ body {
     margin: 0;
     font-family: 'Hind Siliguri', serif;
     font-weight: 400;
+    font-size: 18px;
+    
 }
 
 #cabecalho {
@@ -33,18 +35,31 @@ body {
 }
 
 
-
-
 .lado-direito {
-    width: 350px;
+    display: inline-block;
+    max-width: 34%;
+    margin-right: 50px;
+    
+    font-size: 18px;
     border: 2px solid black;
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
+    
 }
 
 .lado-esquerdo {
-    width: 350px;
+    display: inline-block;
+    max-width: 32%;
     border: 2px solid black;
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
+    font-size: 18px;
 }
+
+/* p, a {
+    color: #ccc;
+}
+
+h3 {
+    color: #535353;
+} */
