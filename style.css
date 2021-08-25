@@ -75,7 +75,7 @@ nav ul {
     
     section {
         max-width: 600px;
-        margin: 2em;
+        padding: 2em;
     }
 
     .profile {
@@ -95,7 +95,7 @@ nav ul {
         border-radius: 50%;
     }
 
-    .secao-licoes ol {
+    .secao-licoes ol, ul {
         border-left: 2px dotted #264653;
     }
 
