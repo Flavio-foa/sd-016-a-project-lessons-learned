@@ -32,3 +32,20 @@ article {
   padding: 22px;
 
 }
+
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+}
+
+.lado-direito {
+  float: right;
+  width: 50%;
+  margin-bottom: 230px;
+}
+
+
+table {
+  padding: 10px;
+  margin-left: 5px;
+}
