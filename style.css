@@ -1,3 +1,4 @@
+/* fiquei me interrogando do que seria isso */
 html {
   width: 1366px;
 }
@@ -6,6 +7,13 @@ body {
   margin: 0;
   background-color: rgb(253, 251, 251);
 }
+
+ul , ol , li {
+  list-style: none;
+}
+
+/* -------------------------
+01. limit-size Selectors */
 
 .limit-size-header {
   width: 1366px;
@@ -16,7 +24,7 @@ body {
 .limit-size-main {
   width: 60%;
   height: 90%;
-  margin: 89px 0 0 24%;
+  margin: 8% 0 0 8%;
   /* background-color: blue; */
 }
 
@@ -30,26 +38,40 @@ body {
   /* background-color: orange; */
 }
 
+.limit-size-aside {
+  /* background-color: tan; */
+  width: 20%;
+  height: 350px;
+  margin: 8% 0 0 4%;
+}
+
+.limit-size-nav {
+  /* background-color: grey; */
+  width: 90%;
+  height: 300px;
+  margin: 8% 0 0 4%;
+  padding: 1px 0 0 12px;
+}
+
 .limit-size-footer {
   width: 1366px;
+  margin-top: 20px;
   /* background-color: purple; */
 }
 
-hr {
-  border: 4px solid rgb(253, 251, 251);
-  border-top: 4px solid rgb(9, 97, 3);
-}
+/* -------------------------
+02. class Selectors */
+
+/* -------------------------
+03. id Selectors */
 
 #cabecalho {
   top: 0;
   position: fixed;
+  border-bottom: 4px solid rgb(9, 97, 3);
 }
 
 #titulo {
-  text-align: center;
-}
-
-.article-image {
   text-align: center;
 }
 
@@ -59,3 +81,21 @@ hr {
   border-radius: 50%;
 }
 
+#rodape {
+  border-top: 2px solid grey;
+}
+
+#content {
+  display: inline-block;
+  border: 2px solid green;
+}
+
+#side-bar {
+  display: inline-block;
+  vertical-align: top;
+  border: 2px solid green;
+}
+
+#article-image {
+  text-align: center;
+}
