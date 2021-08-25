@@ -1,3 +1,39 @@
 body{
   background-color: rgb(253, 251, 251);
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0 auto;
 }
+
+.foto figcaption {
+  font-size: 2em;
+}
+
+.lado-esquerdo {
+  float: left;  
+  max-width: 40%;
+  width: 40%;
+  margin: 20px 0 20px 20px;
+  padding: 22px;
+  line-height: 1.4;
+}
+  
+.lado-direito {
+  float: right;      
+  max-width: 40%;
+  width: 40%;
+  height: 40%;
+  margin-right: 100px;
+}
+
+
+#rodape {
+  bottom: 0;    
+  max-width: 100%;    
+  padding: 50px;    
+  text-align: center;    
+  margin-top: 10px;    
+  border-top: 1px solid #ddd;    
+  clear: both;    
+}
+    
+    
