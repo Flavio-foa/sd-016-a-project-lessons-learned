@@ -7,19 +7,28 @@ header{
     position: fixed;
     left: 150px;
 }
+
 #minha_foto{
     width: 100px;
 }
+
 li{
     font-family: sans-serif;
     color: #B22222;
     font-weight: 200;
 }
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #8B0000;
     font-size: 35px;
 }
+
 .descricao{
     font-weight: 540;
+    font-size: 15px;
 }
+
+a{
+    text-decoration: none;
+} 
