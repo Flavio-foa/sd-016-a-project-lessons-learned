@@ -77,7 +77,7 @@ text-decoration: none;
 #anotacoes{display: inline-block;
     width: 48%;
     border: solid 2px black;
-    padding-bottom: 5px;    
+    padding-bottom: 65px;    
 }
 
 #anotacoes p, h2{margin-left: 15px; 
@@ -85,10 +85,20 @@ text-decoration: none;
 
 .lado-direito{float: right;}
 
-#rodape{border: 30px;
-    font-size: 12px;
-    margin-left: 45%;
-    margin-top: 10px;
-    display: inline-block;
+
+#agenda{display: inline-block;}
+
+#tabela{border: 2px solid black;
+border-spacing: 0px;
+text-align: center;}
+
+#tabela td{border: 1px solid black;
+    padding: 20px 10px;
 }
 
+#rodape{border: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    display: inline;
+}
