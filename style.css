@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Epilogue', sans-serif;
+  font-family: Epilogue, sans-serif;
   margin: auto;
 }
 
@@ -14,7 +14,7 @@ body {
 #titulo {
   text-align: center;
   font-weight: 400;
-  color: rgb(255, 255, 255);
+  color: white;
   margin: 40px auto;
 }
 
@@ -22,6 +22,8 @@ body {
   width: 300px;
   border-radius: 50%;
   margin: auto;
+  padding: 10px 30px;
+  border: rgb(253, 251, 251);
   display: block;
 }
 
@@ -55,17 +57,22 @@ body {
   margin: 20px 20px 20px 0;
 }
 
-#artigo {
+article .lado-esquerdo{
   text-align: center;
-  float: left;
-  position: absolute;
   width: 70%;
-  z-index: 1;
+  float: left;
+  padding-top: 45px;
 }
 
-.lado-esquerdo {
-  margin-top: 80px;
-  margin-left: 30px;
+aside .lado-direito{
+  float: right;
+  width: 20%;
+  text-align: center;
+  margin-right: 20px;
+}
+
+#artigo p {
+  line-height: 19px;
 }
 
 .subtitulo {
@@ -85,15 +92,11 @@ body {
   display: inline-block;
 }
 
-#aside {
-  float: left;
-  position: absolute;
-  top: 550px;
-  width: 20%;
-  z-index: 2;
-  right: 30px;
+#aside p {
+  line-height: 18px;
 }
 
-.lado-direito {
-  text-align: center;
+.fonte-aside {
+  font-size: 19px;
+  margin: 90px auto 30px;
 }
