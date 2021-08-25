@@ -121,7 +121,31 @@
      line-height: 1.4;
    }
 
+   #tabela {
+     margin: 40px auto;
+   }
+
+   #tabela .caption {
+     text-align: center;
+   }
+
+    #tabela, th, td{
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .progresso[value] {
+      appearance: none;
+    }
+
+    .progresso[value]::-webkit-progress-bar {
+      background-color: rgb(253, 251, 251);
+      border: 1px solid #ddd;
+    }
     
+    .progresso[value]::-webkit-progress-value {
+      background-color: #036b52;
+    }
 
     
    #rodape {
