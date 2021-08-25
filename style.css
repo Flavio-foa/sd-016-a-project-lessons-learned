@@ -1,8 +1,7 @@
 body { background-color : rgb(253, 251, 251);
-  font-size : 3em;
   color : green;
-  line-height : 2em;
-  font-family : sans-serif;}
+  line-height : 10px;
+  font-family : Helvetica, Arial, Verdana, Tahoma,sans-serif}
 
 
 #cabecalho { position : fixed;
