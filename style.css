@@ -1,6 +1,7 @@
 * {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;;
 }
+
 #cabecalho {
     position: fixed;
     top: 0;
@@ -9,8 +10,9 @@
     height: 10%;
     border: 2px solid red;
     border-radius: 20px;
-    background-color: #21A179;
+    background-color: #21a179;
 }
+
 #titulo {
     text-align: start;
     margin-top: 0;
@@ -18,14 +20,17 @@
     font-weight: 550;
     font-size: 18pt;
     background-color: seagreen;
-    color: #243E36;
+    color: #243e36;
+    back
     display: inline-block;
     border: 2px solid red;
 }
+
 #conteudo_principal {
     margin-top: 8em;
     border: 2px solid blue;
 }
+
 #minha_foto {
     border-radius: 15%;
     width: 250px;
