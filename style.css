@@ -1,6 +1,8 @@
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
+    font-family: 'Hind Siliguri', serif;
+    font-weight: 400;
 }
 
 #cabecalho {
@@ -11,8 +13,7 @@ body {
     padding: 10px;
     text-align: center;
 }
-
-#titulo{
+#titulo {
     font-family: 'Cabin Sketch', cursive;
     color: white;
     font-size: 72px;
@@ -26,10 +27,24 @@ body {
     border-radius: 50%;
 }
 
-.lado-direito{
-
+.sub-titlle {
+    font-weight: 700;
+    font-size: 31px;
 }
 
-.lado-esquerdo{
 
+
+
+.lado-direito {
+    width: 350px;
+    border: 2px solid black;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+.lado-esquerdo {
+    width: 350px;
+    border: 2px solid black;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
 }
