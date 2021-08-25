@@ -27,7 +27,17 @@ main {
 
 #minha_foto {
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  border-radius: 50%;
+  border: 5px solid rgb(219, 219, 219);
+}
+
+#name-below-photo {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  width: 210px;
+  text-align: center;
+  font-weight: 400;
 }
 
 .lessons {
@@ -36,6 +46,7 @@ main {
   padding-left: 10px;
   padding-right: 10px;
   border: 1px solid black;
+  margin-bottom: 100px;
 }
 
 .lessons h2 {
@@ -59,4 +70,27 @@ main {
   text-align: center;
   margin-bottom: 5px;
   margin-top: 5px;
+}
+
+#external-links ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#external-links ul {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#external-links ul li a {
+  color: white;
+  background-color: rgb(83, 153, 83);
+  text-decoration: none;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+
+#external-links {
+  width: 210px;
+  margin-left: -12px;
 }
