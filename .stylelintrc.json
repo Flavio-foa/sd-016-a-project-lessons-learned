@@ -7,7 +7,7 @@
     "at-rule-no-vendor-prefix": true,
     "at-rule-semicolon-newline-after": "always",
     "block-closing-brace-newline-after": "always",
-    "block-no-empty": true,
+    "block-no-empty": false,
     "block-opening-brace-space-after": "always-single-line",
     "block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
