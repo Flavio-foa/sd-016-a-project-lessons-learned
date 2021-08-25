@@ -5,10 +5,30 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;
-  margin-left: 50%;
+  margin-left: 35%;
   border: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+img {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#licoes_aprendidas {
+  color: green;
+}
+
+#licoes_a_aprender {
+  color: rgb(172, 6, 6);
+}
+
+article {
+  line-height: 25px;
 }
 
 #navegacao {
   padding: 22px;
+
 }
