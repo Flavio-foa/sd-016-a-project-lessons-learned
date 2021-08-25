@@ -16,3 +16,7 @@ nav ul li {
   display: inline;
   font-size: 20px;
 }
+
+img {
+  border-radius: 50%;
+}
