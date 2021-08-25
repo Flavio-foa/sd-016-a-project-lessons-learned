@@ -17,7 +17,8 @@ body{
        
     }
     #minha_foto{
-        position: fixed;
+        
+        bottom: 0;
         top: 106px;
         left: 0;
         width: 15%;
@@ -29,10 +30,7 @@ body{
        
        
     }
-    .alinhamento2{
-        margin-top: -278px;
-        margin-left: 48%;
-    }
+    
     #font{
         font-size: 25px;
     }
@@ -43,7 +41,7 @@ body{
         font-size: large;
     }
    .rodape1{
-       position: fixed;
+       
        bottom: 0;;
    }
     
