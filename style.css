@@ -27,8 +27,8 @@
      margin: 100px 0 0 20px;
      padding: 20px;
      text-align: center;
-     min-width: 40%;
-     max-width: 40%;
+     width: 80%;
+     margin: 0 auto;
   }
 
  .foto_borda figcaption {
@@ -41,6 +41,41 @@
     max-height: 200px;
     border-radius: 250px;
   }
+
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.lado-esquerdo {
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  max-width: 40%;
+  width: 40%;
+  margin: 20px 0 20px 20px;
+  padding: 22px;
+  line-height: 1.4;
+}
+
+.lado-direito {
+    float: right;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    max-width: 40%;
+    width: 40%;
+    height: 40%;
+    margin-right: 100px;
+}
+
+.passagem {
+    padding: 22px;
+    line-height: 1.4;
+}
+
 
   .artigo_um {
      margin: 20px 0 0 20px;
@@ -68,39 +103,9 @@
      line-height: 1.4;
    }
 
-    .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: baseline;
-    }
+    
 
-    .lado-esquerdo {
-      float: left;
-      border: 1px solid #ddd;
-      border-radius: 25px;
-      max-width: 40%;
-      width: 40%;
-      margin: 20px 0 20px 20px;
-      padding: 22px;
-      line-height: 1.4;
-    }
-
-    .lado-direito {
-        float: right;
-        border: 1px solid #ddd;
-        border-radius: 25px;
-        max-width: 40%;
-        width: 40%;
-        height: 40%;
-        margin-right: 100px;
-    }
-
-    .passagem {
-        padding: 22px;
-        line-height: 1.4;
-    }
-
+    
    #rodape {
      bottom: 0;
      max-width: 100%;
