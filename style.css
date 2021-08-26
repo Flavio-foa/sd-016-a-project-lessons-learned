@@ -22,11 +22,13 @@ body {
     width: 300px;
     float: left;
     margin-right: 20px;
-    margin-top: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border-top-right-radius: initial;
 }
 
 h2 {
-    margin-left: 30px;
+    margin-left: 90px;
 }
 
 section {
@@ -69,8 +71,16 @@ aside {
     width: 400px;
 }
 
-.image-coteiner {
-    display: inline-block;
+.lado-esquerdo {
     margin-left: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.lado-direito {
+    display: inline-block;
+    text-align: center;
+}
+
     
  
