@@ -138,14 +138,14 @@ table a:hover {
   border-radius: 50px;
 }
 
-#artigo p, #experiencia p {
+#artigo p , #experiencia p {
   background-color: rgb(52, 89, 149);
   color: white;
   padding: 15px;
   border-radius: 25px;
 }
 
-#experiencia h2, #licoes_aprendidas h2, #licoes_a_aprender h2 {
+#experiencia h2 , #licoes_aprendidas h2 , #licoes_a_aprender h2 {
   text-align: center;
   padding: 3px;
   background-color: rgb(52, 89, 149);
