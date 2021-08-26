@@ -10,6 +10,7 @@ header{
 
 #minha_foto{
     width: 100px;
+    padding: 5px 5px 5px 5px;
 }
 
 li{
@@ -36,4 +37,8 @@ a{
     width: 300px;
     font-size: 15px;
     margin: 20px;
+}
+
+nav {
+    border-width: 30px;
 }
