@@ -1,15 +1,16 @@
 body{
   font-family: "Hina Mincho";
   margin: 0;
+  background-color: #255;
 }
 p, li{
-  color: #255;
+  color:black;
   font-size: 18px;
   font-weight: 200;
   margin-left: 10px;
 }
 h2{
-  color: #251;
+  color: black
   line-height: 20px;
   font-weight: 200;
   font-size: 24px;
@@ -26,17 +27,14 @@ h2{
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  margin-left: 15px;
+  margin-bottom: 50px;
 }
 .cabecalho{
   position: fixed;
-  top: 0;
-  left: 0;
   background-color: #251;
   padding: 5px 100px;
-  background-position-y: top ;
 }
-.background{
-  background-color:#255 #251 #251;
 
 }
 .header{
@@ -51,5 +49,12 @@ h2{
   display: inline-block;
   padding: 15px;
 
+}
+.artigo{
+  background-color: #251;
+}
+.width-txt{
+  max-width: 80%;
+  padding-left: 10px;
 }
 
