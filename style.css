@@ -74,3 +74,13 @@ a.social_codpen {
 a.social_behance { 
   background-image: url(../img/behance.png);  background-size: 100%;
 }
+
+article[class^="lado"], aside[class^="lado"] {
+  width: 50%;
+}
+.lado-esquerdo {
+  float: left;
+}
+.lado-direito {
+  float: right;
+}
