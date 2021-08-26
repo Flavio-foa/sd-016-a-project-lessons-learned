@@ -1,3 +1,12 @@
+body {
+  Width: 1366px;
+  height: 768px;
+  font-family: 'Montserrat', courier;
+  background-color: rgb(253, 251, 251);
+  Top: 0;
+  position: fixed;
+}
+
 .aprendidas {
 	background-position: 50% 25%;
 	padding: 60px 30px 40px 30px;
