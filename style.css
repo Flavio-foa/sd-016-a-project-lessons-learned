@@ -2,9 +2,10 @@ body{
     background-color: rgb(253, 251, 251);
 }
 
-.cabecalho{
+header{
     top: 0px;
     position: fixed;
+    left: 150px;
 }
 
 #minha_foto{
@@ -15,6 +16,7 @@ li{
     font-family: sans-serif;
     color: #B22222;
     font-weight: 200;
+    letter-spacing: 1px;
 }
 
 h1{
