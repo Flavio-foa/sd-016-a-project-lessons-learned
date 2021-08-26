@@ -34,6 +34,7 @@ body {
   margin-left: 580px;
   margin-top: -96px;
   margin-bottom: 200px;
+  line-height: 20px;
 }
 #licoes_a_aprender {
   margin: 0px;
@@ -43,6 +44,7 @@ body {
   margin-left: 1050px;
   margin-top: -390px;
   margin-bottom: 190px;
+  line-height: 20px;
 }
 #footer {
 
