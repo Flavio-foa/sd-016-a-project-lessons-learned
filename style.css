@@ -7,6 +7,7 @@ body {
   position: fixed;
   top: 0;
   background-color: rgb(86, 171, 145);
+  display: inline-block;
 }
 
 #titulo {
@@ -28,9 +29,23 @@ body {
   line-height: 25px;
 }
 
+#aprendizado {
+  margin: 0 auto;
+  padding: 40px;
+  border: solid 1px rgb(86, 171, 145);
+  max-width: 80%;
+  text-align: center;
+}
+
+#aprendizado p {
+  line-height: 30px;
+}
+
 #rodape {
   background-color: rgb(86, 171, 145);
-  height: 100px;
+  height: auto;
+  padding: 20px;
+  margin-top: 40px;
 }
 
 .rodape_link {
@@ -38,6 +53,13 @@ body {
 }
 
 .rodape_icon {
-  display: block;
-  padding: 50px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.rodape_frase {
+  color: rgb(253, 251, 251);
+  font-size: 20px;
+  margin: 0;
 }
