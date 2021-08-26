@@ -10,15 +10,11 @@ header {
   top: 0;
 }
 
-nav {
-  display: inline;
-}
-
 nav ol {
-  display: inline;
+  display: inline-block;
 }
 
 nav ul {
   list-style-type: square;
-  display: inline;
+  display: inline-block;
 }
