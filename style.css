@@ -5,18 +5,63 @@ body {
   background-color: rgb(253, 251, 251);
   Top: 0;
   position: fixed;
+  
 }
+
+h3 {
+  margin: 80px 20px 10 0;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
 img {
-  float:left;
-  padding: 15px 30px;
+  float: left ;
+  display: block;
+  background-size: cover;
+}
+
+.licoes{
+  margin: 10px;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .aprendidas {
-	background-position: 50% 25%;
-	padding: 60px 30px 40px 30px;
+  display: inline-block;
+  margin-top: 10px; 
+}
+.aprendidas h3{
+  margin-left: 10px;
 }
 
 .aprender {
-	background-position: 50% 25%;
-	padding: 60px 30px 40px 30px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.aprender h3{
+  margin-left: 20px;
+}
+
+.navigation {
+  background-color: lightgrey;
+  padding: 0 30px;
+}
+
+.navigation ul {
+  padding: 5px 0;
+}
+
+.navigation li {
+  margin-right: 100px;
+  list-style-type: none;
+  display: inline;
+}
+
+.navigation li a {
+  color: green;
+  text-decoration: none;
 }
