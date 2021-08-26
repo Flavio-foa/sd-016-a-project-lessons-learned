@@ -3,31 +3,41 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   color:darkgreen;
   text-align: center;
-  
 }
 
 #cabecalho{
   position: fixed;
   top: 0;
-  padding:;
-       
+  font-family:'Courier New', Courier, monospace    
+}
+
+nav{
+  text-align: left;
+  font-weight: bold;
+}
+
+nav>a:hover{
+  font-style: italic;
 }
 
 #titulo{
   color: black;
-  
-
 }
 
 #minha_foto{
   margin-top:120px;
-  width: 400px;
-  
+  width: 400px; 
+}
+
+table{
+  border: 1px solid black;
 }
 
 .lista{
-  margin: 0;
-  text-align: center;
+  clear: both;
+  /* o clear vai servir para evitar que a lista suba 
+  "especifica se um elemento pode ter elementos float ao seu lado*/
+  margin-bottom: 40px;
 }
 
 #licoes_aprendidas{
@@ -38,53 +48,39 @@ body{
 #licoes_a_aprender{
   display: inline-block;
   text-align: center;
-  margin-left: 40px;
-  
-
-}
-
-.licoes{
-  color:black;
-    
+  margin-left: 50px;
 }
 
 #link{
   text-align: center;
-  margin-bottom: 10px;
-  
 }
 
-.main-article{
-  
+#link h2>b:hover{
+  font-style: italic;
 }
 
 .lado-esquerdo{
-  border: 1px solid white;
   float: left;
-  max-width: 50%;
-  display: inline-block;
-  margin-left: 50px;
+  max-width: 60%;
   margin-top: 30px;
-  
-  
-
+  margin-left: 80px;
+  margin-bottom: 30px;
+  /* margin: 30px 0px 30px 80px; --> o equivalent às margens acima */
+  border: 1px solid green
 }
   
 .lado-direito{
-  border: 1px solid white;
+  border: 1px solid green;
   float: right;
-  max-width: 40%;
-  display: inline-block;
-  margin-right: 60px;
+  max-width: 30%;
+  margin-right: 80px;
   margin-top: 30px;  
   
-
 }
 
 #rodape > h3{
   text-align: center;
   background-color: cornsilk;
   margin: auto;
-  padding: 5px;
-  
+  padding: 8px;
 }
