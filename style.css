@@ -1,0 +1,26 @@
+body{
+  font-family: "Hina Mincho";
+}
+p, li{
+  color: #255;
+  font-size: 18px;
+  font-weight: 200;
+}
+h2{
+  color: #251;
+  line-height: 20px;
+  font-weight: 200;
+  font-size: 24px;
+}
+.rounded-photo{
+  border-radius: 90%;
+}
+.button{
+  color: black;
+  background-color: blueviolet;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
