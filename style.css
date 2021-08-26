@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    padding: 25px;
+    background-color: greenyellow;
+}
+
+main{
+    padding-top: 130px;
+}
+
+ul, ol{
+    display: inline-block;
+}
+
+img{
+    display: block;
+}
+
+article{
+    width: 40%;
+}
+
+aside{
+    width: 40%;
+} 
