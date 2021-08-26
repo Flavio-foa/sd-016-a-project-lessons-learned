@@ -4,7 +4,7 @@ body {
 
 #cabecalho{
   position: fixed;
-  top: 0;
+  top: 0; /*left: 0;*/
   border: solid black;
   background-color: black;
   width: 100%;
@@ -36,15 +36,24 @@ h1{
 }
 
 .lado-direito{
-  display: inline-block;
-  /*align-items: right;
-  border: solid black;;
-  width: 30%;*/
+  display: inline-block;  
+  /*align-items: right;       margin: 0 0 0 5%;
+  border: solid black;        height: 247px;
+  width: 30%;             vertical-align: top;*/     
   /*position:absolute;
 right:0px;*/
 padding: 10px 2px;
 width:200px;
 background-color: blue;
-
 }
+
+#table_style{
+  display: inline-block;
+  /* float: none; */
+  
+  vertical-align: middle ;
+  text-align: center;
+}
+
+
 
