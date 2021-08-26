@@ -1,16 +1,19 @@
 body{
   font-family: "Hina Mincho";
+  margin: 0;
 }
 p, li{
   color: #255;
   font-size: 18px;
   font-weight: 200;
+  margin-left: 10px;
 }
 h2{
   color: #251;
   line-height: 20px;
   font-weight: 200;
   font-size: 24px;
+  margin-left: 10px;
 }
 .rounded-photo{
   border-radius: 90%;
@@ -24,3 +27,29 @@ h2{
   line-height: 20px;
   text-decoration: none;
 }
+.cabecalho{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #251;
+  padding: 5px 100px;
+  background-position-y: top ;
+}
+.background{
+  background-color:#255 #251 #251;
+
+}
+.header{
+  margin-left: 5px;
+  margin-top: 100px;
+  margin: auto;
+  padding: 10px;
+
+}
+.header-txt{
+  max-width: 60%;
+  display: inline-block;
+  padding: 15px;
+
+}
+
