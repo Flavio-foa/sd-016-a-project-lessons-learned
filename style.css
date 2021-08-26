@@ -22,13 +22,14 @@ body {
     width: 300px;
     float: left;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 150px;
     border-radius: 50%;
     border-top-right-radius: initial;
 }
 
-h2 {
-    margin-left: 90px;
+#nome {
+    margin-left: 1000px;  
+    margin-bottom: -10px;  
 }
 
 section {
