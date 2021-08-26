@@ -6,6 +6,10 @@ body {
   Top: 0;
   position: fixed;
 }
+img {
+  float:left;
+  padding: 15px 30px;
+}
 
 .aprendidas {
 	background-position: 50% 25%;
