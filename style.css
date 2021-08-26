@@ -131,11 +131,12 @@ table {
   border-radius: 45px;    
 }
 
-h4 {  
+#aluna-trybe {  
   font-family: 'Roboto';
   margin-left: 110px;
   margin-top: -20px;
-  color: #7b7b7b;    
+  color: #7b7b7b;
+  font-size: 20px;    
 }
 
 #h2-estilizado {
@@ -149,7 +150,7 @@ h4 {
   height: 500px;
   width: 1400px;
 }
-h5 {
+#tabela-licoes {
   font-size: 45px;
   margin-top: 255px;
   margin-left: 50px;
