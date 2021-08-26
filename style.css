@@ -20,6 +20,7 @@ img {
   float: left ;
   display: block;
   background-size: cover;
+  width: 15%;
 }
 
 .licoes{
@@ -49,6 +50,7 @@ img {
 .navigation {
   background-color: lightgrey;
   padding: 0 30px;
+  width: 50%;
 }
 
 .navigation ul {
@@ -56,7 +58,8 @@ img {
 }
 
 .navigation li {
-  margin-right: 100px;
+  
+  margin-left: 140px;
   list-style-type: none;
   display: inline;
 }
