@@ -11,7 +11,7 @@ header {
 }
 
 header h1 {
-  color:forestgreen;
+  color: forestgreen;
 }
 
 nav ol {
@@ -19,7 +19,7 @@ nav ol {
 }
 
 nav ul {
-  list-style:square;
+  list-style: square;
   display: inline-block;
 }
 
@@ -27,5 +27,5 @@ nav #ul3 {
   display: block;
   text-align: center;
   list-style-type: none;
-  
+
 }
