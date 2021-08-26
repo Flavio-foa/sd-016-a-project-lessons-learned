@@ -8,6 +8,11 @@ body {
   
 }
 
+h4 {
+  margin: 0 0 20px;
+}
+
+
 h3 {
   margin: 80px 20px 10 0;
 }
@@ -17,10 +22,10 @@ p {
 }
 
 img {
-  float: left ;
+  float: right ;
   display: block;
-  background-size: cover;
   width: 15%;
+  margin-right: 55%;
 }
 
 .licoes{
@@ -67,4 +72,26 @@ img {
 .navigation li a {
   color: green;
   text-decoration: none;
+}
+.article {
+  padding: 15px;
+}
+
+.article-small {
+  display: inline-block;
+  width: 30%;
+  margin-right: 10px;
+  padding: 15px;
+  margin-top: 40px
+}
+.content {
+  max-width: 1200px;
+  margin: auto;
+  flex-grow: 1;
+}
+
+.main-content {
+  width: 66%;
+  display: inline-block;
+
 }
