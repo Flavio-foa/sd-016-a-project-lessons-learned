@@ -39,11 +39,23 @@ body {
   position: fixed;
   top: 75px;
   right: 20px;
-  height: 20px;
+  height: 30px;
   padding: 10px;
   border-radius: 20px;
   z-index: 1;
   background-color: gainsboro;
+  display: inline-block;
+}
+
+.github {
+  width: 90px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.linkedin{
+  width: 30px;
+  margin-bottom: 10px;
 }
 
 a {
