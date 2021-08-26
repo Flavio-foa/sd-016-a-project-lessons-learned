@@ -2,6 +2,7 @@
 
 body {
   --cor_primaria: #ff8707;
+  --padin_entre_colunas: 80px;
 
   background-color: rgb(253, 251, 251);
   font-family: 'lato', serif;
@@ -78,11 +79,21 @@ a.social_behance {
 }
 
 article[class^="lado"], aside[class^="lado"] {
-  width: 50%;
+  width: calc(50% - var(--padin_entre_colunas));
 }
 .lado-esquerdo {
   float: left;
+  padding-right: var(--padin_entre_colunas);
+
 }
 .lado-direito {
   float: right;
+  padding-left: var(--padin_entre_colunas);
 }
+
+section {
+  width: 60%;
+  margin: auto;
+  clear: both; /* coloquei isso para 
+}
+
