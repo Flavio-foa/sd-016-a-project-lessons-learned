@@ -10,11 +10,22 @@ header {
   top: 0;
 }
 
+header h1 {
+  color:forestgreen;
+}
+
 nav ol {
   display: inline-block;
 }
 
 nav ul {
-  list-style-type: square;
+  list-style:square;
   display: inline-block;
+}
+
+nav #ul3 {
+  display: block;
+  text-align: center;
+  list-style-type: none;
+  
 }
