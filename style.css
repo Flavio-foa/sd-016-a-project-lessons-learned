@@ -8,38 +8,35 @@ body{
     top: 0;
     text-align: center;
     left: 700px;
-    z-index: 1;
     font-size: 20px;
+
+}
+}
+main{
+    margin-top: 150px;
 }
 
 #minha_foto{
     position: absolute;
-    z-index: 2;
     top: 10%;
     width: 200px;
     height: 200px;
     left: 1%;
-    margin-right: 400px;
+    margin-right: 200px;
     border-radius: 50%;
     float: left;
+    margin-top: 100px;
 }
 
 #artigo{
-    position:relative;
-    z-index: 3;
-    max-width: 1200px;
-    height: 20%;
-    top: 50%;
+    height: 50px;
     padding: 15%;
-    margin-right: 10%;
-    flex-grow: 1;
-    float: right;
-    left: 250px;
-
+    margin-top: 250px;
+    max-width: 1200px;
+    margin-left: -15%;
 }
 
  #licoes_aprendidas {
-    z-index: 4;
     display: inline-block;
  }
 
@@ -57,4 +54,15 @@ h2{
 
 .licao2 {
     float: right;
+}
+
+#artigo-secao1{
+    display: inline-block;
+}
+
+#artigo-secao2{
+    float: right;
+    height: 1%;
+    width: 1%;
+    display: inline-block;
 }
