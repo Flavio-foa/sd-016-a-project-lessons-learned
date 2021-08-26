@@ -4,6 +4,7 @@ body {
 
 main {
     margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif   ;
 }
 
 .menu li {
@@ -14,12 +15,17 @@ main {
 
 .tabela {
     margin-top: 30px;
-    border: 1px solid black;
 }
 
 #cabecalho {
     position: fixed;
     top: 0;
+}
+
+#rodape {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
 }
 
 #minha_foto {
@@ -30,11 +36,16 @@ main {
 #link-externo {
     text-decoration: none;
     font-size: 16px;
-    background-color: lightcoral;
+    color: red;
 }
 
 #listas {
     margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#textos {
+    margin-bottom: 100px;
 }
 
 #aprendizado aside {
@@ -45,5 +56,4 @@ main {
     display: inline-block;
     padding: 15px;
     width: 40%;
-    border: 1px solid black;
 }
