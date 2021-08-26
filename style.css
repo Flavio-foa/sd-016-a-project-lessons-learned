@@ -1,10 +1,9 @@
-
 body {
 	background-color: rgb(253, 251, 251);
 }
 
-header {
-	position:fixed;
+# {
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	right: 0px;
@@ -18,3 +17,30 @@ header {
 	margin-right: 0px;
 	}
 
+#minha_foto {
+	border: 1px solid;
+}
+
+#section {
+	position: relative;
+	border: 1px solid;
+	border-color: black;
+	margin-top: 100px;
+	margin-left: 1000px;
+	margin-right: 10px;
+	padding: 10px;;
+}
+
+#aprendizado {
+	position: relative;
+	border: 1px solid;
+	padding: 10px;
+	margin-right: 1000px;
+	bottom: 595px;
+}
+
+#rodape {
+	position: fixed;
+	bottom: 0px;
+
+}
