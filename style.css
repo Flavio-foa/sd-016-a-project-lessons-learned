@@ -1,24 +1,19 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+    background-color: rgb 253, 251, 251;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0;
-    background-color: #457d2b;
-    
+    background-color: #457d2b;   
     width: 100%;
 }
-#titulo{
+#titulo {
     color: #cfdfc7;
     padding: 20px;
 }
-
-.nav{
+.nav {
     background-color: teal;
     color: #cfdfc7;
     text-decoration: none;
@@ -26,80 +21,61 @@ body{
     font-weight: bolder;
     position:relative;
 }
-#minha_foto{
+#minha_foto {
     width: 150px;
-    padding: 60px;
-   
-    
-    
+    padding: 60px;    
 }
-
-.principal{
+.principal {
     color: #3b3a3e;
     display: inline;
     margin-top: 100px;
     width: 80%;    
 }
-#artigo{
-    
+#artigo {   
     width: 60%;
     display: inline-block;  
     text-align: justify;    
-    
 }
-
-aside{
+aside {
     margin-top: 130px;
     width: 16%;
     text-align: justify;
     float: right;
     padding: 40px;
     color: #3b3a3e;
-    
 } 
-
-
-
-article{
+article {
     margin-top: 120px;
     display: inline-block;
     color: #3b3a3e;
     width: 75%;
     margin-right: 30px;
-    background-color: #b7b2c3;   
-    
-    
+    background-color: #b7b2c3;     
 }
-article h1{
+article h1 {
     padding: 20px;
     color: #3b3a3e;
-    
-   
-    
-    
 }
-article p{
+article p {
     padding: 20px;
     color: #3b3a3e;
     text-align: justify; 
     float: right;  
     margin-top: -20px;  
 }
-
-.conteudo{
+.conteudo {
     width: 60%;
     float: right;
     margin-left: 0;
     padding: 0 auto;
-
 }
-.lessons{
+.lessons {
     width: 40%;
     float: right;
     color: #3b3a3e;
     padding: 40px;
 }
-#rodape a{
+#rodape a {
     text-decoration: none;
     width: 100%;
     bottom: 0;  
@@ -110,5 +86,4 @@ article p{
     color: #cfdfc7;
     font-weight: bolder;
     font-size: 20px;
-    
 }
