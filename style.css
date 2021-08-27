@@ -8,12 +8,16 @@ color: black;
 #cabecalho{
 position:fixed;
 top: 0px;
-left:0px
+right: 0px;
+background-color: black;
+left: 500px;
 }
 
-#titulo{   
+
+#titulo, h1{   
 font-family: fantasy;
 color: olivedrab; 
+font-size: 60px;
 }
 
 #minha_foto{
@@ -39,21 +43,27 @@ margin: auto;
 
 #licoes_aprendidas{
 margin: auto;
+}
+
+.lado-esquerdo{
 line-height: 21px;
 border: 5px solid olivedrab;
 width: 200px;
 display: inline-block;
-margin-left: 20px;
+ margin-left: 20px;
 }
 
 #licoes_a_aprender{
 margin: auto; 
+}
+
+.lado-direito{
 line-height: 21px;
 border: 5px solid olivedrab;    
 width: 200px;
 display: inline-block;   
 margin-right: 100px; 
-margin:20px;  
+margin:20px; 
 }
 
 #rodape p{
@@ -65,14 +75,14 @@ margin-left: 50px;
 border: 2px solid olivedrab
 }
 
-.lado-esquerdo{
+#firstt{
 width: 600px;
 right: 100px;
 bottom: 350px;
 border: 3px solid olivedrab;    
 }
 
-.lado-direito{
+#secondt{
 width: 600px;
 right: 100px;
 bottom: 250px;
