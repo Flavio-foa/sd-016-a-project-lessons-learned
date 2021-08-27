@@ -10,7 +10,7 @@ body{
     top:0%;
     width: 100%;
     background-color: rgb(131, 173, 149);
-    
+    margin: 0%;
 
 }
 
@@ -25,7 +25,20 @@ body{
     width: 300px;
     height: 300px;
     padding: 100px 15px;
+    border-radius: 50%;
+    
 
 }
+
+article{
+    width: 80%;
+}
+
+aside{
+
+    height: 100px;
+    width:20%;
+}
+
 
 
