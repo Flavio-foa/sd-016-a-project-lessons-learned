@@ -64,14 +64,17 @@ table {
 }
 
 article {
+  text-align: center;
+}
+
+.lado-direito {
   float: left;
   width: 35%;
-  text-align: center;
-  margin-top: 5%;
+  margin-top: 7%;
   margin-bottom: 8.2%;
 }
 
-.licoes {
+.lado-esquerdo {
   float: left;
   width: 40%;
   clear: both;
