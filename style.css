@@ -46,7 +46,7 @@ body {
 		margin-right: 100%;
 	}
 
-	#aprendizado {
+	#article {
 		position: relative;
 		width: 900px;
 		height: 200px;
@@ -67,7 +67,7 @@ body {
 		margin-top: 100%;
 	}
 	
-	#passagem {
+	#aside {
 		position: relative;
 		width: 900px;
 		height: 150px;
