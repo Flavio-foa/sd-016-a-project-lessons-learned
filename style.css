@@ -4,7 +4,9 @@ body {
   font-family: 'Montserrat', courier;
   background-color: rgb(253, 251, 251); 
 }
-
+h1 {
+  margin: 0 0 20px;
+}
 
 h3 {
   margin: 0 0 20px;
@@ -15,15 +17,34 @@ h2{
 }
 
 img {
-  float: right ;
   display: inline-block;
   width: 15%;
-  margin-right: 45%;
+  margin-left: 45%;
 }
 
-.cabecalho{
+#cabecalho{
   Top: 0;
   position: fixed; 
+  color: white;
+}
+
+.title-container {
+  background-color: rgb(10, 126, 81);
+  padding: 10px 10px 0;
+}
+
+.navLinkExt {
+  background-color: cornflowerblue;
+  padding: 10px 30px 0;
+}
+
+.navLinkExt ul {
+  padding: 5px 0;
+}
+
+.navLinkExt a {
+  color: white;
+  text-decoration: none;
 }
 
 .licoes{
@@ -36,8 +57,10 @@ img {
   display: inline-block;
   margin-top: 10px; 
 }
+
 .aprendidas h2{
   margin-left: 10px;
+  
 }
 
 .aprender {
@@ -57,41 +80,43 @@ img {
 
 .aprendizado {
   background-color: lightgrey;
-  width: 45%;
+  width: 30%;
   display: inline-block;
   max-width: 1200px;
   margin: 10px;
-  padding: 15px;
+  font-family: 'Montserrat', courier;
+  font-size:small;
 }
 
 .aconteceu {
   background-color: lightgrey;
   margin: 10px;
   padding: 20px;
-  width: 290px;
+  width: 200px;
   display: inline-block;
-  vertical-align: top;
+  font-family: 'Montserrat', courier;
+  font-size:small;
+  line-height: 150%
 }
 
 .navRodape {
-  background-color: rgb(160, 145, 145);
-  padding: 20px;
+  background-color: cornflowerblue;
+  padding: 0 30px;
   width: 71%;
 }
 
 .navRodape ul {
-  padding: 5px 5px;
+  padding: 5px 0;
+  display: inline;
+}
+
+.navRodape li {
+  margin-right: 40px;
+  list-style-type: none;
   display: inline;
 }
 
 .navRodape li a {
   color: green;
   text-decoration: none;
-  list-style-type: none;
-}
-
-.navLinkExt {
-  background-color: rgb(160, 145, 145);
-  padding: 10px;
-  width: 10%;
 }
