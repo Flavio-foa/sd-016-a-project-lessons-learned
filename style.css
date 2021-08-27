@@ -1,9 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
-}
-
-body {
-  font-family: 'Montserrat'; color: blue; font-size: 15px; line-height: 2;
+  font-family: "Montserrat"; 
+  color: blue; 
+  font-size: 15px; 
+  line-height: 2;
 }
 
 #cabecalho {
