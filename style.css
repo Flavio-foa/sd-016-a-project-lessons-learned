@@ -28,15 +28,12 @@ body {
 }
 
 #licoes_aprendidas {
-}
-
-#image02 {
+  display: inline-block;
 }
 
 #licoes_a_aprender {
-  float: left;
-  margin-left: 50%;
-  margin-bottom: 200%;
+  display: inline-block;
+  margin-left: 30%;
 }
 
 #rodape {
@@ -44,7 +41,7 @@ body {
 }
 
 #lado-esquerdo {
-  padding-top: 350px;
+  padding-top: 150px;
   float: left;
   position: absolute;
   display: block;
@@ -55,9 +52,10 @@ body {
 
 #lado-direito {
   position: absolute;
-  padding-top: 350px;
-  margin-left: 70%;
+  padding-top: 150px;
+  margin-left: 56%;
   float: right;
   text-align: justify;
+  padding-right: 20%;
 }
 
