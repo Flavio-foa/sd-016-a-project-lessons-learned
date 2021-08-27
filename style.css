@@ -2,13 +2,14 @@
 
 body {
   --cor_primaria: #ff8707;
-  --padin_entre_colunas: 80px;
+  --padding_entre_colunas: 50px;
 
   background-color: rgb(253, 251, 251);
   font-family: 'lato', serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 2em;
+  box-sizing: border-box;
 }
 
 header {
@@ -78,22 +79,30 @@ a.social_behance {
   background-image: url(../img/behance.png);  background-size: 100%;
 }
 
+.conteiner_avatar {
+  margin-top: 50px;
+  border: solid 5px blue;
+}
+
 article[class^="lado"], aside[class^="lado"] {
-  width: calc(50% - var(--padin_entre_colunas));
+  width: calc(50% - var(--padding_entre_colunas));
 }
 .lado-esquerdo {
   float: left;
-  padding-right: var(--padin_entre_colunas);
+  padding-right: var(--padding_entre_colunas);
 
 }
 .lado-direito {
   float: right;
-  padding-left: var(--padin_entre_colunas);
+  padding-left: var(--padding_entre_colunas);
 }
 
 section {
   width: 60%;
   margin: auto;
-  clear: both; /* coloquei isso para 
+  clear: both; /* coloquei isso para  */
 }
-
+table {
+    background: olive;
+    margin: auto;
+}
