@@ -31,7 +31,14 @@ a{
     text-decoration: none;
 }
 
-.descrition{
+.lado-esquerdo{
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.lado-direito{
     display: inline-block;
     width: 300px;
     font-size: 15px;
