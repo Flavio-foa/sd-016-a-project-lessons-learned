@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Roboto&display=swap');
+
 body {
 	background-color: rgb(253, 251, 251);
 }
+	h2 {
+		font-family: 'Hina Mincho', serif;
+	}
+
+	p {
+		font-family: 'Roboto', sans-serif;
+	}
 
 	#cabecalho {
 		position: fixed;
@@ -59,13 +68,15 @@ body {
 	}
 	
 	#passagem {
+		position: relative;
+		width: 900px;
+		height: 150px;
 		border: 1px solid;
-		border width: 100px;
-		border height: 50px;
+		padding: 10px;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		margin-left: 10px;
 		margin-right: 10px;
-		bottom: 100000px;
-		left: 0px;
+		right: 10px;
+		bottom: 800px;
 	}
