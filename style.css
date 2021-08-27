@@ -1,6 +1,6 @@
 body{
   background-color: rgb(253, 251, 251);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color:darkgreen;
   text-align: center;
 }
@@ -25,8 +25,8 @@ nav>a:hover{
 }
 
 #minha_foto{
-  margin-top:120px;
   width: 400px; 
+  margin-bottom: 30px;
 }
 
 table{
@@ -43,12 +43,14 @@ table{
 #licoes_aprendidas{
   display: inline-block;
   text-align: center;
+  padding:10px;
 }
 
 #licoes_a_aprender{
   display: inline-block;
   text-align: center;
   margin-left: 50px;
+  padding:10px;
 }
 
 #link{
@@ -61,26 +63,29 @@ table{
 
 .lado-esquerdo{
   float: left;
-  max-width: 60%;
-  margin-top: 30px;
-  margin-left: 80px;
+  padding: 10px;
+  max-width: 50%;
+  margin-left: 180px;
   margin-bottom: 30px;
   /* margin: 30px 0px 30px 80px; --> o equivalent às margens acima */
   border: 1px solid green
+
 }
   
 .lado-direito{
   border: 1px solid green;
   float: right;
-  max-width: 30%;
-  margin-right: 80px;
-  margin-top: 30px;  
-  
+  max-width: 20%;
+  margin-right: 170px;
+  padding: 10px;
+
 }
 
 #rodape > h3{
   text-align: center;
   background-color: cornsilk;
   margin: auto;
+  border: 1px solid black;
   padding: 8px;
+  font-family:monospace
 }
