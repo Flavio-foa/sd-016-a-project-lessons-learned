@@ -49,7 +49,7 @@ ul {
 }
 
 #lista {
-  display:inline-block;
+  display: inline-block;
 }
 
 .lado-esquerdo {
@@ -68,7 +68,7 @@ ul {
 }
 
 #sectiontable {
-  text-align: center; 
+  text-align: center;
   margin-bottom: 70px;
 }
 
