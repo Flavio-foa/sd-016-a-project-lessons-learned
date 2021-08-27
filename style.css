@@ -48,12 +48,12 @@ h2{
     width: 30%;
 }
 
-#artigo-secao1{
+.lado-direito{
     display: inline-block;
     width: 30%;
 }
 
-#artigo-secao2{
+.lado-esquerdo{
     width: 30%;
     display: inline-block;
     padding-bottom: 40px;
