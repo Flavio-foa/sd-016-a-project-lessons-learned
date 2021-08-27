@@ -65,14 +65,14 @@ margin-left: 50px;
 border: 2px solid olivedrab
 }
 
-#firstt{
+.lado-esquerdo{
 width: 600px;
 right: 100px;
 bottom: 350px;
 border: 3px solid olivedrab;    
 }
 
-#secondt{
+.lado-direito{
 width: 600px;
 right: 100px;
 bottom: 250px;
