@@ -5,7 +5,6 @@ body {
   font-family: fantasy;
   max-width: 100%;
 
- 
 }
 
 
@@ -20,9 +19,9 @@ body {
   font-weight: 550;
   font-size: 18pt;
   line-height: 18pt;
-  /*background-color: #047753;*/
-  color: rgb(7, 7, 7);
 
+  /* background-color: #047753; */
+  color: rgb(7, 7, 7);
 
 }
 
@@ -32,11 +31,11 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  /*padding-bottom: 20px;*/
+
+  /* padding-bottom: 20px; */
   width: 100%;
   background-color: #047753;;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 
 }
 
@@ -52,7 +51,6 @@ body {
   background-color: rgb(69, 151, 14);
   color: rgb(38, 218, 14);
   
-
 }
 
 
@@ -61,14 +59,11 @@ body {
   color: blue;
   font-weight: bold;
 
-
 }
   
 
 .alinha_foto {
   text-align: center;
-
-
 
 }
 
@@ -78,14 +73,13 @@ body {
   /* float: left;*/
   max-width: fit-content;
   text-align: center;
-  margin: auto;
   margin-top: 150px;
-  /*margin-left: auto;
-  margin-right: auto;*/
+
+  /* margin-left: auto;
+  margin-right: auto; */
   width: 300px;
   height: 300px;
-
-  
+ 
 }
 
 
@@ -98,40 +92,32 @@ body {
   width: 100%;
   max-width: 100%;
   
-
-
 }
 
 .lado-esquerdo {
   width: 15%;
   margin-left: 10px;
-   
-  
 
 }
 
 
-.artigo{
+.artigo {
   
   width: 40%;
   text-align: center;
   margin-left: 230px;
- 
 
 }
 
-.lado-direito{
+.lado-direito {
 
   width: 20%;
   text-align: center;
   margin-left: 120px;
 
-  
-
 }
 
-
-/*.lado_artigo {
+/* .lado_artigo {
   width: 40%;
   max-width: 40%;
   margin-left: 48%; 
@@ -140,25 +126,22 @@ body {
   margin-top: -610px;
   padding: 100px;
 
+} */
 
-}*/
 
-
-/*.box_rodape {
+/* .box_rodape {
   padding: 5px;
 	bottom: 0;
   text-align: center;
-  font-weight: bolder ;
+  font-weight: bolder;
  
-
-}*/
+} */
 
 
 #rodape {
   padding: 5px;
 	bottom: 0;
   text-align: center;
-  font-weight: bolder ;
-
+  font-weight: bolder;
 
 }
