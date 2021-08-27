@@ -3,7 +3,7 @@ body {
 }
 
 #cabecalho {
-    position: fixed;
+    position: absolute;
     top: 0;
 }
 
@@ -17,4 +17,9 @@ body {
 }
 
 #licoes_aprendidas {
+}
+
+.titulo3 {
+    position: relative;;
+    left: 50px;
 }
