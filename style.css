@@ -53,7 +53,7 @@ body {
   font-weight: 500;
 
 }
- 
+
 
 .alinha_foto {
   text-align: center;
@@ -67,11 +67,6 @@ body {
   margin-top: 150px;
   border-radius: 1px;
   padding: 10px;
-  
-  /* float: left; */
-  
-  /* margin-left: auto;
-  margin-right: auto; */
   width: 300px;
   height: 300px;
 
@@ -106,29 +101,9 @@ body {
 .lado-direito {
   width: 20%;
   text-align: center;
-  margin-left: 120px;
+  margin-left: 80px;
 
 }
-
-/* .lado_artigo {
-  width: 40%;
-  max-width: 40%;
-  margin-left: 48%; 
-  margin-right: 5%; 
-  text-align: center;
-  margin-top: -610px;
-  padding: 100px;
-
-} */
-
-
-/* .box_rodape {
-  padding: 5px;
-	bottom: 0;
-  text-align: center;
-  font-weight: bolder;
-
-} */
 
 
 #rodape {
