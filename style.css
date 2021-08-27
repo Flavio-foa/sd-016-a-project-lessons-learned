@@ -23,3 +23,8 @@ body {
     position: relative;;
     left: 50px;
 }
+
+#rodape {
+    position: absolute;
+    right: 10px;
+}
