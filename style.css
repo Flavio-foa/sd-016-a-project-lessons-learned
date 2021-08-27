@@ -27,6 +27,8 @@ body {
 #rodape {
     position: absolute;
     right: 10px;
-    href="http://agathachristieobraeautora.blogspot.com/" 
-    target="_blank">Blog</a>
+}
+
+.class {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
