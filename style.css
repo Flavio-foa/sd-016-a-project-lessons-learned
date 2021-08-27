@@ -7,7 +7,7 @@ body {
   top: 0;
 }
 
-a{
+a {
   float: right;
   text-decoration: none;
   padding: 14px 16px;
@@ -15,40 +15,37 @@ a{
 }
 
 ol {
-  
   float: left;
   width: 400px;
   height: 400px;
-  line-height:30px
+  line-height: 30px;
 }
 
 ul {
   float: left;
   width: 400px;
   height: 400px;
-  line-height:30px
+  line-height: 30px;
   }
 
 #artigo {
- 
   float: inline-start;
   width: 600px;
   height: 600px;
-  line-height:30px
+  line-height: 30px;
    
 }
 
 #artigo1 {
- 
   float: inline-start;
   width: 500px;
   height: 500px;
-  line-height:30px
+  line-height: 30px;
 }
 
 #rodape {
   text-align: center;
   width: 400px;
   height: 400px;
-  line-height:30px
+  line-height: 30px;
 }
