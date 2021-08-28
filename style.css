@@ -67,18 +67,18 @@ figcaption {
 article, aside {
   text-align: justify;
   width: 47%;
-  height: 500px;  
+  height: 200px;  
   margin-bottom: 40px;
   padding-right: 5px;
   overflow-y: auto;
 }
 
-.artigo{
+.lado-esquerdo{
   float: left;
   margin-left: 20px;
 }
 
-.Passagem {
+.lado-direito {
   float: right;
   margin-right: 20px;
 }
@@ -91,6 +91,10 @@ table.cronograma {
   border-spacing: 0;
   text-align: center;
   margin: 0 auto;
+}
+table.cronograma tr th {
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 table.cronograma tr td {
