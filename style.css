@@ -2,8 +2,9 @@
 
 body {
   --cor_primaria: #ff8707;
-  --padding_entre_colunas: 50px;
-  background-color: rgb(253, 251, 251);
+  --cor_fundo: #fdfbfb;
+  --padding_entre_colunas: 40px;
+  background-color: var(--cor_fundo);
   font-family: 'lato', serif;
   font-size: 20px;
   font-weight: 400;
@@ -12,10 +13,8 @@ body {
 }
 
 header {
-  position: fixed;
-  /* pré requisito */
-  top: 0;
-  /* pré requisito */
+  position: fixed; /* pré requisito */
+  top: 0;  /* pré requisito */
   background-color: var(--cor_primaria);
   width: 100%;
   text-align: center;
@@ -84,12 +83,13 @@ a.social_behance {
 }
 
 .conteiner_avatar {
-  border: solid 5px var(--cor_primaria);
-  width: 100px;
-  height: 100px;
+  border: solid 5px var(--cor_fundo);
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  margin-top: 200px;
   overflow: hidden;
+  position: absolute;
+  left: calc(20% - 120px - var(--padding_entre_colunas));
 }
 
 .conteiner_avatar img {
