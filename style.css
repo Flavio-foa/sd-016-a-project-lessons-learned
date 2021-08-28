@@ -19,23 +19,27 @@ h2{
 img {
   display: inline-block;
   width: 15%;
-  margin-left: 45%;
+  /* margin-right: 200%; */
+  padding: 0 0  120px 100px;
 }
 
 #cabecalho{
   Top: 0;
   position: fixed; 
   color: white;
+  margin: auto;
+  padding: 8px 30px 0;
+  border: medium;
 }
 
 .title-container {
   background-color: rgb(10, 126, 81);
-  padding: 10px 10px 0;
+  padding: 8px 30px 0;
 }
 
 .navLinkExt {
   background-color: cornflowerblue;
-  padding: 10px 30px 0;
+  padding: 0 20px  ;
 }
 
 .navLinkExt ul {
@@ -47,33 +51,49 @@ img {
   text-decoration: none;
 }
 
-.licoes{
-  margin: 10px;
-  padding: 20px;
+.lado-esquerdo{
+  margin-top: 100px;
+  padding: 20px; 
   display: inline-block;
+  font-family: 'Montserrat', courier;
+  font-size:small;
+  line-height: 130%
+
 }
 
-.aprendidas {
+/* .aprendidas {
   display: inline-block;
-  margin-top: 10px; 
-}
-
-.aprendidas h2{
-  margin-left: 10px;
+  margin-top: 10px;
   
-}
+} */
 
-.aprender {
+/* .aprendidas h2{
+  margin-left: 10px;
+  font-family: 'Montserrat', courier;
+  font-size:larger
+  line-height: 150% 
+}
+ */
+/* .aprender {
   display: inline-block;
+  margin-left: 20px;
+} */
+.lado-direito{
+  margin-top: 100px;
+  /* margin: 10px;*/
+  padding: 30px; 
+  display: inline-block;
+  font-family: 'Montserrat', courier;
+  font-size:small;
+  line-height: 130%;
 }
 
 .aprender h2{
-  margin-left: 20px;
+  padding: 0 10px; 
 }
-
+ */
 .article {
   vertical-align: top;
-  display: inline-block;
   margin-right: 10px;
   padding: 15px;
 }
@@ -81,28 +101,23 @@ img {
 .aprendizado {
   background-color: lightgrey;
   width: 30%;
-  display: inline-block;
   max-width: 1200px;
   margin: 10px;
   font-family: 'Montserrat', courier;
-  font-size:small;
+  display: inline-block;
 }
 
 .aconteceu {
   background-color: lightgrey;
   margin: 10px;
-  padding: 20px;
   width: 200px;
   display: inline-block;
-  font-family: 'Montserrat', courier;
-  font-size:small;
-  line-height: 150%
 }
 
 .navRodape {
   background-color: cornflowerblue;
   padding: 0 30px;
-  width: 71%;
+  width: 71%; 
 }
 
 .navRodape ul {
@@ -117,6 +132,6 @@ img {
 }
 
 .navRodape li a {
-  color: green;
+  color: white;
   text-decoration: none;
 }
