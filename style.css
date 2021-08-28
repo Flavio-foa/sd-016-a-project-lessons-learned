@@ -3,7 +3,7 @@
 body {
   --cor_primaria: #ff8707;
   --cor_fundo: #fdfbfb;
-  --padding_entre_colunas: 40px;
+  --padding_costum: 40px;
   background-color: var(--cor_fundo);
   font-family: 'lato', serif;
   font-size: 20px;
@@ -38,7 +38,9 @@ h2 {
 }
 
 /* Botoes redes sociais */
-
+nav.menu_social {
+  margin-top: 200px;
+}
 .menu_social ul {
   display: flex;
   gap: 40px;
@@ -89,7 +91,7 @@ a.social_behance {
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
-  left: calc(20% - 120px - var(--padding_entre_colunas));
+  left: calc(20% - 120px - var(--padding_costum));
 }
 
 .conteiner_avatar img {
@@ -99,27 +101,34 @@ a.social_behance {
 }
 
 article[class^="lado"], aside[class^="lado"] {
-  width: calc(50% - var(--padding_entre_colunas));
+  width: calc(50% - var(--padding_costum));
 }
 
+section {
+  padding-bottom: var(--padding_costum);
+}
+
+section.duas_colunas {
+  display: flex;
+}
 .lado-esquerdo {
-  float: left;
-  padding-right: var(--padding_entre_colunas);
+  /* float: left; */
+  padding-right: var(--padding_costum);
 }
 
 .lado-direito {
-  float: right;
-  padding-left: var(--padding_entre_colunas);
+  /* float: right; */
+  padding-left: var(--padding_costum);
 }
 
 section {
   width: 60%;
   margin: auto;
-  clear: both;
-  /* coloquei isso para  */
+  /* clear: both; */
 }
 
 table {
   background: olive;
   margin: auto;
+  width: 100%;
 }

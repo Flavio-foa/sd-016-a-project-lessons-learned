@@ -42,9 +42,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	-webkit-font-smoothing: antialiased;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
