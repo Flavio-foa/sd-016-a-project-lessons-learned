@@ -96,6 +96,7 @@ a.social_behance {
   overflow: hidden;
   position: absolute;
   left: calc(20% - 120px - (var(--padding_costum)*2));
+  top: 80px;
 }
 
 .conteiner_avatar img {
