@@ -2,14 +2,43 @@ body {
     background-color:rgb(253, 251, 251);
 }
 
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+h2 {
+    color: seagreen;
+}
+li {font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
 #cabecalho {
     background-color: rgb(51, 102, 255);
     top: 0;
+    position: fixed;
+    width: 100%;
     height: 80px;
     text-align: center;
+}
+
+#minha_foto {
+    margin-top: 100px;
+    padding: 10px;
+    background-color: cadetblue;
 }
 
 #titulo {
     color: seashell;
     font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
+}
+
+#rodape {
+    background-color: rgb(51, 102, 255);
+    height: 40px;
+    text-align: center;
+}
+
+#p_rodape {
+    color: white;
 }
