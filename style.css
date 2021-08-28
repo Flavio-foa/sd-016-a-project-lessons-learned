@@ -2,25 +2,31 @@
 
 
 body {
+    color: rgb(0, 131, 131);
     font-family: monospace;
     font-size: 20px;
     background-color:rgb(253, 251, 251);
 }
 
+article{
+    margin: 100px;
+}
+
 aside{
-    color: rgb(0, 131, 131);
     top: 500px;
     background-color: rgb(238, 238, 238);
     margin: 10px;
     padding:20px;
     width: 200px;
-    vertical-align: top;
 }
 
-article{
-    float: inline-start;
+nav{
+    margin: 100px;
 }
 
+section{
+    margin: 100px;
+}
 
 /* Onde tem # é id. Todos os "id"s obrigatoriamente tem o nome único.*/
 
@@ -29,39 +35,27 @@ article{
     color: rgb(255, 255, 255);
     position: fixed;
     top: 0;
-    box-sizing: border-box;
     background-color: rgb(0, 179, 179);
     padding: 20px;
 }
 
-#rodape{
-    vertical-align: text-bottom;
-}
-
-#section{
-    top: 300px;
-
-}
-
 #minha_foto{
-    width: 200px;
-    top: 100px;
+    margin-top: 200px;
+    width: 290px;
 }
 
+#rodape{
+    margin: 100px;
+}
 
 /* Onde tem "." antes, é class. As classes tem o nome único tbm, como i "id" mas elas podem ser replicadas lá no HTML, para cada class podem ter vários parágrafos por exemplo.*/
-
 
 .quadradao{
     line-height: 40px;
     display: flex;
-    justify-content:space-around
-}
-
-.principal{
-    width: 30%;
 }
 
 .lado-direito{
+    top: 100px;
     float: right;
 }
