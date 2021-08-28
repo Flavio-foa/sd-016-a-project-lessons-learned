@@ -6,10 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <header id="cabecalho">
-  <nav>
+  <nav class="externalLinks">
     <a href="#licoes_aprendidas">Lições Aprendidas</a>
     <a href="#licoes_a_aprender">Liçoes para Aprender</a>
     <a href="#rodape">Links Externos</a>
@@ -22,7 +30,7 @@
     <figure>
       <img class="border-image" id="minha_foto" src="fabricioFoto.jpeg" alt="Imagem de Fabricio Martins">
     </figure>  
-    <ul class="lessons" id="licoes_aprendidas">
+    <ol class="lessons" id="licoes_aprendidas">
       <h2>Lições Aprendidas</h2>
       <li>Comandos básicos do terminal Bash</li>
       <li>Comandos básicos de Git</li>
@@ -34,7 +42,7 @@
       <li>CSS - Seletores e Posicionamento</li>
       <li>Inteligência Emocional</li>
       <li>Empatia</li>
-    </ul>
+    </ol>
 
     <ul class="lessons" id="licoes_a_aprender">
       <h2>Lições para Aprender</h2>
@@ -49,24 +57,25 @@
       <li>SoftSkills - Pensamento Crítico</li>
       <li>SoftSkills - Criatividade</li>
     </ul>
+    <div class="testimony">
+      <article class="lado_esquerdo">
+        <h1>Meu Aprendizado</h1>
+        <p>Quase chegando ao fim do primeiro mês do curso da Trybe e até agora tem sido uma experiência incrível! Com muito conteúdo interessante que além das hard skills para tornar-se um bom desenvolvedor web, temos também visto soft skills que nos formará como bons profissionais e o mais importante como pessoas melhores.
+        A metodologia de ensino supera as expectativas, o acompanhamento síncrono e assíncrono é de tirar o chapéu, o estudante realmente tem todas as ferramentas e ajuda para evoluir e se desenvolver. Estou bastante animado para continuar nessa jornada e junto com os outros estudantes, evoluir e formar como bons Desenvolvedores! VAMO QUE VAMO!!</p>
+      </article>
 
-    <article>
-      <h1>Meu Aprendizado</h1>
-      <p>Quase chegando ao fim do primeiro mês do curso da Trybe e até agora tem sido uma experiência incrível! Com muito conteúdo interessante que além das hard skills para tornar-se um bom desenvolvedor web, temos também visto soft skills que nos formará como bons profissionais e o mais importante como pessoas melhores.</p>
-      <p>A metodologia de ensino supera as expectativas, o acompanhamento síncrono e assíncrono é de tirar o chapéu, o estudante realmente tem todas as ferramentas e ajuda para evoluir e se desenvolver. Estou bastante animado para continuar nessa jornada e junto com os outros estudantes, evoluir e formar como bons Desenvolvedores! VAMO QUE VAMO!!</p>
-    </article>
-
-    <section>
-      <aside>
-        <p>O caminho está no início! Aprendemos coisas interessantes sobre a internet, o terminal Bash e a utilizar ferramentas como Git e GitHub. Além disso, iniciamos nossa jornada pelo caminho front-end através do HTML e sua estruturação e CSS. Vamos com tudo, temos muito a aprender!</p>
-      </aside>
-    </section>
+      <section class="lado_direito">
+        <aside>
+          <p>O caminho está no início! Aprendemos coisas interessantes sobre a internet, o terminal Bash e a utilizar ferramentas como Git e GitHub. Além disso, iniciamos nossa jornada pelo caminho front-end através do HTML e sua estruturação e CSS. Vamos com tudo, temos muito a aprender!</p>
+        </aside>
+      </section>
+    </div>
   </main>
 </body>
 
-<footer class="footer" id="rodape">
-  <h2>By Fabricio Martins</h2>
-  <a href="https://www.linkedin.com/in/fabr%C3%ADcio-costa-da-silveira-martins-4a1405140/" target="_blank">Linkedin</a>
-  <a href="https://github.com/FabricioCSM" target="_blank">GitHub</a>
+<footer id="rodape">
+  <h2>2021 - Fabricio Martins</h2>
+  <a id="linkedin" href="https://www.linkedin.com/in/fabr%C3%ADcio-costa-da-silveira-martins-4a1405140/" target="_blank">Linkedin</a>
+  <a id="github" href="https://github.com/FabricioCSM" target="_blank">GitHub</a>
 </footer>
 </html>
