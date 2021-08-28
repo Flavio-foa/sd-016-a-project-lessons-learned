@@ -9,7 +9,27 @@ body {
 
 #titulo {
     color: blue;
+    font-size: 35px;
+}
 
+h2 {
+    color: green;
+    font-size: 22px;
+    height: 10px;
+}
+
+h3 {
+    height: 10px;
+    font-size: 18px;
+}
+
+h4 {
+    height: 2px;
+    font-size: 16px;
+}
+
+.trybe {
+    color: green;
 }
 
 #menu {
@@ -22,12 +42,14 @@ body {
 
 #licoes_aprendidas {
     font-family: Impact, sans-serif;
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: 15px;
 }
 
 #licoes_a_aprender {
     font-family: Impact, sans-serif;
-    text-decoration: underline;
+    text-decoration: none;
+    font-size: 15px;
 }
 
 .titulo3 {
@@ -53,4 +75,8 @@ p {
 
 .lado_esquerdo {
     
+}
+
+#menu {
+
 }
