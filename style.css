@@ -12,16 +12,28 @@ body {
 
 }
 
+#menu {
+    border-bottom: 8px solid rgb (230, 230, 230);
+}
+
 #minha_foto {
     width: 300px;
 }
 
 #licoes_aprendidas {
+    font-family: Impact, sans-serif;
+    text-decoration: underline;
+}
+
+#licoes_a_aprender {
+    font-family: Impact, sans-serif;
+    text-decoration: underline;
 }
 
 .titulo3 {
     position: relative;;
-    left: 50px;
+    left: 20px;
+    line-height: 10px;
 }
 
 #rodape {
@@ -29,6 +41,8 @@ body {
     right: 10px;
 }
 
-.class {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+p {
+    font-family: Impact, sans-serif;
+    text-align: justify;
+    text-decoration: none;
 }
