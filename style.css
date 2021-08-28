@@ -1,82 +1,70 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 }
 
 #titulo {
-    color: blue;
-    font-size: 35px;
+  color: blue;
+  font-size: 35px;
 }
 
 h2 {
-    color: green;
-    font-size: 22px;
-    height: 10px;
+  color: green;
+  font-size: 22px;
+  height: 10px;
 }
 
 h3 {
-    height: 10px;
-    font-size: 18px;
+  height: 10px;
+  font-size: 18px;
 }
 
 h4 {
-    height: 2px;
-    font-size: 16px;
+  height: 2px;
+  font-size: 16px;
 }
 
 .trybe {
-    color: green;
+  color: green;
 }
 
 #menu {
-    border-bottom: 8px solid rgb (230, 230, 230);
+  border-bottom: 8px solid rgb (230, 230, 230);
 }
 
 #minha_foto {
-    width: 300px;
+  width: 300px;
 }
 
 #licoes_aprendidas {
-    font-family: Impact, sans-serif;
-    text-decoration: none;
-    font-size: 15px;
+  font-family: Impact, sans-serif;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 #licoes_a_aprender {
-    font-family: Impact, sans-serif;
-    text-decoration: none;
-    font-size: 15px;
+  font-family: Impact, sans-serif;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .titulo3 {
-    position: relative;;
-    left: 20px;
-    line-height: 10px;
+  position: relative;
+  left: 20px;
+  line-height: 10px;
 }
 
 #rodape {
-    position: absolute;
-    right: 10px;
+  position: absolute;
+  right: 10px;
 }
 
 p {
-    font-family: Impact, sans-serif;
-    text-align: justify;
-    text-decoration: none;
-    }
-
-.lado_direito {
-
-}
-
-.lado_esquerdo {
-    
-}
-
-#menu {
-
+  font-family: Impact, sans-serif;
+  text-align: justify;
+  text-decoration: none;
 }
