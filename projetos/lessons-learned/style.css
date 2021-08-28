@@ -11,7 +11,8 @@ body{
     color: rgb(103, 8, 141);
   }
 
-  #minha_foto {
+#minha_foto {
+    margin-top: 70px ;
     width: 324px;
     border-radius: 10%;
     border: 10px solid rgb(74, 22, 196);
