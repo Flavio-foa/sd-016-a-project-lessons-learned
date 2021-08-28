@@ -1,9 +1,50 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
   background-color: lightgreen;
+  color: skyblue;
+  text-align: center;
+}
+
+#titulo {
+  
+}
+
+#nav {
+  font-size: 16px;
+  background-color: lightgreen;
+  position: fixed;
+  width: 100%;
+}
+
+#licoes_aprendidas {
+  font-size: 14px;
+  float: left;
+  padding: 50px;
+}
+
+#licoes_a_aprender {
+  font-size: 14px;
+  padding: 50px;
+}
+
+#minha_foto {
+  height: 150px;
+}
+
+#article {
+  text-align: justify;
+  border: 50px;
+  margin: 50px;
+  font-size: 14px;
+}
+
+#rodape {
+  text-align: center;
 }
