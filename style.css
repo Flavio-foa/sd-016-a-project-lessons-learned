@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato:400,400i,900,900i&display=swap');
-
 body {
   --cor_primaria: #ff8707;
+  --cor_primaria_opaca: #febb74;
   --cor_fundo: #fdfbfb;
   --padding_costum: 40px;
   background-color: var(--cor_fundo);
@@ -13,8 +13,10 @@ body {
 }
 
 header {
-  position: fixed; /* pré requisito */
-  top: 0;  /* pré requisito */
+  position: fixed;
+  /* pré requisito */
+  top: 0;
+  /* pré requisito */
   background-color: var(--cor_primaria);
   width: 100%;
   text-align: center;
@@ -38,9 +40,11 @@ h2 {
 }
 
 /* Botoes redes sociais */
+
 nav.menu_social {
   margin-top: 200px;
 }
+
 .menu_social ul {
   display: flex;
   gap: 40px;
@@ -91,7 +95,7 @@ a.social_behance {
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
-  left: calc(20% - 120px - var(--padding_costum));
+  left: calc(20% - 120px - (var(--padding_costum)*2));
 }
 
 .conteiner_avatar img {
@@ -111,6 +115,7 @@ section {
 section.duas_colunas {
   display: flex;
 }
+
 .lado-esquerdo {
   /* float: left; */
   padding-right: var(--padding_costum);
@@ -128,7 +133,22 @@ section {
 }
 
 table {
-  background: olive;
   margin: auto;
   width: 100%;
+  text-align: center;
+}
+
+thead {
+  background-color: var(--cor_primaria);
+  color: var(--cor_fundo);
+}
+
+tbody>tr:nth-child(even) {
+  background-color: var(--cor_primaria_opaca);
+}
+
+footer {
+  background-color: var(--cor_primaria);
+  text-align: center;
+  color: var(--cor_fundo);
 }
