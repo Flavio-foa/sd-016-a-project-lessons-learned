@@ -3,7 +3,6 @@
 body {
   --cor_primaria: #ff8707;
   --padding_entre_colunas: 50px;
-
   background-color: rgb(253, 251, 251);
   font-family: 'lato', serif;
   font-size: 20px;
@@ -13,14 +12,17 @@ body {
 }
 
 header {
-  position: fixed; /* pré requisito */
-  top: 0; /* pré requisito */
+  position: fixed;
+  /* pré requisito */
+  top: 0;
+  /* pré requisito */
   background-color: var(--cor_primaria);
   width: 100%;
   text-align: center;
   padding: 50px 0;
   z-index: 999;
 }
+
 h1 {
   font-family: 'Alfa Slab One', cursive;
   font-size: 40px;
@@ -36,8 +38,8 @@ h2 {
   font-size: 1em;
 }
 
-
 /* Botoes redes sociais */
+
 .menu_social ul {
   display: flex;
   gap: 40px;
@@ -59,24 +61,26 @@ a[class^="social"] {
   opacity: 55%;
 }
 
-a[class^="social"]:hover { 
+a[class^="social"]:hover {
   opacity: 100%;
 }
 
-a.social_linkedin { 
+a.social_linkedin {
   background-image: url(../img/linkedin.png);
 }
 
-a.social_github { 
+a.social_github {
   background-image: url(../img/github.png);
 }
 
-a.social_codpen { 
-  background-image: url(../img/codpen.svg); background-size: 90%;
+a.social_codpen {
+  background-image: url(../img/codpen.svg);
+  background-size: 90%;
 }
 
-a.social_behance { 
-  background-image: url(../img/behance.png);  background-size: 100%;
+a.social_behance {
+  background-image: url(../img/behance.png);
+  background-size: 100%;
 }
 
 .conteiner_avatar {
@@ -97,11 +101,12 @@ a.social_behance {
 article[class^="lado"], aside[class^="lado"] {
   width: calc(50% - var(--padding_entre_colunas));
 }
+
 .lado-esquerdo {
   float: left;
   padding-right: var(--padding_entre_colunas);
-
 }
+
 .lado-direito {
   float: right;
   padding-left: var(--padding_entre_colunas);
@@ -110,9 +115,11 @@ article[class^="lado"], aside[class^="lado"] {
 section {
   width: 60%;
   margin: auto;
-  clear: both; /* coloquei isso para  */
+  clear: both;
+  /* coloquei isso para  */
 }
+
 table {
-    background: olive;
-    margin: auto;
+  background: olive;
+  margin: auto;
 }
