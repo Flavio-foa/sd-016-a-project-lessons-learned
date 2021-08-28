@@ -8,8 +8,11 @@ body {
 }
 
 #titulo {
-  color: blue;
+  background-color:green;
+  color: azure;
   font-size: 35px;
+  height: 35px;
+  text-align: center;
 }
 
 h2 {
@@ -67,4 +70,32 @@ p {
   font-family: Impact, sans-serif;
   text-align: justify;
   text-decoration: none;
+}
+
+.lado_direito {
+  top: 350px;
+  position: absolute;
+  left: 10px;
+  width: 270px;
+}
+
+.lado_esquerdo {
+  top: 350px;
+  position: absolute;
+  right: 10px;
+  width: 270px;
+}
+
+.lista_esquerda {
+  top: 600px;
+  position: absolute;
+  left: 10px;
+  width: 270px;
+}
+
+.lista_direita {
+  top: 600px;
+  position: absolute;
+  right: 10px;
+  width: 270px;
 }
