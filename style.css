@@ -42,3 +42,12 @@ li {font-family: Georgia, 'Times New Roman', Times, serif;
 #p_rodape {
     color: white;
 }
+.Trybe {
+    color: crimson;
+}
+#div_licoes {
+    display: flex;
+}
+#div_licoes_aprendidas {
+    margin-right: 10%;
+}
