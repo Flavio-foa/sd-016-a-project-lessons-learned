@@ -27,11 +27,19 @@ body {
   font-size: 14px;
   float: left;
   padding: 50px;
+  margin-left: 50px;
+  margin-right: 100px;
+  background-color: lightgreen;
+  border: solid;
 }
 
 #licoes_a_aprender {
   font-size: 14px;
   padding: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: lightgreen;
+  border: solid;
 }
 
 #minha_foto {
@@ -40,9 +48,20 @@ body {
 
 #article {
   text-align: justify;
-  border: 50px;
-  margin: 50px;
   font-size: 14px;
+  line-height: 20px;
+  width: 45%;
+  padding: 30px;
+  float: left;
+}
+
+#section {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 20px;
+  width: 45%;
+  padding: 30px;
+  float: right;
 }
 
 #rodape {
