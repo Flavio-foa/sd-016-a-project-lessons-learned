@@ -26,21 +26,23 @@ body{
     height: 300px;
     border-radius: 50%;
     display: block;
-    padding: 80px 35% 80px;
+    padding: 80px 35% 80px;;
 
 }
 
-article{
+.lado-esquerdo{
 
     width: 80%;
     font-size: 20px;
+    line-height:25px;
+    float: left;
 }
 
-aside{
+.lado-direito{
     
-    background-color: teal;
     height: 100px;
     width:20%;
+    float: right;
 
 }
 
@@ -61,7 +63,12 @@ table{
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    
+
+}
+
+.artigo{
+
+    display: inline-block;
 
 
 }
