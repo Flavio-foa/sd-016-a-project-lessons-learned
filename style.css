@@ -1,5 +1,5 @@
-body {
-    background-color: rgb(253, 251, 251);
+body{
+background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
@@ -62,6 +62,7 @@ td, th {
     text-align: center;
     border: 2px solid green;
 }
+
 th {
     background-color: green;
     color: ivory;
