@@ -7,7 +7,7 @@
     position: fixed;
     top: 0;
     text-align: center;
-    background-color: purple;
+    background-color: #735d78;
     width: 100%;
     padding: 5px;
   }
@@ -20,12 +20,15 @@
 
   #minha_foto {
       margin-top: 85px;
-      border: purple 2px;
-      border: 10px solid rgb(85, 59, 85)
+      border: 7px solid #b392ac
   }
 
   #rodape {
     margin-top: 100px;
+  }
+
+  #link_externo {
+    margin-left: 10px;
   }
 
   table {
@@ -35,25 +38,23 @@
   ul, ol {
       font-size: 16px;
       font-family: Arial, Helvetica, sans-serif;
+      margin-top: 50px;
   }
 
-p {
+  p {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
     line-height: 180%;
-
+    text-align: justify;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 2%
   }
 
-.lado-esquerdo {
-    float: left;
+  .lado-esquerdo {
+    display:inline-block;
   }
-  
   
   .lado-direito {
-    float: right;
-
-   
-
- 
-
+    display:inline-block;
+    margin-left: 100px;
