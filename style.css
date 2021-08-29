@@ -2,24 +2,57 @@ body{
     background-color: rgb(253, 251, 251); 
     font-family: cursive;
     font-size: 16;
-
+    
 }
 
 #cabecalho {
-    width: 50%;
+    width: 100%;
     position: fixed;
     top: 0;  
     font-family: cursive;
     color: rgb(103, 8, 141);
+    text-align: center; /* coloca o texto ao centro */
   }
 
 #minha_foto {
     margin-top: 65px ;
-    width: 324px;
+    width: 20%;
     border-radius: 10%;
     border: 10px solid rgb(74, 22, 196);
+  
   }
 #icones img {
-  width: 70px;
-  margin: 30px 20px 0 0;
+  width: 60px;
+  margin: 20px 10px 15px;
+  top: 50px; 
+  left: 60px;
+  
+}
+
+#artigos primeiro_artigo {
+  top: 50;
+  left: 60;
+  width: 80%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+#artigos segundo_artigo {
+  top: 50;
+  left: 60;
+  width: 80%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+#rodape {
+  text-align: center;
 }
