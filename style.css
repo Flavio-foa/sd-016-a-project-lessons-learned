@@ -1,82 +1,82 @@
 body {
-     background-color: rgb(253, 251, 251);
+      background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-     position: fixed;
-     top: 0;
-     border: 10px solid rgb(18, 107, 18);
-     width: 100%;
-     background-color: rgb(4, 185, 4);
+      position: fixed;
+      top: 0;
+      border: 10px solid rgb(18, 107, 18);
+      width: 100%;
+      background-color: rgb(4, 185, 4);
 }
 
 #titulo {
-     font-family: sans-serif;
-     color: rgb(253, 255, 253);
-     text-align: center;
+      font-family: sans-serif;
+      color: rgb(253, 255, 253);
+      text-align: center;
 }
 
 img {
-     width: 200px;
-     margin-top: 100px;
-     margin-left: 20px;
-     margin-bottom: 30px;
-     border-radius: 10%;
+      width: 200px;
+      margin-top: 100px;
+      margin-left: 20px;
+      margin-bottom: 30px;
+      border-radius: 10%;
 }
 
 .lado-direito {
-     display: inline-block;
-     margin-left: 100px;
+      display: inline-block;
+      margin-left: 100px;
 }
 
 .lado-esquerdo {
-     display: inline-block;
-     margin-left: 50px;
+      display: inline-block;
+      margin-left: 50px;
 }
 
 p {
-     font-size: 20px;
-     font-family: sans-serif;
-     line-height: 25px;
-     padding-top: 10px;
+      font-size: 20px;
+      font-family: sans-serif;
+      line-height: 25px;
+      padding-top: 10px;
 }
 
 footer {
-     border-top: 5px solid green;
-     font-family: Arial, Helvetica, sans-serif;
+      border-top: 5px solid green;
+      font-family: Arial, Helvetica, sans-serif;
 }
 
 nav:hover {
-     background-color: green;
+      background-color: green;
 }
 
 table {
-     table-layout: fixed;
-     width: 100%;
-     padding: 10px;
-     margin-top: 20px;
-     border: 10px solid green;
+      table-layout: fixed;
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      border: 10px solid green;
 }
 
-td, th {
-     text-align: center;
-     border: 2px solid green;
+td , th {
+      text-align: center;
+      border: 2px solid green;
 }
 
 th {
-     background-color: green;
-     color: ivory;
+      background-color: green;
+      color: ivory;
 }
 
-ol, ul {
-     font-family: sans-serif;
-     border-top: solid 10px green;
-     border-bottom: solid 10px green;
+ol , ul {
+      font-family: sans-serif;
+      border-top: solid 10px green;
+      border-bottom: solid 10px green;
 }
 
 h2 {
-     margin-left: 100px;
-     color: green;
-     font-family: sans-serif;
-     font-size: 30px;
+      margin-left: 100px;
+      color: green;
+      font-family: sans-serif;
+      font-size: 30px;
 }
