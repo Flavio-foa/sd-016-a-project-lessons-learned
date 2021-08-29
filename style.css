@@ -1,9 +1,9 @@
 body {
-    background-color:  rgb(253, 251, 251);
+    background-color: rgb(253, 251, 251) ;
 }
 
 #cabecalho {
-    position:  fixed;
+    position: fixed ;
     top: 0;
     border: 10px solid rgb(18, 107, 18);
     width: 100%;
@@ -58,7 +58,7 @@ table {
     border: 10px solid green;
 }
 
-td ,th {
+td , th {
     text-align: center;
     border: 2px solid green;
 }
@@ -68,7 +68,7 @@ th {
     color: ivory;
 }
 
-ol ,ul {
+ol , ul {
     font-family: sans-serif;
     border-top: solid 10px green;
     border-bottom: solid 10px green;
