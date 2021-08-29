@@ -10,19 +10,19 @@ body {
 
 #minha_foto {
   margin-top: 10px;
-  border-radius: 50% ;
+  border-radius: 50%;
 }
 
 .navigation {
   margin-top: 60px;
 }
 
-.navigation  ul li {
+.navigation ul li {
   display: inline;
 }
 
 #licoes_aprendidas {
-  float: left;  
+  float: left;
 }
 
 #licoes_a_aprender {
@@ -30,9 +30,9 @@ body {
 }
 
 .list_course {
-  float: right;  
+  float: right;
   width: 65%;
-} 
+}
 
 .list_course th {
   border: 1px solid black;
