@@ -1,13 +1,17 @@
 body {
     background-color:rgb(253, 251, 251);
+    font-size: 15px;
 }
 
 p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 20px;
+    width: 90%;
+
 }
 
 h2 {
-    color: seagreen;
+    color: midnightblue;
 }
 li {font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -15,17 +19,19 @@ li {font-family: Georgia, 'Times New Roman', Times, serif;
 
 #cabecalho {
     background-color: rgb(51, 102, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     top: 0;
     position: fixed;
     width: 100%;
     height: 80px;
     text-align: center;
+    
 }
 
 #minha_foto {
     margin-top: 100px;
-    padding: 10px;
-    background-color: cadetblue;
+    padding: 10px ;
+    background-color: cornflowerblue;
 }
 
 #titulo {
@@ -42,12 +48,44 @@ li {font-family: Georgia, 'Times New Roman', Times, serif;
 #p_rodape {
     color: white;
 }
+
 .Trybe {
     color: crimson;
 }
 #div_licoes {
     display: flex;
+    width: 70%;
 }
+
 #div_licoes_aprendidas {
-    margin-right: 10%;
+    margin-right: 30px;
+}
+
+#article {
+    border: 1px solid cornflowerblue;
+    height: 120px;
+    width: 70%;
+    padding:10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#section {
+    border: 1px solid cornflowerblue;
+    height: 120px;
+    width: 70%;
+    padding:10px;
+    margin-right: 10px;
+    text-align: center;
+}    
+#aside {
+    font-style: italic;
+    font-size: 15px;
+    background-color: cornflowerblue;
+    height: 240px;
+    overflow: scroll;
+    width: 20%;
+    padding:15px;
+    float:right;
+    text-align: center;
 }
