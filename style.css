@@ -1,10 +1,54 @@
+/*Cabeçalho no topo fixado*/
 #cabecalho{
-    background-color: rgb(200,200,200);
-    top:0px;
+    top:0;
+    left:0;
+    width: 100%;
     position:fixed;
-    margin: 0 50%;
+    background-color: rgb(222,231,201);
+}
+#titulo{
+    text-align:center;
+}
+a{
+    display:table-cell;
+}
+nav{
+    background-color:rgb(200,200,200);
+}
+nav ul{
+    margin: 0;
+    text-align:center;
+    font-size: 20px;
+}
+nav li{
+    display:inline-block;
+    margin: 10px 60px;
+
 }
 
 body{
+    margin-top:150px;
     background-color: rgb(253, 251, 251);
+}
+
+/*Informações pessoais*/
+section{
+    background:#584;
+    padding: 21px;
+}
+img{
+    height:210px;
+    display:inline-block;
+    margin-top: 100px;
+}
+section h3{
+    margin:3px;
+}
+#info{
+    color:#fff;
+    display:inline-block;
+}
+
+aside{
+    float:right;
 }
