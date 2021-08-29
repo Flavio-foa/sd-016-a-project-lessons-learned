@@ -3,15 +3,23 @@ body {
 }
 
 #cabecalho {
+  width: 100%;
   position: fixed;
   top: 0;
+  }
+
+footer {
+  background-color: orange;
+  text-align: center;
+  position: static;
+  top: 600px;
 }
 
 #titulo {
   background-color:green;
   color: azure;
   font-size: 35px;
-  height: 35px;
+  height: 50px;
   text-align: center;
 }
 
@@ -40,7 +48,9 @@ h4 {
 }
 
 #minha_foto {
-  width: 300px;
+  float: left;
+  width: 70px;
+  border-radius: 10%;
 }
 
 #licoes_aprendidas {
@@ -70,32 +80,30 @@ p {
   font-family: Impact, sans-serif;
   text-align: justify;
   text-decoration: none;
+  padding: 10px;
 }
 
 .lado_direito {
-  top: 350px;
-  position: absolute;
-  left: 10px;
-  width: 270px;
+  float: right;
+  width: 40%;
 }
 
 .lado_esquerdo {
-  top: 350px;
-  position: absolute;
-  right: 10px;
-  width: 270px;
+  float: left;
+  width: 40%;
 }
 
 .lista_esquerda {
-  top: 600px;
-  position: absolute;
+  float: left;
+  width: 50%;
+  position: relative;
+  top: 56px;
   left: 10px;
-  width: 270px;
 }
 
 .lista_direita {
-  top: 600px;
-  position: absolute;
-  right: 10px;
-  width: 270px;
+  float: right;
+  width: 50%;
+  left: 100px;
+  position: relative;
 }
