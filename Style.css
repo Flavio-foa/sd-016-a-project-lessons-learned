@@ -1,0 +1,45 @@
+        #cabecalho {
+            background-color: black;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 25px;
+        }
+        body{
+            background-color: rgb(253, 251, 251);            
+        }
+        #titulo {
+            background-color:black;
+            color:white;
+            text-align: center;
+            padding:1cm;
+            height:35px;
+        }
+        #nome {
+            font-size: small;
+            font-family: Helvetica;
+            font-style: italic;
+            line-height: 0cm;
+        }
+        ol{
+            font-size: medium;
+        }
+        li:hover{
+            background-color: green;
+        }
+        li:active{
+            color: white;
+        }
+        #tryb img{
+            position: absolute;
+            right:0;
+
+        }
+        #rodape{
+            background-color: black;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 13px;
+
+        }
