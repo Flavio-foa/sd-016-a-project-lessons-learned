@@ -36,6 +36,7 @@ body{
     font-size: 20px;
     line-height:25px;
     float: left;
+    margin-bottom: 50px;
 }
 
 .lado-direito{
@@ -47,13 +48,31 @@ body{
 }
 
 table{
-    width: 80%;
+    width: 100%;
     border:solid 2px white;
     background-color: black;
     color: white;
     text-align: center;
-    padding:0,5%;
+    margin-top: 30px;
     
+}
+
+tr,td{
+
+    border:solid 2px white;
+    padding: 2px;
+}
+
+#titulo-tabela{
+
+    color: blue;
+    font-size: 35px;
+}
+
+#linha1-tabela{
+
+    color: darkgoldenrod;
+    font-size: 20px;
 }
 
 .licoes{
