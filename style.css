@@ -24,6 +24,7 @@ font-size: 60px;
 width: 250px;
 height: 250px;
 margin-top: 100px;
+margin-left: 30px;
 display: block;
 border-radius: 5%;
 }
@@ -47,7 +48,7 @@ margin: auto;
 
 .lado-esquerdo{
 line-height: 21px;
-border: 5px solid olivedrab;
+border: 10px solid olivedrab;
 width: 200px;
 display: inline-block;
  margin-left: 20px;
@@ -59,7 +60,7 @@ margin: auto;
 
 .lado-direito{
 line-height: 21px;
-border: 5px solid olivedrab;    
+border: 10px solid olivedrab;    
 width: 200px;
 display: inline-block;   
 margin-right: 100px; 
@@ -67,24 +68,31 @@ margin:20px;
 }
 
 #rodape p{
-bottom: 9px; 
+line-height: 200px;
 }
 
 #table{
 margin-left: 50px;
+margin-top: 30px;
 border: 2px solid olivedrab
 }
 
 #firstt{
-width: 600px;
+width: 800px;
 right: 100px;
 bottom: 350px;
-border: 3px solid olivedrab;    
+border: 10px solid olivedrab;    
+position: absolute;
+right: 300px;
+bottom:350px
 }
 
 #secondt{
-width: 600px;
+width: 800px;
 right: 100px;
 bottom: 250px;
-border: 3px solid olivedrab;
+border: 10px solid olivedrab;
+position: absolute;
+right: 300px;
+bottom: 200px
 }
