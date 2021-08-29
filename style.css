@@ -25,21 +25,21 @@ body {
   padding: auto;
   font-family: 'Noto Sans', sans-serif;
   padding-left: 60px;
-  
+
   }
 
 h2 {
   font-family: 'Noto Sans', sans-serif;
   padding-left: 45px;
  }
-
+ 
 #licoes_a_aprender {
   padding: auto;
   font-family: 'Noto Sans', sans-serif;
   padding-left: 60px;
  }
 
- p {
+p {
    font-family: 'Noto Sans', sans-serif;
  }
 
@@ -47,14 +47,14 @@ h2 {
    margin-bottom: 200px;
  }
  
- .lado-esquerdo {
+.lado-esquerdo {
   float: left;
   max-width: 45%;
   margin-left: 45px;
   font-size: 12px;
  }
 
- .lado-direito {
+.lado-direito {
    float: right;
    max-width: 45%;
    height: 330px;
@@ -62,19 +62,19 @@ h2 {
    font-size: 12px;
  }
 
- .seccao {
+.seccao {
    text-align: center;
    max-width: 100%;
    margin-left: 45px;
    line-height: normal;
  }
 
- #rodape {
+#rodape {
    border-top: 1cm;
    border-color: black;
    margin-left: 45px;
  }
 
- .link{
+.link{
    margin-left: 45px;
  }
