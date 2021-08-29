@@ -65,9 +65,15 @@ h2 {
    text-align: center;
    max-width: 100%;
    margin-left: 45px;
-   
+   line-height: normal;
  }
 
  #rodape {
+   border-top: 1cm;
+   border-color: black;
+   margin-left: 45px;
+ }
 
+ .link{
+   margin-left: 45px;
  }
