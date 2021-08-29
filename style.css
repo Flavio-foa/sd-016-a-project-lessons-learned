@@ -55,6 +55,7 @@ p {
 }
   
 .lado-direito {
-  display:inline-block;
   margin-left:100px;
+  display:inline-block;
+  
 }
