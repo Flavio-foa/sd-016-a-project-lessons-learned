@@ -50,12 +50,11 @@ p {
   margin:2%;
 }
 
-  .lado-esquerdo {
-    display:inline-block;
+.lado-esquerdo {
+  display:inline-block;
 }
   
 .lado-direito {
   margin-left:100px;
   display:inline-block;
-  
 }
