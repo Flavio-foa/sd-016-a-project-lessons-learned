@@ -50,23 +50,21 @@ body {
     font-size: 25px;
   }
   .lado-esquerdo {
-    width: 500px;
+    width: 450px;
     float: left;
-    left: 500px;
+    left: 100px;
     text-align: left;
-    margin-left: 500px;
+    margin-left: 100px;
     position: static;
   }
   
   .lado-direito {
-    width: 500px;
-    right: 500px;
+    width: 450px;
     float: right;
+    left: 100px;
     text-align: left;
+    margin-left: 100px;
     position: static;
-    font-weight: 500;
-    border-radius: 10%;
-    background-color: whitesmoke;
   }
   #table {
     width: 690px;
@@ -80,8 +78,8 @@ body {
   border: 10px solid whitesmoke;
     }
     #rodape {
-  height: 200px;
-  background-color: whitesmoke;
+  height: 100px;
+  background-color: rgb(60, 182, 44);
     }
     #icones img {
   width: 70px;
