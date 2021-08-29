@@ -31,13 +31,13 @@ body {
     border: 20px solid whitesmoke;
   }
   #listas {
-    font-size: 50px;
+    font-size: 10px;
   }
   #listas li {
-    padding: 3px;
+    padding: 2px;
   }
   #licoes_aprendidas {
-    margin-left: 10px;
+    margin-left: 0px;
     text-align: left;
     display: inline-block;
   }
@@ -46,8 +46,8 @@ body {
     display: inline-block;
   }
   #artigo {
-    height: 500px;
-    font-size: 25px;
+    height: 800px;
+    font-size: 20px;
   }
   .lado-esquerdo {
     width: 450px;
