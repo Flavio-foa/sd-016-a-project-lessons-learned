@@ -13,14 +13,14 @@
   }
 
   #titulo {
-      color: white;
-      font-family:Arial, Helvetica, sans-serif;
-      text-transform: italic; 
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: italic; 
   }
 
   #minha_foto {
-      margin-top: 85px;
-      border: 7px solid #b392ac
+    margin-top: 85px;
+    border: 7px solid #b392ac
   }
 
   #rodape {
@@ -32,23 +32,23 @@
   }
 
   table {
-      border: 1px solid black;
+    border: 1px solid black;
   }
 
   ul, ol {
-      font-size: 16px;
-      font-family: Arial, Helvetica, sans-serif;
-      margin-top: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
   }
 
   p {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 180%;
-    text-align: justify;
-    font-weight: bold;
-    font-style: oblique;
-    margin: 2%
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 180%;
+  text-align: justify;
+  font-weight: bold;
+  font-style: oblique;
+  margin: 2%
   }
 
   .lado-esquerdo {
