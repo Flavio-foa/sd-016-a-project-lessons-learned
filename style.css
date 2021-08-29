@@ -73,4 +73,24 @@ body {
     height: 400px;
     margin: 0 auto;
     padding: 15px 0 50px;
-  
+    }
+    #table td {
+  border-radius: 20%;
+  background-color: black;
+  border: 10px solid whitesmoke;
+    }
+    #rodape {
+  height: 200px;
+  background-color: whitesmoke;
+    }
+    #icones img {
+  width: 70px;
+  margin: 30px 20px 0 0;
+    }
+    #rodape p {
+  width: 500px;
+  font-size: 30px;
+  margin: 10px auto;
+  font-weight: 700;
+  font-style: italic;
+    } 
