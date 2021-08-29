@@ -1,33 +1,33 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color:rgb(253, 251, 251);
 }
   
 #cabecalho {
-  position: fixed;
-  top: 0;
-  text-align: center;
-  background-color: "#735d78";
+  position:fixed;
+  top:0;
+  text-align:center;
+  background-color:#735d78;
   width: 100%;
   padding: 5px;
 }
 
 #titulo {
   color: white;
-  font-family:"Arial, Helvetica, sans-serif";
+  font-family:Arial, Helvetica, sans-serif;
   text-transform: italic; 
 }
 
 #minha_foto {
   margin-top: 85px;
-  border: 7px solid "#b392ac";
+  border: 7px solid #b392ac;
 }
 
 #rodape {
-  margin-top: 100px;
+  margin-top:100px;
 }
 
 #link_externo {
-  margin-left: 10px;
+  margin-left:10px;
 }
 
 table {
@@ -35,26 +35,26 @@ table {
 }
 
 ul, ol {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 50px;
+  font-size:16px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top:50px;
 }
 
 p {
-  font-size: "16px";
-  font-family: "Arial, Helvetica, sans-serif";
-  line-height: "180%"";
-  text-align: "justify";
-  font-weight: "bold";
-  font-style: "oblique";
-  margin: "2%";
+  font-size:16px;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:180%;
+  text-align:justify;
+  font-weight:bold;
+  font-style:oblique;
+  margin:2%;
 }
 
   .lado-esquerdo {
-    display:"inline-block";
+    display:inline-block;
 }
   
 .lado-direito {
-  display:"inline-block";
+  display:inline-block;
   margin-left:100px;
 }
