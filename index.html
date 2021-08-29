@@ -1,86 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" class="css" />
-  </head>
 
-  <body>
-    <header id="cabecalho">
-      <h1 id="titulo">Projeto Trybe</h1>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" class="css" />
+</head>
 
-    <nav>
+<body>
+  <header id="cabecalho">
+    <h1 id="titulo">Lições aprendidas na <a href="https://www.betrybe.com/" target="_blank">Trybe</a></h1>
+  </header>
+
+  <main>
+    <nav id="navegacao">
       <ul>
-        <a href="https://www.betrybe.com/" target="_blank">Trybe</a>
-        <a href="#licoes_aprendidas"> Lições aprendidas na Trybe</a>
-        <a href="#licoes_a_aprender"> Lições a aprender na Trybe</a>
+        <li><a href="#licoes"> Lições</a></li>
+        <li><a href="#Artigo"> Meu Aprendizado</a></li>
+        <li><a href=""></a></li>
       </ul>
     </nav>
+    <div id="imagemLicoes">
+      <div >
+        <img id="minha_foto" src="imagens/Foto-leandro2.jpeg" alt="Foto do leandro" />
+      </div>
+      <div id="licoes">
+        <h3>Lições</h3>
+        <section class="">
+          <p>Aprendidas</p>
+          <ol id="licoes_aprendidas">
+            <li>gGit</li>
+            <li>Github</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>HTML semantico</li>
+            <li>Empatia</li>
+            <li>Auto conhecimento</li>
+            <li>Linkedin</li>
+            <li>Como epsquisar</li>
+            <li>Slack</li>
+          </ol>
+        </section>
 
-    <main>
-      <img
-        id="minha_foto"
-        src="imagens/Foto-leandro2.jpeg"
-        alt="Foto do leandro"
-      />
+        <section>
+          <p>Irei aprender</p>
+          <ul id="licoes_a_aprender">
+            <li>Javascript</li>
+            <li>DOM</li>
+            <li>Forms</li>
+            <li>Testes automatizados</li>
+            <li>SQL</li>
+            <li>React</li>
+            <li>Node</li>
+            <li>Python</li>
+            <li>HOF</li>
+            <li>ES6</li>
+          </ul>
+        </section>
 
-      <section>
-        <p>Lições que eu aprendi na Trybe</p>
-        <ol id="licoes_aprendidas">
-          <li>gGit</li>
-          <li>Github</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>HTML semantico</li>
-          <li>Empatia</li>
-          <li>Auto conhecimento</li>
-          <li>Linkedin</li>
-          <li>Como epsquisar</li>
-          <li>Comunicação profissional</li>
-        </ol>
-      </section>
-      <section>
-        <p>Lições que eu vou aprender na Trybe</p>
-        <ul id="licoes_a_aprender">
-          <li>colocar algo aqui</li>
-          <li>colocar algo aqui</li>
-          <li>colocar algo aqui</li>
-          <li>colocar algo aqui</li>
-          <li>colocar algo aqui</li>
-          <li>colocar algo aqui</li>
-          <li>colocar algo aqui</li>
-          <li>colocar algo aqui</li>
-          <li>colocar algo aqui</li>
-          <li>colocar algo aqui</li>
-        </ul>
-      </section>
+      </div>
+    </div>
+    
+    <div id="Artigo">
       <article>
-        <p>
-          Lorem ipsum aliquam magna mattis inceptos, torquent primis velit leo
-          convallis, sit nunc rutrum at. lorem non scelerisque sociosqu
-          hendrerit netus eleifend posuere quis conubia, erat ultrices vulputate
-          hac mauris purus mi odio torquent, nulla duis tempus magna blandit
-          adipiscing volutpat augue. blandit nulla rutrum fringilla iaculis orci
-          sapien sociosqu curabitur potenti, sem vitae sociosqu tincidunt mollis
-          dapibus hendrerit eget, a pulvinar taciti adipiscing dui ultrices.
-        </p>
+        <h3>Meu Aprendizado</h2>
+          <p>
+            Lorem ipsum aliquam magna mattis inceptos, torquent primis velit leo
+            convallis, sit nunc rutrum at. lorem non scelerisque sociosqu
+            hendrerit netus eleifend posuere quis conubia, erat ultrices vulputate
+            hac mauris purus mi odio torquent, nulla duis tempus magna blandit
+            adipiscing volutpat augue. blandit nulla rutrum fringilla iaculis orci
+            sapien sociosqu curabitur potenti, sem vitae sociosqu tincidunt mollis
+            dapibus hendrerit eget, a pulvinar taciti adipiscing dui ultrices.
+          </p>
       </article>
+
       <section>
-      <aside>
-        <p>
-          Lorem ipsum aliquam magna mattis inceptos, torquent primis velit leo
-          convallis, sit nunc rutrum at. lorem non scelerisque sociosqu
-          hendrerit netus el
-        </p>
-      </aside>
-    </section>
-    </main>
-    <footer id="rodape">
-      <p>rodape da pagina</p>
-    </footer>
-  </body>
+        <aside id="#aside">
+          <h3>Passagem</h3>
+          <p>
+            Lorem ipsum aliquam magna mattis inceptos, torquent primis velit leo
+            convallis, sit nunc rutrum at. lorem non scelerisque sociosqu
+            hendrerit netus el
+          </p>
+        </aside>
+      </section>
+    </div>
+
+  </main>
+  <footer id="rodape">
+    <p>
+      <em>Projeto da <a href="https://www.betrybe.com/" target="_blank">Trybe</a></h1> feito por Leandro de Souza Bonfim</em>
+    </p>
+  </footer>
+</body>
+
 </html>
