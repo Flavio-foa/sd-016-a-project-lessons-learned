@@ -1,7 +1,5 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin: 0;
-  border: 0;
   padding: 7%;
 }
 
@@ -12,6 +10,23 @@ header {
 
 header h1 {
   color: forestgreen;
+}
+
+article h1 {
+  margin-left: 20px;
+  text-align: center;
+}
+
+article p {
+  margin-left: 15px;
+}
+
+article section {
+  display: inline-block;
+}
+
+article #s2 {
+  margin-left: 20px;
 }
 
 nav ol {
@@ -28,4 +43,9 @@ nav #ul3 {
   text-align: center;
   list-style-type: none;
 
+}
+
+nav h1 {
+  display: inline-block;
+  font-size: 17px;
 }
