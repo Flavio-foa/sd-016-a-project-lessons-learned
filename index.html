@@ -2,8 +2,6 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -11,19 +9,42 @@
     <header id="cabecalho">
         <h1 id="titulo">Lições aprendidas na Trybe!</h1>
     </header>
-    <nav>
+    <nav class="navigation">
         <ul>
             <li><a href="#artigo">Home</a></li>
-            <li><a href="https://www.instagram.com/tsteduardo/">Contato</a></li>
+            <li><a href="https://www.instagram.com/tsteduardo/" target="_blank">Contato</a></li>
         </ul>
     </nav>
     <div>
         <img id="minha_foto"src="eu.jpg" alt="Eduardo Miyazaki" width="250" height="250">
     </div>
-    <section>
+    <mai/>
+    <table class="list_course">          
+        <caption class="title_table">Andamento do curso   :</caption>
+            <tr>
+                <th>Blocos</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td> Bloco 01 Unix & Bash:</td>	
+                <td> Ok </td>
+            </tr>
+            <tr>
+                <td> Bloco 02 Git, GitHub e Internet:</td>  
+                <td> Ok</td>
+            </tr>
+            <tr>
+                <td> Bloco 03 Introdução à HTML e CSS:</td>	
+                <td> Ok </td>
+            </tr>
+            <tr>
+                <td> Bloco 04 Introdução à JavaScript e Lógica de Programação:  </td>  
+                <td> Loading</td>
+            </tr>
+    </table>    
         <a href="https://www.linkedin.com/in/eduardo-tatsuo-miyazaki-11507943/" target="_blank">Linkedin</a>
-        <h2>Lições</h2>
-        <div>       
+    <h2>Lições</h2>
+    <div>       
         <ol id="licoes_aprendidas">
             <li>Unix</li>
             <li>SHell</li>
@@ -33,67 +54,42 @@
             <li>Github</li>
             <li>Html</li>
             <li>Css</li>
-            <li>Slack</li>
+            <li>Slack</li>      
             <li>Html Semântico</li>
-        </ol>
-        </div>
-            <div>
-                <ul id="licoes_a_aprender"> 
-                    <li>React</li>
-                    <li>Javascript</li>
-                    <li>SQL</li>
-                    <li>Forms</li>
-                    <li>CSS Responsive</li>
-                    <li>Node</li>
-                    <li>Unit Tests</li>
-                    <li>Projetos</li>
-                    <li>Soft SKills</li>
-                    <li>HOF</li>
-                </ul>
-            </div>            
-        <table>          
-            <caption>Andamento:</caption>
-                <tr>
-                    <th>Blocos</th>
-                    <th>Status</th>
-                </tr>
-                <tr>
-                    <td> Bloco 01 Unix & Bash:</td>	
-                    <td> Ok </td>
-                </tr>
-                <tr>
-                    <td> Bloco 02 Git, GitHub e Internet:</td>  
-                    <td> Ok</td>
-                </tr>
-                <tr>
-                    <td> Bloco 03 Introdução à HTML e CSS:</td>	
-                    <td> Ok </td>
-                </tr>
-                <tr>
-                    <td> Bloco 04 Introdução à JavaScript e Lógica de Programação:</td>  
-                    <td> Loading</td>
-                </tr>
-        </table>           
-    </section>
+        </ol>   
+        <ul id="licoes_a_aprender"> 
+            <li>React</li>
+            <li>Javascript</li>
+            <li>SQL</li>
+            <li>Forms</li>
+            <li>CSS Responsive</li>
+            <li>Node</li>
+            <li>Unit Tests</li>
+            <li>Projetos</li>
+            <li>Soft SKills</li>
+            <li>HOF</li>
+        </ul>                          
+    </div>    
+    </main>
     <article class="lado-esquerdo" id="artigo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Aenean congue convallis nibh sit amet ultricies. 
-            Nulla vitae aliquet odio. Morbi mollis massa sit amet magna 
-            placerat posuere. Aliquam a urna lobortis, pharetra odio vel, 
-            tincidunt mi. Cras varius, mauris et sodales euismod, 
-            dui nulla ullamcorper velit, quis facilisis sapien tortor 
-            eget urna.</p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Aenean congue convallis nibh sit amet ultricies. 
+        Nulla vitae aliquet odio. Morbi mollis massa sit amet magna 
+        placerat posuere. Aliquam a urna lobortis, pharetra odio vel, 
+        tincidunt mi. Cras varius, mauris et sodales euismod, 
+        dui nulla ullamcorper velit, quis facilisis sapien tortor 
+        eget urna.
     </article>
-    <section class="lado-direito">
-        <aside>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aenean congue convallis nibh sit amet ultricies. 
-                Nulla vitae aliquet odio. Morbi mollis massa sit amet 
-                magna placerat posuere.</p>
-        </aside>
-    </section>
+    <aside>
+        <section class="lado-direito">        
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Aenean congue convallis nibh sit amet ultricies. 
+            Nulla vitae aliquet odio. Morbi mollis massa sit amet 
+            magna placerat posuere.        
+        </section>
+    </aside>
     <footer id="rodape">
-        <p>Direitos reservados por Eduardo</p>
+        Direitos reservados por Eduardo 
     </footer>                
 </body>
 </html>
