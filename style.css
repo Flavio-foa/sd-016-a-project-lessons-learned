@@ -10,7 +10,7 @@ body {
 
 #titulo {
   color: rgb(250, 252, 253);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: sans-serif;
   background-color: black;
   margin-top: 0%;
   font-size: 25px;
@@ -23,24 +23,24 @@ body {
 
 #licoes_aprendidas {
   padding: auto;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: sans-serif;
   padding-left: 60px;
 
 }
 
 h2 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: sans-serif;
   padding-left: 45px;
 }
 
 #licoes_a_aprender {
   padding: auto;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: sans-serif;
   padding-left: 60px;
 }
 
 p {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: sans-serif;
 }
 
 .aprendis {
