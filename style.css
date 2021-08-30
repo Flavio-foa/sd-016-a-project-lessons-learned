@@ -79,16 +79,17 @@ h2 {
   position: static;
 }
 
-  #rodape {
+#rodape {
   height: 0;
   padding: 30px;
   clear: both;
   background-color: rgb(60, 182, 44);
 }
-  #icones i {
+  
+#icones i {
   font-size: 20px;
   margin: 0 20px 0 0;
-  }
+}
 
 .tabela {
   float: right;
