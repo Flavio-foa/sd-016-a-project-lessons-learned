@@ -8,11 +8,9 @@ body {
   top: 0;
   }
 
-footer {
-  background-color: orange;
+#rodape {
+  background-color: greenyellow;
   text-align: center;
-  position: static;
-  top: 600px;
 }
 
 #titulo {
@@ -30,13 +28,8 @@ h2 {
 }
 
 h3 {
-  height: 10px;
-  font-size: 18px;
-}
-
-h4 {
-  height: 2px;
   font-size: 16px;
+  color: blue;
 }
 
 .trybe {
@@ -45,12 +38,16 @@ h4 {
 
 #menu {
   border-bottom: 8px solid rgb (230, 230, 230);
+  top: 1000px;
+  position: absolute;
 }
 
 #minha_foto {
   float: left;
   width: 70px;
   border-radius: 10%;
+  top: 30px;
+  position: relative;
 }
 
 #licoes_aprendidas {
