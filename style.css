@@ -67,12 +67,20 @@ body {
   }
  
     #rodape {
+    padding: 30px;
     clear: both;
-    height: 100px;
     background-color: rgb(60, 182, 44);
     
   }
     #icones img {
     width: 70px;
-    margin: 30px 20px 0 0;
+    margin: 0px 20px 0 0;
     }
+
+  .tabela {
+    float: right;
+  }
+
+  #icones {
+    float: left;
+  }
