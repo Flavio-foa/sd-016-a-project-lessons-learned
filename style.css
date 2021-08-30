@@ -38,8 +38,6 @@ h3 {
 
 #menu {
   border-bottom: 8px solid rgb (230, 230, 230);
-  top: 1000px;
-  position: absolute;
 }
 
 #minha_foto {
@@ -95,12 +93,10 @@ p {
   width: 50%;
   position: relative;
   top: 56px;
-  left: 10px;
 }
 
 .lista_direita {
   float: right;
   width: 50%;
-  left: 100px;
   position: relative;
 }
