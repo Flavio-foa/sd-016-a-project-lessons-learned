@@ -81,12 +81,12 @@ p {
   padding: 10px;
 }
 
-.lado_direito {
+.lado-direito {
   display: inline-block;
   width: 40%;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   display: inline-block;
   width: 40%;
 }
