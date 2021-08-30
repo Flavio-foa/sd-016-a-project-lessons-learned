@@ -67,6 +67,7 @@ body {
   }
  
     #rodape {
+    clear: both;
     height: 100px;
     background-color: rgb(60, 182, 44);
     
