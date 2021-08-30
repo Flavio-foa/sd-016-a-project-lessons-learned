@@ -1,26 +1,23 @@
 body {
-    background-color: rgba(253,251,251);
-    font-size: 16px;
-    line-height: 25px;
-    margin: 0 0 0 20px;
-    color: rgba(10,31,48,0.);
-    padding: auto;
-    border: 0ch;
-    
-    
-  }
-#cabecalho {
-    position: fixed;
-    top: 0;
-    font-family: 'Klee One', cursive;
-    
-   
+  background-color: rgba(253, 251, 251);
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0 0 0 20px;
+  padding: auto;
+  border: 1ch;
 }
-#minha_foto{
-    margin-top: 70px;
-}
-.lado-esquerdo, .lado-direito{
-width:49%;
-display: inline-flex;
 
+#cabecalho {
+  position: fixed;
+  top: 0;
+  font-family: Klee One, cursive;
+}
+
+#minha_foto {
+  margin-top: 70px;
+}
+
+.lado-esquerdo , .lado-direito {
+  width: 49%;
+  display: inline-flex;
 }
