@@ -5,7 +5,9 @@ body {
 #cabecalho {
   width: 75%;
   position: fixed;
-  top: 0px;
+  top: 0;
+  padding: 0;
+  margin: 10px;
 }
 
 #rodape {
@@ -14,7 +16,7 @@ body {
 }
 
 #titulo {
-  background-color:green;
+  background-color: green;
   color: azure;
   font-size: 35px;
   height: 50px;
@@ -60,12 +62,6 @@ h3 {
   display: inline-block;
 }
 
-.titulo3 {
-  position: relative;
-  left: 20px;
-  line-height: 10px;
-}
-
 p {
   font-family: Impact, sans-serif;
   text-align: justify;
@@ -76,9 +72,9 @@ p {
 .lado-direito {
   display: inline-block;
   width: 40%;
-  }
+}
 
 .lado-esquerdo {
   display: inline-block;
   width: 40%;
-  }
+}
