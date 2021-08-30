@@ -25,28 +25,28 @@ ul , ol , li {
   width: 60%;
   height: 90%;
   margin: 8% 0 0 8%;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 .limit-size-article {
   margin: 0.5%;
   padding: 0.5%;
-  /* background-color: red; */
+  background-color: red;
 }
 
 .limit-size-section {
-  /* background-color: orange; */
+  background-color: orange;
 }
 
 .limit-size-aside {
-  /* background-color: tan; */
+  background-color: tan;
   width: 20%;
   height: 350px;
   margin: 8% 0 0 4%;
 }
 
 .limit-size-nav {
-  /* background-color: grey; */
+  background-color: grey;
   width: 90%;
   height: 300px;
   margin: 8% 0 0 4%;
@@ -56,11 +56,15 @@ ul , ol , li {
 .limit-size-footer {
   width: 1366px;
   margin-top: 20px;
-  /* background-color: purple; */
+  background-color: purple;
 }
 
 /* -------------------------
 02. class Selectors */
+
+.paragraph-main-section {
+
+}
 
 /* -------------------------
 03. id Selectors */
