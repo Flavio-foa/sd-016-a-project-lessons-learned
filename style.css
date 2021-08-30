@@ -21,7 +21,7 @@ body {
 
 #titulo {
   text-align: center;
-  font-family: 'Oswald';
+  font-family: 'Oswald', 'sans-serif';
   font-size: 25px;
   font-style: inherit;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 h2 {
-  font-family: 'ZCOOL Kuaile';
+  font-family: 'ZCOOL Kuaile', 'sans-serif';
   font-size: 18px;
 }
 
@@ -54,7 +54,7 @@ h2 {
 
 .article {
   text-align: center;
-  font-family: 'ZCOOL Kuaile';
+  font-family: 'ZCOOL Kuaile', 'sans-serif';
 }
 
 .lado-esquerdo {
