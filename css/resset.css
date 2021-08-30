@@ -1,4 +1,4 @@
-/* GLOBAL > RESET 24 julho 2015*/
+/* GLOBAL > RESET 24 julho 2015 */
 
 body {
   font-size: 62.5%;
@@ -31,17 +31,13 @@ article , aside , details , figcaption , figure , footer , header , hgroup , men
   display: block;
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-}
-
 blockquote , q {
   quotes: none;
 }
 
 blockquote:before , blockquote:after , q:before , q:after {
   content: '';
-  content: none;
+  /* content: none; */
 }
 
 table {
