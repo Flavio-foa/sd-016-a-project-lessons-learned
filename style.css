@@ -3,7 +3,7 @@ body {
 }
 
 #cabecalho {
-  width: 40%;
+  width: 75%;
   position: fixed;
   top: 0px;
 }
@@ -56,7 +56,7 @@ h3 {
   font-size: 15px;
 }
 
-.listas {
+.lista1 {
   display: inline-block;
 }
 
@@ -82,13 +82,3 @@ p {
   display: inline-block;
   width: 40%;
   }
-
-.lista1 {
-  display: inline-block;
-  width: 40%;
-}
-
-.lista2 {
-  display: inline-block;
-  width: 40%;
-}
