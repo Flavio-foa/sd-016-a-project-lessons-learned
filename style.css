@@ -68,11 +68,23 @@
   text-decoration : none;
 }
 
-aside {
+article {
   width           : 50%;
   padding-left    : 15px;
   margin-left     : 15px;
   float           : right;
+  font-style      : italic;
+  background-color: rgb(250, 236, 236);
+  border          : 3px solid black;
+  border-radius   : 10px;
+}
+
+section {
+  width           : 40%;
+  padding-left    : 5px;
+  margin-left     : 5px;
+  padding-bottom    : 30px;
+  float           : left;
   font-style      : italic;
   background-color: rgb(250, 236, 236);
   border          : 3px solid black;
