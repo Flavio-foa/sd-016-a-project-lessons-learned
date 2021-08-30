@@ -24,6 +24,7 @@ body {
   font-family: 'Oswald', 'sans-serif';
   font-size: 25px;
   font-style: inherit;
+  color: black;
 }
 
 #minha_foto {
@@ -36,6 +37,7 @@ body {
 h2 {
   font-family: 'ZCOOL Kuaile', 'sans-serif';
   font-size: 18px;
+  color: black;
 }
 
 #licoes_aprendidas {
@@ -68,6 +70,7 @@ h2 {
   padding-left: 10px;
   width: 20%;
   height: 55%;
+  line-height: 18px;
 }
 
 .lado-direito {
@@ -75,6 +78,7 @@ h2 {
   padding-left: 10%;
   padding-right: 10%;
   float: right;
+  line-height: 18px;
 }
 
 table {
