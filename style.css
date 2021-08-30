@@ -18,12 +18,6 @@ body {
   word-spacing: 30px;
 }
 
-table {
-  border: 2px solid black;
-  margin-left: auto;
-  display: inline-block;
-}
-
 #titulo {
   text-align: center;
   font-family: Oswald;
@@ -31,7 +25,7 @@ table {
   font-style: inherit;
 }
   
-#photo {
+#minha_foto {
   width: 200px;
   height: 200px;
   padding-left: 43%;
@@ -63,18 +57,22 @@ table {
   margin-right: 65%;
   border: 2px solid black;
   background-color: navajowhite;
+  padding-left: 10px;
+  width: 20%;
+  height: 55%;
 }
 
 .lado-direito {
-  position: absolute;
-  padding-top: auto;
-  margin-left: 65%;
+  font-size: 18px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+table {
+  border: 2px solid black;
+  margin-left: 55%;
+  margin-right: 20%;
+  display: block;
   float: right;
-  padding-right: 50%;
-  height: 40%;
-  margin-right: 15px;
-  font-size: 15px;
-  text-align: center;
-  margin-bottom: 100%;
-  width: 8%;
+  background-color: oldlace;
 }
