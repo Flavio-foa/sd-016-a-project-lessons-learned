@@ -8,6 +8,12 @@ body {
   top: 0;
   }
 
+.menu {
+  top: 50px;
+  position: absolute;
+  float: left;
+}
+
 #rodape {
   background-color: greenyellow;
   text-align: center;
@@ -36,16 +42,14 @@ h3 {
   color: green;
 }
 
-#menu {
-  border-bottom: 8px solid rgb (230, 230, 230);
+.foto_perfil {
+  display: inline-block;
+  display: block;
+  width: 100%;
 }
 
 #minha_foto {
-  float: left;
-  width: 70px;
   border-radius: 10%;
-  top: 30px;
-  position: relative;
 }
 
 #licoes_aprendidas {
@@ -60,15 +64,14 @@ h3 {
   font-size: 15px;
 }
 
+.listas {
+  display: inline-block;
+}
+
 .titulo3 {
   position: relative;
   left: 20px;
   line-height: 10px;
-}
-
-#rodape {
-  position: absolute;
-  right: 10px;
 }
 
 p {
@@ -79,24 +82,21 @@ p {
 }
 
 .lado_direito {
-  float: right;
+  display: inline-block;
   width: 40%;
 }
 
 .lado_esquerdo {
-  float: left;
+  display: inline-block;
   width: 40%;
 }
 
-.lista_esquerda {
-  float: left;
-  width: 50%;
-  position: relative;
-  top: 56px;
+.lista1 {
+  display: inline-block;
+  width: 40%;
 }
 
-.lista_direita {
-  float: right;
-  width: 50%;
-  position: relative;
+.lista2 {
+  display: inline-block;
+  width: 40%;
 }
