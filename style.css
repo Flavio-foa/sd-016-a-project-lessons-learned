@@ -46,7 +46,6 @@ body {
     display: inline-block;
   }
   #artigo {
-    height: 800px;
     font-size: 20px;
   }
   .lado-esquerdo {
@@ -68,10 +67,11 @@ body {
   }
  
     #rodape {
-  height: 100px;
-  background-color: rgb(60, 182, 44);
-    }
+    height: 100px;
+    background-color: rgb(60, 182, 44);
+    
+  }
     #icones img {
-  width: 70px;
-  margin: 30px 20px 0 0;
+    width: 70px;
+    margin: 30px 20px 0 0;
     }
