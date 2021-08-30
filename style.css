@@ -5,6 +5,8 @@ body {
   margin: 0 0 0 20px;
   padding: auto;
   border: 1ch;
+  font-family: Klee One, cursive;
+  color: black;
 }
 
 #cabecalho {
