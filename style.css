@@ -3,15 +3,9 @@ body {
 }
 
 #cabecalho {
-  width: 100%;
+  width: 40%;
   position: fixed;
-  top: 0;
-  }
-
-.menu {
-  top: 50px;
-  position: absolute;
-  float: left;
+  top: 0px;
 }
 
 #rodape {
@@ -42,14 +36,12 @@ h3 {
   color: green;
 }
 
-.foto_perfil {
-  display: inline-block;
-  display: block;
-  width: 100%;
-}
-
 #minha_foto {
   border-radius: 10%;
+  position: absolute;
+  top: 23px;
+  display: inline-block;
+  width: 50px;
 }
 
 #licoes_aprendidas {
@@ -84,12 +76,12 @@ p {
 .lado-direito {
   display: inline-block;
   width: 40%;
-}
+  }
 
 .lado-esquerdo {
   display: inline-block;
   width: 40%;
-}
+  }
 
 .lista1 {
   display: inline-block;
