@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato:400,400i,900,900i&display=swap');
-body {
-  --cor_primaria: #ff8707;
-  --cor_primaria_opaca: #febb74;
-  --cor_fundo: #fdfbfb;
+
+:root { 
+  --main-bg-color: #fdfbfb;
+  --primary-color: #ff8707;
+  --second-color: #febb74;;
   --padding_costum: 40px;
-  background-color: var(--cor_fundo);
+}
+
+body {
+  background-color: var(--main-bg-color);
   font-family: 'lato', serif;
   font-size: 20px;
   font-weight: 400;
@@ -13,11 +17,9 @@ body {
 }
 
 header {
-  position: fixed;
-  /* pré requisito */
-  top: 0;
-  /* pré requisito */
-  background-color: var(--cor_primaria);
+  position: fixed; /* pré requisito */
+  top: 0; /* pré requisito */
+  background-color: var(--primary-color);
   width: 100%;
   text-align: center;
   padding: 50px 0;
@@ -71,25 +73,25 @@ a[class^="social"]:hover {
 }
 
 a.social_linkedin {
-  background-image: url(../img/linkedin.png);
+  background-image: url("../img/linkedin.png");
 }
 
 a.social_github {
-  background-image: url(../img/github.png);
+  background-image: url("../img/github.png");
 }
 
 a.social_codpen {
-  background-image: url(../img/codpen.svg);
+  background-image: url("../img/codpen.svg");
   background-size: 90%;
 }
 
 a.social_behance {
-  background-image: url(../img/behance.png);
+  background-image: url("../img/behance.png");
   background-size: 100%;
 }
 
 .conteiner_avatar {
-  border: solid 5px var(--cor_fundo);
+  border: solid 5px var(--main-bg-color);
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -105,7 +107,7 @@ a.social_behance {
   object-fit: contain;
 }
 
-article[class^="lado"], aside[class^="lado"] {
+article[ class^="lado" ], aside[ class^="lado" ] {
   width: calc(50% - var(--padding_costum));
 }
 
@@ -118,19 +120,16 @@ section.duas_colunas {
 }
 
 .lado-esquerdo {
-  /* float: left; */
   padding-right: var(--padding_costum);
 }
 
 .lado-direito {
-  /* float: right; */
   padding-left: var(--padding_costum);
 }
 
 section {
   width: 60%;
   margin: auto;
-  /* clear: both; */
 }
 
 table {
@@ -140,16 +139,16 @@ table {
 }
 
 thead {
-  background-color: var(--cor_primaria);
-  color: var(--cor_fundo);
+  background-color: var(--primary-color);
+  color: var(--main-bg-color);
 }
 
 tbody>tr:nth-child(even) {
-  background-color: var(--cor_primaria_opaca);
+  background-color: var(--second-color);
 }
 
 footer {
-  background-color: var(--cor_primaria);
+  background-color: var(--primary-color);
   text-align: center;
-  color: var(--cor_fundo);
+  color: var(--main-bg-color);
 }
