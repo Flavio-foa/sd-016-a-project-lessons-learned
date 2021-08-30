@@ -4,6 +4,8 @@ body {
     line-height: 25px;
     margin: 0 0 0 20px;
     color: rgba(10,31,48,0.);
+    padding: auto;
+    border: 0ch;
     
     
   }
@@ -16,4 +18,9 @@ body {
 }
 #minha_foto{
     margin-top: 70px;
+}
+.lado-esquerdo, .lado-direito{
+width:49%;
+display: inline-flex;
+
 }
