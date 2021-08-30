@@ -1,10 +1,10 @@
-body{
+body {
   font-family: "Hina Mincho";
   margin: 0;
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
   padding: 2px 10px;
   margin: 0;
   color: aqua;
@@ -15,7 +15,7 @@ body{
   right: 0;
   left: 0;
   }
-#corpo{
+#corpo {
   position: relative;
   margin: 0;
   top: 60px;
@@ -24,19 +24,19 @@ body{
   right: 0;
   padding: 5px;
 }
-#foto{
+#foto {
   display: inline-block;
   margin: 0;
   padding: 10px 2px;
   float: left;
 }
-.Listas-de-Habilidades{
+.Listas-de-Habilidades {
   margin: 0;
   display: inline-block;
   float: right;
 
 }
-#Licoes_aprendidas{
+#Licoes_aprendidas {
   display: inline-block;
   margin: 0;
   float: left;
@@ -44,24 +44,24 @@ body{
   left: 500px;
   
 }
-#licoes_a_aprender{
+#licoes_a_aprender {
   display: inline-block;
   margin: 0;
   float: right;
   position: absolute;
   left: 250px;
 }
-.artigo{
+.artigo {
   position: relative;
   top: 350px;
   display: block;
 
 }
-.nota_sobre_projeto{
+.nota_sobre_projeto {
   position: relative;
   top: 400px;
 }
-.button{
+.button {
   position: relative;
   top: 450px;
   color: black;
@@ -73,7 +73,7 @@ body{
   text-decoration: none;
   margin-left: 15px;
 }
-#rodape{
+#rodape {
   position: relative;
 	top: 600px;
   margin: 0px;
