@@ -11,13 +11,25 @@
     <header id="cabecalho">
       <h1 id="titulo">Lessons Learned</h1>
     </header>
-    <!--1366 x 768 size for page-->
-    <main>
+    <nav>
+      <ul>
+        <li>Página principal</li>
+        <li>Artigo</li>
+        <li>Lições Aprendidas</li>
+        <li>Redes sociais</li>
+      </ul>
+    </nav>
+    <div id="meu-catão">
       <img
         src="./picture/20210523_173931.jpg"
         id="minha_foto"
         alt="Minha foto"
       />
+      <p>Fernando Mós</p>
+      <p>Turma 16 - Tribo A</p>
+      <p>São José dos Pinhais - PR 2021</p>
+    </div>
+    <seciton class="lado-esquerdo">
       <ol id="licoes_aprendidas">
         <li>Unix</li>
         <li>Git</li>
@@ -30,13 +42,37 @@
         <li>HTML Semântico</li>
         <li>Introdução JavaScrpit</li>
       </ol>
-      <article>Crie um artigo sobre seu aprendizado</article>
-
+      <ul id="licoes_a_aprender">
+        <li>React - Components</li>
+        <li>React - Router</li>
+        <li>Metodologias Ágeis</li>
+        <li>Teste automatizados com React Testing Library</li>
+        <li>Gerenciamento de estado com Redux</li>
+        <li>Context API e React Hooks</li>
+        <li>SQL</li>
+        <li>MangoDB</li>
+        <li>Sockets</li>
+        <li>Python</li>
+      </ul>
+    </seciton>
+    <main>
+      <article class="lado-direito">
+        <h2>Meu inicio na programação.</h2>
+        Desde pequeno sempre fui apaixonado por tecnologia, após alguns anos
+        resolvi fazer faculdade de Sistemas de informação. Porém ao decorrer da
+        faculdade percebi que faltava algo e que ali eu não conseguiria aprender
+        o que era necessário para entrar no mercado de trabalho, foi então
+        quando entrei na Trybe e tudo parece ser muito mais possivel hoje.
+      </article>
       <aside>
-        <section>conta uma passagem sobre seu aprendizado</section>
+        <section>
+          Aprendi HTML5 e CSS3 por muito esforço, pois nunca havia entendido
+          antes o significado das tags. Após estudar muito comecei a entender
+          como funciona e entender seu significa semântico mudou muito sobre meu
+          aprendizado.
+        </section>
       </aside>
     </main>
-
     <table>
       <tr>
         <td></td>
@@ -46,16 +82,14 @@
         <td></td>
       </tr>
     </table>
-    <footer id="rodape">
-      <p>
-        Aprenda a programar com a
-        <a
-          href="https://www.betrybe.com/?utm_medium=cpc&utm_source=google&utm_campaign=Brand&utm_content=ad03_din_h&gclid=CjwKCAjw4KyJBhAbEiwAaAQbEwydbWR9fIIRXLAxXQvHcW8-kkydfoJmV9kSEr_OMX78ZSfxuIog5xoC4Y0QAvD_BwE"
-          target="_Blank"
-          >Be trybe</a
-        >
-        !
-      </p>
-    </footer>
+    <p>
+      Aprenda a programar com a
+      <a
+        href="https://www.betrybe.com/?utm_medium=cpc&utm_source=google&utm_campaign=Brand&utm_content=ad03_din_h&gclid=CjwKCAjw4KyJBhAbEiwAaAQbEwydbWR9fIIRXLAxXQvHcW8-kkydfoJmV9kSEr_OMX78ZSfxuIog5xoC4Y0QAvD_BwE"
+        target="_blank"
+        >Be trybe</a
+      >!
+    </p>
+    <footer id="rodape"></footer>
   </body>
 </html>
