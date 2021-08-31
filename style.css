@@ -1,3 +1,8 @@
+    @font-face {
+        font-family: 'Anton';
+        src: url(fonts/Anton.ttf);
+    }
+
     body {
         background-color: rgb(253, 251, 251);
     }
@@ -9,11 +14,17 @@
         background-color: darkgray;
         text-align: center;
         width: 100%;
+        margin: 0;
     }
 
-    #separador {
+    .texto-foto{
+        padding-top: 100px;
+        align-items: center;
         width: 100%;
-        border: 1px solid black;
+    }
+
+    #nome{
+        font-family: "Anton", serif;
     }
 
     #minha_foto {
@@ -30,4 +41,3 @@
         align-items: center;
         margin-left: 10px;
     }
-    
