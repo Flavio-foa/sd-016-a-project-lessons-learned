@@ -56,7 +56,7 @@ nav.menu_social {
   list-style-type: none;
 }
 
-a[class^="social"] {
+a[ class^='social' ] {
   display: block;
   width: 50px;
   height: 50px;
@@ -68,25 +68,25 @@ a[class^="social"] {
   opacity: 55%;
 }
 
-a[class^="social"]:hover {
+a[ class^='social' ]:hover {
   opacity: 100%;
 }
 
 a.social_linkedin {
-  background-image: url("../img/linkedin.png");
+  background-image: url('../img/linkedin.png');
 }
 
 a.social_github {
-  background-image: url("../img/github.png");
+  background-image: url('../img/github.png');
 }
 
 a.social_codpen {
-  background-image: url("../img/codpen.svg");
+  background-image: url('../img/codpen.svg');
   background-size: 90%;
 }
 
 a.social_behance {
-  background-image: url("../img/behance.png");
+  background-image: url('../img/behance.png');
   background-size: 100%;
 }
 
@@ -107,7 +107,7 @@ a.social_behance {
   object-fit: contain;
 }
 
-article[ class^="lado" ], aside[ class^="lado" ] {
+article[ class^='lado' ] , aside[ class^='lado' ] {
   width: calc(50% - var(--padding_costum));
 }
 
@@ -143,7 +143,7 @@ thead {
   color: var(--main-bg-color);
 }
 
-tbody>tr:nth-child(even) {
+tbody > tr:nth-child(even) {
   background-color: var(--second-color);
 }
 
