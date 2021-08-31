@@ -5,7 +5,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: auto;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
 }
 
@@ -46,9 +46,23 @@ a {
   color: rgb(153, 226, 180);
 }
 
+#perfil {
+  display: flex;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.perfil_bio {
+  padding: 100px;
+  line-height: 30px;
+}
+
+.perfil_titulo {
+  color: rgb(86, 171, 145);
+}
+
 #minha_foto {
-  margin-top: 100px;
-  padding: 50px 0 80px 100px;
+  padding: 50px 0 50px 100px;
 }
 
 .licoes_titulo {
@@ -70,7 +84,8 @@ a {
   line-height: 25px;
 }
 
-#licoes_aprendidas , #licoes_a_aprender {
+#licoes_aprendidas,
+#licoes_a_aprender {
   margin-top: 20px;
 }
 
@@ -108,6 +123,29 @@ a {
   font-size: 20px;
   color: rgb(86, 171, 145);
   line-height: 30px;
+}
+
+#tabela {
+  padding: 50px;
+  text-align: center;
+}
+
+.tabela_titulo {
+  color: rgb(86, 171, 145);
+  padding: 15px;
+}
+
+.tabela_aprendizado {
+  border-spacing: 20px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  border: 1px solid rgb(86, 171, 145);
+}
+
+.tabela_aprendizado th {
+  width: 20%;
 }
 
 #rodape {

@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Projeto Lessons Learned</title>
   </head>
   <body>
@@ -16,13 +19,24 @@
       <nav id="navegacao">
         <ul id="navegacao_lista">
           <li><a href="#perfil" class="navegacao_link">Home</a></li>
-          <li><a href="#licoes"class="navegacao_link">Lições</a></li>
-          <li><a href="#aprendizados" class="navegacao_link">Aprendizados</a></li>
+          <li><a href="#licoes" class="navegacao_link">Lições</a></li>
+          <li>
+            <a href="#aprendizados" class="navegacao_link">Aprendizados</a>
+          </li>
         </ul>
       </nav>
     </header>
     <section id="perfil">
       <img id="minha_foto" src="/images/photo.jpg" alt="Foto de Meiryland" />
+      <div class="perfil_bio">
+        <h2 class="perfil_titulo">Meiryland Melo</h2>
+        <p class="perfil_descricao">
+          Psicóloga em transição de carreira, no momento, estudante de
+          desenvolvimento web na Trybe. Me reinventar, buscando sempre adquirir
+          novos conhecimentos e estar sempre em movimento é o que eu venho
+          buscando para crescer como pessoa e profissionalmente.
+        </p>
+      </div>
     </section>
     <main id="licoes">
       <h2 class="licoes_titulo">Lições</h2>
@@ -60,31 +74,77 @@
       </section>
     </main>
     <section id="aprendizados">
-    <article class="lado_esquerdo">
-      <h2>Meu aprendizado</h2>
-      <p>Tem sido um prazeroso desafio aprender em ritmo acelerado. Desde o inicio da minha
-        jornada na trybe sinto que aprendi de forma mais detalhada sobre alguns assuntos que já conhecia 
-        e apesar do ritmo ser acelerado o cuidado com o conteúdo que é passado ganhou meu coração e me 
-        sinto mais confiante de que vou conseguir assimilar o que é importante para me tornar uma 
-        profissional qualificada para o mercado de trabalho.
-      </p>
-    </article>
-    <aside class="lado_direito">
-      <span>Nota</span>
-      <p>Sinto que estou tendo um bom aproveitamento relativo ao aprendizado
-        em parte pela minha dedicação diária de estudos e uma outra parte pela forma sistemática 
-        e organizada do plano de estudos da trybe que tem funcionado muito bem para mim.
-      </p>
-    </aside>
-  </section>
+      <article class="lado_esquerdo">
+        <h2>Meu aprendizado</h2>
+        <p>
+          Tem sido um prazeroso desafio aprender em ritmo acelerado. Desde o
+          inicio da minha jornada na trybe sinto que aprendi de forma mais
+          detalhada sobre alguns assuntos que já conhecia e apesar do ritmo ser
+          acelerado o cuidado com o conteúdo que é passado ganhou meu coração e
+          me sinto mais confiante de que vou conseguir assimilar o que é
+          importante para me tornar uma profissional qualificada para o mercado
+          de trabalho.
+        </p>
+      </article>
+      <aside class="lado_direito">
+        <span>Nota</span>
+        <p>
+          Sinto que estou tendo um bom aproveitamento relativo ao aprendizado em
+          parte pela minha dedicação diária de estudos e uma outra parte pela
+          forma sistemática e organizada do plano de estudos da trybe que tem
+          funcionado muito bem para mim.
+        </p>
+      </aside>
+    </section>
+    <section id="tabela">
+      <h2 class="tabela_titulo">Nivel de aprendizado</h2>
+      <table class="tabela_aprendizado">
+        <thead>
+          <tr>
+            <th>Lição</th>
+            <th>Nível</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Unix</td>
+            <td>***</td>
+          </tr>
+          <tr>
+            <td>Git e GitHub</td>
+            <td>****</td>
+          </tr>
+          <tr>
+            <td>Internet</td>
+            <td>****</td>
+          </tr>
+          <tr>
+            <td>HTML 5</td>
+            <td>*****</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>****</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     <footer id="rodape">
       <div class="rodape_link">
         <p class="rodape_frase">Acompanhe meu aprendizado</p>
-        <a href="https://www.linkedin.com/in/meiryland/" target="_blank" class="rodape_icon">
-          <img src="/images/linkedin.png" alt="Icone para o linkedin">
+        <a
+          href="https://www.linkedin.com/in/meiryland/"
+          target="_blank"
+          class="rodape_icon"
+        >
+          <img src="/images/linkedin.png" alt="Icone para o linkedin" />
         </a>
-        <a href="https://github.com/meirylandmelo" target="_blank" class="rodape_icon">
-          <img src="/images/github.png" alt="icone para o github">
+        <a
+          href="https://github.com/meirylandmelo"
+          target="_blank"
+          class="rodape_icon"
+        >
+          <img src="/images/github.png" alt="icone para o github" />
         </a>
       </div>
     </footer>
