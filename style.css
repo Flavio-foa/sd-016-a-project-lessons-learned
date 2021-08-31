@@ -2,7 +2,7 @@
 
 :root { 
 
-  --main-bg-color:  rgb(253, 251, 251);
+  --main-bg-color: rgb(253, 251, 251);
 
   --primary-color: rgb(255, 135, 7);
 
@@ -76,20 +76,20 @@ a[ class ^= 'social' ]:hover {
   opacity: 100%;
 }
 
-a.social_linkedin {
+.social_linkedin {
   background-image: url('../img/linkedin.png');
 }
 
-a.social_github {
+.social_github {
   background-image: url('../img/github.png');
 }
 
-a.social_codpen {
+.social_codpen {
   background-image: url('../img/codpen.svg');
   background-size: 90%;
 }
 
-a.social_behance {
+.social_behance {
   background-image: url('../img/behance.png');
   background-size: 100%;
 }
@@ -101,7 +101,7 @@ a.social_behance {
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
-  left: calc(20% - 120px - (var(--padding_costum)*2));
+  left: calc( 20% - 120px - ( var(--padding_costum) *2 ) );
   top: 80px;
 }
 
@@ -111,7 +111,7 @@ a.social_behance {
   object-fit: contain;
 }
 
-article[ class ^= 'lado' ] , aside[ class ^= 'lado' ] {
+.lado-esquerdo , .lado-direito {
   width: calc(50% - var(--padding_costum));
 }
 
@@ -119,7 +119,7 @@ section {
   padding-bottom: var(--padding_costum);
 }
 
-section.duas_colunas {
+.duas_colunas {
   display: flex;
 }
 
