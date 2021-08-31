@@ -1,27 +1,31 @@
-body {
-    background-color: rgb(253, 251, 251);
-}
-#cabecalho {
-    top: 0;
-    height: 90px;
-    background-color: darkgray;
-    text-align: center;
-    width: 100%;
-}
-#separador {
-    width: 100%;
-    border: 1px solid black;
-}
-#minha_foto {
-    max-width:500px;
-    max-height:500px;
-    width: auto;
-    height: auto;    
-}
-div {
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    align-items: center;
-    margin-left: 10px;
-}
+    body {
+        background-color: rgb(253, 251, 251);
+    }
+
+    #cabecalho {
+        top: 0;
+        height: 90px;
+        background-color: darkgray;
+        text-align: center;
+        width: 100%;
+    }
+
+    #separador {
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    #minha_foto {
+        max-width: 500px;
+        max-height: 500px;
+        width: auto;
+        height: auto;
+    }
+
+    div {
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+        align-items: center;
+        margin-left: 10px;
+    }
