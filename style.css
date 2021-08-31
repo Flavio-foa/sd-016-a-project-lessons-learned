@@ -39,3 +39,15 @@ body {
   display: flex;/*https://www.devmedia.com.br/como-centralizar-divs-em-html-e-css/37568*/
   justify-content: center;
 }
+
+.texto-um{
+  display: flex;
+  justify-content: center;
+}
+
+.artigo-aprendizado{
+  width: 1000px;
+  text-align: center;
+  margin-top: 25px;
+  font-size: x-large;
+} 
