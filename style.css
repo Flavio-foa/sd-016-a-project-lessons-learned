@@ -1,43 +1,47 @@
-    @font-face {
-        font-family: 'Anton';
-        src: url(fonts/Anton.ttf);
-    }
+@font-face {
+    font-family: Anton;
+    src: url('fonts/Anton.ttf');
+}
 
-    body {
-        background-color: rgb(253, 251, 251);
-    }
+body {
+    background-color: rgb(
+        253,
+        251,
+        251
+        );
+}
 
-    #cabecalho {
-        position: fixed;
-        top: 0;
-        height: 100px;
-        background-color: darkgray;
-        text-align: center;
-        width: 100%;
-        margin: 0;
-    }
+#cabecalho {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    background-color: darkgray;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
 
-    .texto-foto{
-        padding-top: 100px;
-        align-items: center;
-        width: 100%;
-    }
+.texto-foto  {
+    padding-top: 100px;
+    align-items: center;
+    width: 100%;
+}
 
-    #nome{
-        font-family: "Anton", serif;
-    }
+#nome {
+    font-family: 'Anton', serif;
+}
 
-    #minha_foto {
-        max-width: 500px;
-        max-height: 500px;
-        width: auto;
-        height: auto;
-    }
+#minha_foto {
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
 
-    div {
-        width: 400px;
-        height: 200px;
-        display: inline-block;
-        align-items: center;
-        margin-left: 10px;
-    }
+div {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 10px;
+}
