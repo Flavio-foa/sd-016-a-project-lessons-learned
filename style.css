@@ -1,4 +1,7 @@
 /*Cabeçalho no topo fixado*/
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
 #cabecalho{
     top:0;
     left:0;
@@ -11,6 +14,7 @@
 }
 a{
     display:table-cell;
+    text-decoration: none;
 }
 nav{
     background-color:rgb(200,200,200);
