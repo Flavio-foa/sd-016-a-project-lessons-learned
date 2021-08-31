@@ -2,12 +2,12 @@
 
 :root { 
 
-  --main-bg-color: #fdfbfb;
+  --main-bg-color:  rgb(253, 251, 251);
 
-  --primary-color: #ff8707;
+  --primary-color: rgb(255, 135, 7);
 
-  --second-color: #febb74;
-
+  --second-color: rgb(254 187 116);
+  
   --padding_costum: 40px;
 }
 
@@ -147,7 +147,7 @@ thead {
   color: var(--main-bg-color);
 }
 
-tbody > tr:nth-child(even) {
+tbody > tr:nth-child( even ) {
   background-color: var(--second-color);
 }
 
