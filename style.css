@@ -1,9 +1,30 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-header {
+#cabecalho {
     top: 0;
     height: 90px;
     background-color: darkgray;
     text-align: center;
+    width: 100%;
+}
+#separador {
+    width: 100%;
+    border: 1px solid black;
+}
+#minha_foto {
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;    
+}
+.texts1 {
+    display: table-cell;
+    float: left;
+    width: 300px;
+}
+.foto {
+    display: table-cell;
+    float: left;
+    
 }
