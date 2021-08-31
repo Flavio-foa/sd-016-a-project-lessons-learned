@@ -88,40 +88,38 @@ a {
   margin-top: 20px;
 }
 
+#aprendizados {
+  vertical-align: center;
+}
+
 .lado_esquerdo {
-  margin: 0 auto;
+  margin: 50px 50px 50px 100px;
   padding: 40px;
   border: solid 1px rgb(86, 171, 145);
   max-width: 50%;
-  text-align: center;
   display: inline-block;
-}
-
-#aprendizados {
-  display: flex;
-  margin-top: 60px;
+  vertical-align: center;
+  line-height: 30px;
 }
 
 .lado_esquerdo h2 {
   color: rgb(86, 171, 145);
 }
 
-.lado_esquerdo p h2 {
-  line-height: 30px;
-}
-
 .lado_direito {
-  max-width: 200px;
+  max-width: 23%;
   border: solid 1px rgb(86, 171, 145);
-  margin: 0 auto;
   padding: 30px;
+  display: inline-block;
+  vertical-align: center;
+  line-height: 23px;
 }
 
 .lado_direito span {
   font-weight: 500;
   font-size: 20px;
   color: rgb(86, 171, 145);
-  line-height: 30px;
+  line-height: 25px;
 }
 
 #tabela {
