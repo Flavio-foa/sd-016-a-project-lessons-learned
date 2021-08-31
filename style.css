@@ -98,3 +98,13 @@ body {
   background-color: aquamarine;
   font-size: 20px;
 }
+
+#rodape{
+  background-color: rgb(48, 151, 116);
+  height: 50px;
+  text-align: center;
+}
+
+.texto-rodape{
+  padding-top: 0.8%;
+}
