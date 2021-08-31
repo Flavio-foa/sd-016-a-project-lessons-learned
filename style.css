@@ -1,3 +1,17 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
+#licoes_aprendidas {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: green;
+  line-height: 40px;
+}
+
+#licoes_a_aprender {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+  color:red;
+  line-height: 45px;
+}
