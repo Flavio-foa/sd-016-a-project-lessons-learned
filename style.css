@@ -1,8 +1,18 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: 'Epilogue', sans-serif;
+  line-height: 30px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200&family=Nunito:ital,wght@1,300&display=swap');
 
 #cabecalho {
   position: fixed; /*https://www.w3schools.com/css/css_positioning.asp*/
   top: 0px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color:rgb(48, 151, 116);
 }
+
