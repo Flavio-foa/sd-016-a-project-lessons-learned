@@ -9,7 +9,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 30%;
+  height: 15%;
   background-color: green;
   color: rgb(253, 251, 251)
 }
@@ -20,8 +20,13 @@ body {
   font-size: 32px;
 }
 
+#links {
+  margin-left: 25px;
+  font-size: 18px;
+}
+
 #bloco_foto {
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 #minha_foto {
@@ -29,4 +34,15 @@ body {
   height: auto;
   max-width: 400px;
   max-height: 400px;
+}
+
+#rodape {
+  position: absolute;
+  padding: 20px;
+  bottom: auto;
+  left: 0;
+  width: 100%;
+  background-color: green;
+  color: rgb(253, 251, 251);
+  font-size: 18px;
 }
