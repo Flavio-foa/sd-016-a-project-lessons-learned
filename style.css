@@ -88,17 +88,12 @@ a {
   margin-top: 20px;
 }
 
-#aprendizados {
-  vertical-align: center;
-}
-
 .lado_esquerdo {
-  margin: 50px 50px 50px 100px;
+  margin: 100px 50px 50px 100px;
   padding: 40px;
   border: solid 1px rgb(86, 171, 145);
   max-width: 50%;
   display: inline-block;
-  vertical-align: center;
   line-height: 30px;
 }
 
@@ -111,7 +106,6 @@ a {
   border: solid 1px rgb(86, 171, 145);
   padding: 30px;
   display: inline-block;
-  vertical-align: center;
   line-height: 23px;
 }
 
