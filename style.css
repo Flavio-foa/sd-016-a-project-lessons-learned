@@ -18,13 +18,10 @@ body {
     width: auto;
     height: auto;    
 }
-.texts1 {
-    display: table-cell;
-    float: left;
+div {
     width: 300px;
-}
-.foto {
-    display: table-cell;
-    float: left;
-    
+    height: 300px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 10px;
 }
