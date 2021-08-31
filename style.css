@@ -7,7 +7,7 @@
   --primary-color: #ff8707;
 
   --second-color: #febb74;
-  
+
   --padding_costum: 40px;
 }
 
@@ -47,7 +47,7 @@ h2 {
 
 /* Botoes redes sociais */
 
-nav.menu_social {
+.menu_social {
   margin-top: 200px;
 }
 
