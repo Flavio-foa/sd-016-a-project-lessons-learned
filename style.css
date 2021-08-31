@@ -44,3 +44,20 @@ p {
   color: black;
   line-height: 1.5;
 }
+
+.lado-esquerdo {
+  float: left;
+  position: absolute;
+  width: 50%;
+  margin-top: auto;
+}
+
+.lado-direito {
+  margin-top: 25px;
+  margin-left: 57%;
+  padding-left: 2px;
+  width: 30%;
+  margin-right: 300px;
+  border: 1px solid gray;
+  background-color: rgb(250, 252, 238);
+}
