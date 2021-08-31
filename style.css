@@ -58,6 +58,8 @@ h2 {
 
 a {
   color: white;
+  font-size: 14px;
+  letter-spacing: 3px;
 }
 
 #rodape {
@@ -77,9 +79,16 @@ article,aside {
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
+  float: left;
+}
+
+article {
+  display: inline;
+  float: left;
 }
 
 aside {
   margin-bottom: 80px;
-
+  display: inline;
+  float: right;
 }
