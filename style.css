@@ -3,6 +3,7 @@
     }
 
     #cabecalho {
+        position: fixed;
         top: 0;
         height: 90px;
         background-color: darkgray;
@@ -23,9 +24,10 @@
     }
 
     div {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 200px;
         display: inline-block;
         align-items: center;
         margin-left: 10px;
     }
+    
