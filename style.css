@@ -1,83 +1,83 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Georgia, serif;
+  background-color: rgb(253, 251, 251);
+  font-family: Georgia, serif;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 100px;
-    text-align: center;
-    background-color: palevioletred;  
-    color: white;  
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100px;
+  text-align: center;
+  background-color: palevioletred;
+  color: white;
 }
 
 h2 {
-    color: palevioletred;
+  color: palevioletred;
 }
 
 #primeira_linha {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #minha_foto {
-    height: 260px;
-    margin-top: 100px;
-    border:palevioletred;
-    margin-bottom: 16px;
+  height: 260px;
+  margin-top: 100px;
+  border:palevioletred;
+  margin-bottom: 16px;
 }
 
 #licoes_aprendidas {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
-    color: pink;
-    background-color: black;
-    margin-top: 100px;
-    width: 200px;
-    height: 260px;
+#licoes_aprendidas,#licoes_a_aprender {
+  color: pink;
+  background-color: black;
+  margin-top: 100px;
+  width: 200px;
+  height: 260px;
 }
 
 #portfolio_de_design {
-    text-align: center;
-    color: white;
-    background-color: palevioletred;
-    width: 100%;
-    height: 30px;
-    box-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  background-color: palevioletred;
+  width: 100%;
+  height: 30px;
+  box-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 #rodape {
-    position: fixed;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 35px;
-    background-color: palevioletred;
-    text-align: center;
-    padding-top: 15px;
-    color: white;
-    font-weight: bold;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 35px;
+  background-color: palevioletred;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  font-weight: bold;
 }
 
-article, aside {
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+article,aside {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 aside {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
