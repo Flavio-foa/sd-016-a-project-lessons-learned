@@ -1,9 +1,39 @@
+
 #cabecalho {
+    
     top: 0px;
     position: fixed;
-    background-color: cornflowerblue;}
+    background-color: rgb(84, 216, 79);
+    margin-bottom: 200px;
+    width: 100%;
+height: 120px;
+font-size: xx-large;}
 
+    #titulo{text-align: center;}
+    
 
+#minha_foto{border-radius: 50px;
+            width: 200px;
+            margin-top: 80px;
+            ;}
 body{
-    background-color: rgb(253, 251, 251)};
-#licoes_a_aprender{left: 510px;}
+    background-color: rgb(253, 251, 251)
+    ;margin: 30px;}
+
+#licoes_a_aprender, #licoes_aprendidas { 
+                                         margin-left: 50px;
+                                         border: solid 5px;
+                                        ;background-color: lightgray;
+                                        font-size: 25px;
+                                        color: darkgreen
+                                        
+                                         ;}
+
+article, aside{padding: 50px;
+    font-size: larger;
+    background-color: darkseagreen;
+    line-height: normal;
+    border: black;}
+    
+aside{font-family: fantasy;
+background-color: cornflowerblue;}    
