@@ -84,3 +84,17 @@ body {
   margin: 90px 0 30px 0;
   font-size: 18px;
 }
+
+.texto-dois{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.passagem-aprendizado{
+  width: 1000px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: aquamarine;
+  font-size: 20px;
+}
