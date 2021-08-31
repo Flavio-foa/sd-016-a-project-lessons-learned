@@ -5,7 +5,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: auto;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 16px;
 }
 
@@ -84,7 +84,7 @@ a {
   line-height: 25px;
 }
 
-#licoes_aprendidas,
+#licoes_aprendidas , 
 #licoes_a_aprender {
   margin-top: 20px;
 }
