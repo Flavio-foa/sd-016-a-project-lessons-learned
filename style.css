@@ -2,7 +2,7 @@ body{
     background-color: rgb(253, 251, 251); 
     font-family: cursive;
     font-size: 16;
-    
+        
 }
 
 #cabecalho {
@@ -10,8 +10,10 @@ body{
     position: fixed;
     top: 0;  
     font-family: cursive;
-    color: rgb(103, 8, 141);
+    color: rgb(227, 218, 231);
     text-align: center; /* coloca o texto ao centro */
+    background-color: rgb(14, 172, 61); 
+    margin: -13px -20px 0px;
   }
 
 #minha_foto {
@@ -19,16 +21,20 @@ body{
     width: 20%;
     border-radius: 10%;
     border: 10px solid rgb(74, 22, 196);
-  
+    
   }
-#icones img {
-  width: 60px;
-  margin: 20px 10px 15px;
-  top: 50px; 
-  left: 60px;
-  
+
+#licoes_aprendidas {
+  text-align: left;
+  display: inline-block;
 }
 
+
+#licoes_a_aprender_ {
+  text-align: left;
+  display: inline-block;
+}
+  
 #artigos primeiro_artigo {
   top: 50;
   left: 60;
@@ -55,4 +61,11 @@ body{
 
 #rodape {
   text-align: center;
+}
+#icones img {
+  width: 60px;
+  margin: 20px 10px 15px;
+  top: 50px; 
+  left: 60px;
+  
 }
