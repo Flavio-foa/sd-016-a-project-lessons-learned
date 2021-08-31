@@ -51,3 +51,36 @@ body {
   margin-top: 25px;
   font-size: x-large;
 } 
+
+.navegacao{
+  margin: 40px 0 20px 0;
+}
+
+.lado-esquerdo{
+  float: left;
+  margin-left: 35%;
+}
+
+.lado-direito{
+  float: right;
+  margin-right: 35%;
+}
+
+.blog-trybe, .github-lucas{
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(48, 151, 116);
+  font-weight: bolder;
+}
+
+.navegacao{
+  margin: 40px 0 20px 0;
+}
+
+.topicos{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 90px 0 30px 0;
+  font-size: 18px;
+}
