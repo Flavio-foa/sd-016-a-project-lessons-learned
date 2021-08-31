@@ -16,3 +16,9 @@ body {
   background-color:rgb(48, 151, 116);
 }
 
+#titulo{
+  text-align: center;
+  font-family: 'Epilogue', sans-serif;/*https://fonts.google.com/specimen/Epilogue*/
+  font-size: 150%;
+  color: rgb(253, 251, 251);
+}
