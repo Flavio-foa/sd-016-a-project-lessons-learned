@@ -22,3 +22,20 @@ body {
   font-size: 150%;
   color: rgb(253, 251, 251);
 }
+
+#minha_foto{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.capa{
+  background-color: rgb(162, 233, 206);
+  width: 100%;
+  height: 220px;
+}
+
+.foto-meio{
+  margin: -100px auto 0 auto;
+  display: flex;/*https://www.devmedia.com.br/como-centralizar-divs-em-html-e-css/37568*/
+  justify-content: center;
+}
