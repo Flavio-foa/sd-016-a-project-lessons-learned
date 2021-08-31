@@ -14,7 +14,6 @@ body {
 
 #titulo {
   font-family: monospace;
-  font-family: sans-serif;
 }
 
 #minha_foto {
@@ -37,10 +36,10 @@ table {
 }
 
 table , th , td {
-  border: 1px solid black; 
+  border: 1px solid black;
 }
 
-p{
+p {
   font-size: 18px;
   color: black;
   line-height: 1.5;
