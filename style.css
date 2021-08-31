@@ -23,14 +23,15 @@ main {
   margin-left: 110px;
   display: block;
 }
+
 #meu-nome {
-    color: rgb(15, 15, 129);
-    font-style: italic;
-    margin-left: 20px;
-    border-style: double;
-    width: 400px;
-    text-align: center;
-    display: block;
+  color: rgb(15, 15, 129);
+  font-style: italic;
+  margin-left: 20px;
+  border-style: double;
+  width: 400px;
+  text-align: center;
+  display: block;
 }
 
 section {
@@ -50,7 +51,7 @@ section #licoes_aprendidas {
   display: inline-block;
   margin: 20px 15px;
   border-style: solid;
-  background-color: rgb(223, 223, 223);
+  background-color: rgb(241, 63, 63);
 }
 
 section #licoes_a_aprender {
@@ -61,7 +62,7 @@ section #licoes_a_aprender {
   border-style: solid;
   background-color: rgb(41, 41, 43);
 }
-  
+
 article {
   width: 30%;
   color: white;
@@ -81,7 +82,7 @@ nav {
   text-align: center;
 }
 
-  aside {  
+aside {  
   width: 30%;
   color: white;
   margin-left: 50px;
@@ -93,5 +94,5 @@ nav {
 }
 
 h3 {
-  color:white;
+  color: white;
 }
