@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato:400,400i,900,900i&display=swap');
-
 :root {
-
   --main-bg-color: rgb(253, 251, 251);
-
   --primary-color: rgb(255, 135, 7);
-
   --second-color: rgb(254 187 116);
-
   --padding_costum: 40px;
 }
 
@@ -21,8 +16,10 @@ body {
 }
 
 header {
-  position: fixed; /* pré requisito */
-  top: 0; /* pré requisito */
+  position: fixed;
+  /* pré requisito */
+  top: 0;
+  /* pré requisito */
   background-color: var(--primary-color);
   width: 100%;
   text-align: center;
@@ -46,6 +43,7 @@ h2 {
 }
 
 /* Botoes redes sociais */
+
 .menu_social {
   margin-top: 200px;
 }
@@ -59,7 +57,7 @@ h2 {
   list-style-type: none;
 }
 
-.social_linkedin , .social_github , .social_codpen , .social_behance {
+.social_linkedin, .social_github, .social_codpen, .social_behance {
   display: block;
   width: 50px;
   height: 50px;
@@ -71,7 +69,7 @@ h2 {
   opacity: 55%;
 }
 
-.social_linkedin:hover , .social_github:hover , .social_codpen:hover , .social_behance:hover {
+.social_linkedin:hover, .social_github:hover, .social_codpen:hover, .social_behance:hover {
   opacity: 100%;
 }
 
@@ -100,7 +98,7 @@ h2 {
   border-radius: 50%;
   overflow: hidden;
   position: absolute;
-  left: calc( 20% - 120px - ( var(--padding_costum) *2 ) );
+  left: calc( 20% - 120px - ( var(--padding_costum) *2));
   top: 80px;
 }
 
@@ -110,7 +108,7 @@ h2 {
   object-fit: contain;
 }
 
-.lado-esquerdo , .lado-direito {
+.lado-esquerdo, .lado-direito {
   width: calc(50% - var(--padding_costum));
 }
 
@@ -143,7 +141,7 @@ thead {
   color: var(--main-bg-color);
 }
 
-tbody > tr:nth-child( even ) {
+tbody>tr:nth-child( even) {
   background-color: var(--second-color);
 }
 
