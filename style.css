@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato:400,400i,900,900i&display=swap');
 
-:root { 
+:root {
 
   --main-bg-color: rgb(253, 251, 251);
 
@@ -71,7 +71,7 @@ h2 {
   opacity: 55%;
 }
 
-a[ class ^= 'social' ]:hover {
+.social_linkedin:hover , .social_github:hover , .social_codpen:hover , .social_behance:hover {
   opacity: 100%;
 }
 
