@@ -14,7 +14,7 @@ body {
 h1 {
   font-size: 30px;
   text-align: center;
-  font-family: monospace ;
+  font-family: monospace;
   color: purple;
   line-height: 50%;
 }
@@ -25,7 +25,7 @@ h1 {
 
 .section-style {
   display: inline-block;
-  font-family: monospace; 
+  font-family: monospace;
 }
 
 .lado-esquerdo {
@@ -37,21 +37,18 @@ h1 {
 }
 
 .lado-direito {
-  display: inline-block;  
+  display: inline-block;
   margin: 0 0 0 5%;
   height: 247px;
   vertical-align: top;
   padding: 10px 2px;
-  width:200px;
+  width: 200px;
   background-color: blue;
 }
 
 #table_style {
   display: inline-block;
-  float: none; 
+  float: none;
   vertical-align: middle;
   text-align: center;
 }
-
-
-
