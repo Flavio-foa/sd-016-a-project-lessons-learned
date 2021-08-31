@@ -34,6 +34,7 @@ body{
   text-align: left;
   display: inline-block;
 }
+
   
 #artigos primeiro_artigo {
   top: 50;
@@ -43,7 +44,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
   
 }
 
@@ -63,9 +64,10 @@ body{
   text-align: center;
 }
 #icones img {
-  width: 60px;
-  margin: 20px 10px 15px;
+  width: 50px;
+  margin: 50px 10px 15px;
   top: 50px; 
   left: 60px;
+  
   
 }
