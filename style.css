@@ -1,0 +1,79 @@
+body {
+  background-color: (253, 251, 251);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  margin: 0%;
+  background-color: rgb(13, 116, 0);
+
+}
+
+#Titulo {
+  color: white;
+  text-align-last: center;
+}
+
+.text-photo {
+    font-size: 14px;
+}
+
+#Minha-foto {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  display: inline-flex;
+  margin: 90px 0 0px 5px;
+
+}
+
+#Liçoes-aprendidas {
+    font-size: 16px;
+    
+}
+
+#Liçoes_a_aprender{
+    font-size: 16px;
+   
+}
+
+
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.link {
+  color: rgb(0, 0, 0);
+  background-color: rgb(2, 224, 224);
+  padding: 8px 30px;
+  border-radius: 30px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+  text-decoration-line: none;
+}
+
+.artigo {}
+
+.Lado-esquerdo {
+  float: left;
+  max-width: 35%;
+  margin-left: 60px;
+  background-color: rgba(218, 218, 218, 0.548);
+}
+
+.Lado-direito {
+  float: right;
+  margin-right: 60px;
+  max-width: 35%;
+  background-color: rgba(218, 218, 218, 0.548);
+
+}
