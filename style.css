@@ -9,7 +9,8 @@ body {
   top: 0%;
   width: 100%;
   margin: 0%;
-  background-color: rgb(13, 116, 0);
+  background-color: rgb(13, 116, 0); 
+  margin-bottom: -30px;
 
 }
 
@@ -19,18 +20,18 @@ body {
 
 .navigation {
   background-color: rgb(2, 224, 224);
-  padding: 0 30px;
+  padding: 10px, 30px;
   text-align-last: center;
   color: black;
 }
 
 .navigation ul {
-  padding: 6px 0;
+  padding: 10px; 
   font-size: 18px;
 }
 
 .navigation li {
-  margin-right: 40px;
+  margin-right: 40px; 
   list-style-type: none;
   display: inline;
 }
@@ -44,7 +45,8 @@ body {
 
 .text-photo {
   font-size: 14px;
-  margin: 15px 0px 0px 0px;
+  margin: 0%;
+  padding: 0px 20px 0px 20px;
 }
 
 #Minha-foto {
@@ -58,14 +60,15 @@ body {
 
 #Liçoes-aprendidas {
   font-size: 16px;
-float: right;
-margin-left: 60%;
+  margin-left: 0%;
+  padding: 0px 20px 0px 20px;
 }
 
 #Liçoes_a_aprender {
   font-size: 16px;
-float: left;
-margin-right: 0%;
+  margin-right: 0%;
+  padding: 0px 20px 0px 20px;
+}
 }
 
 #rodape {
