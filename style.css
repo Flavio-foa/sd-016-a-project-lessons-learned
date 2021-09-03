@@ -81,11 +81,13 @@ h2 {
 }
 
 table {
-  float: right;
+  width: 50%;
   border-collapse: collapse;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
-td, th {
+td , th {
   border: 1px solid black;
   text-align: left;
   padding: 8px;
@@ -94,8 +96,6 @@ td, th {
 #rodape {
   width: 100%;
   background-color: rgb(200, 200, 200);
-  position: fixed;
-  bottom: 0;
   text-align: center;
 }
 
