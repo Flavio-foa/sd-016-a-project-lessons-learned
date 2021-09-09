@@ -10,12 +10,13 @@
 #cabecalho {
   top: 0;
   background-color: green;
+  box-sizing: border-box;
 }
 
 #titulo {
   font-size:28px;
   color: white; 
-  font-family: sans-serif;
+  font-family: cursive;
 }
 
 #minha_foto {
@@ -40,7 +41,7 @@
   font-family: sans-serif;
 }
 
-.articles table{
+.articles table {
   font-size:28px;
   color: white;
   line-height: 5px;
