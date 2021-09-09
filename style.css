@@ -7,47 +7,32 @@
   background-color: rgb(253, 251, 251);
 }
 
-.header {
-  background-color: darkgreen;
-  height: 180px;
+#cabecalho {
+  top:  0;
+  background-color: green;
 }
 
-.header h1 {
-  text-align: center;
-  padding: 20px;
-  color: rgb(253, 251, 251);
+#minha_foto {
+  padding: 50px;
 }
 
-.header-menu ul {
-  margin-left: 20px;
-  margin-top: 40px;
+#nome {
+  padding: 40px;
 }
 
-.middle-image img {
-  margin-left: 20px;
-  margin-top: 20px;
+.lado-esquerdo {
+  margin-left: 150px;
+  margin-bottom: 70px;
 }
 
-.middle-link {
-  margin-left: 20px;
-}
-
-#licoes {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.middle-text {
-  margin-left: 40px;
-}
-
-.middle-text ol {
+.lado-direito {
+  margin-left: 50px;
+  margin-right: 60px;
+  margin-bottom: 70px;
   float: left;
-  margin-right: 50px;
 }
 
-.footer {
+#rodape {
   position: absolute;
   bottom: 0;
 }
