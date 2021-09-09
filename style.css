@@ -8,7 +8,7 @@
 }
 
 #cabecalho {
-  top:  0;
+  top: 0;
   background-color: green;
 }
 
@@ -23,6 +23,7 @@
 .lado-esquerdo {
   margin-left: 150px;
   margin-bottom: 70px;
+  font-family: sans-serif;
 }
 
 .lado-direito {
@@ -30,6 +31,7 @@
   margin-right: 60px;
   margin-bottom: 70px;
   float: left;
+  font-family: sans-serif;
 }
 
 #rodape {
