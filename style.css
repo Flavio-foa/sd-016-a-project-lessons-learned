@@ -17,7 +17,7 @@
 }
 
 #titulo {
-  font-size:28px;
+  font-size: 28px;
   color: white; 
   font-family: cursive;
 }
@@ -50,8 +50,8 @@
   font-family: sans-serif;
 }
 
-.articles table{
-  font-size:28px;
+.articles table {
+  font-size: 28px;
   color: white;
   line-height: 5px;
   font-family: sans-serif;
