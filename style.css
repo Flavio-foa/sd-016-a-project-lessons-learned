@@ -13,6 +13,7 @@
   line-height: 28px;
   box-sizing: border-box;
   top: 0;
+  position: fixed;
 }
 
 #titulo {
