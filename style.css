@@ -1,60 +1,60 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 main {
-    margin-top: 150px;
-    font-family: Arial, Helvetica, sans-serif   ;
+  margin-top: 150px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu li {
-    display: inline-block;
-    font-size: 20px;
-    padding: 10px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .tabela {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 }
 
 #rodape {
-    font-size: 14px;
-    font-style: italic;
-    text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
 }
 
 #minha_foto {
-    width: 100px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 #link-externo {
-    text-decoration: none;
-    font-size: 16px;
-    color: red;
+  text-decoration: none;
+  font-size: 16px;
+  color: red;
 }
 
 #listas {
-    margin-bottom: 30px;
-    line-height: 30px;
+  margin-bottom: 30px;
+  line-height: 30px;
 }
 
 #textos {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 #aprendizado aside {
-    vertical-align: top;
+  vertical-align: top;
 }
 
-.lado-esquerdo, .lado-direito {
-    display: inline-block;
-    padding: 15px;
-    width: 40%;
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  padding: 15px;
+  width: 40%;
 }
