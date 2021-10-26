@@ -1,53 +1,72 @@
 /*Cabeçalho no topo fixado*/
 *{
     font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 #cabecalho{
     top:0;
-    left:0;
     width: 100%;
-    position:fixed;
-    background-color: rgb(222,231,201);
+    position: fixed;
+    background-color: #F1C40F;
 }
-#titulo{
-    text-align:center;
-}
-a{
-    display:table-cell;
-    text-decoration: none;
-}
-nav{
-    background-color:rgb(200,200,200);
-}
-nav ul{
-    margin: 0;
-    text-align:center;
-    font-size: 20px;
-}
-nav li{
-    display:inline-block;
-    margin: 10px 60px;
 
+#titulo{
+    margin: 15px;
+    font-size: 42pt;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 12px;
+}
+
+#cabecalho nav{
+    background-color: #17202A;
+}
+
+#cabecalho ul{
+    text-align: center;
+}
+
+#cabecalho nav li{
+    display: inline-block;
+    margin: 10px 60px;
+}
+
+#cabecalho a{
+    padding: 9px;
+    text-decoration: none;
+    font-size: 18pt;
+    font-weight: 700;
+    color: #F1C40F;
+    border: 1px solid #17202A;
+}
+
+#cabecalho a:hover{
+    transition: 0.6s;
+    border: 1px solid white;
+    background: #1B2631;
 }
 
 body{
-    margin-top:150px;
-    background-color: rgb(253, 251, 251);
+    background-color: #F39C12;
 }
 
 /*Informações pessoais*/
 section{
-    background:#584;
     padding: 21px;
 }
+
 img{
     height:210px;
     display:inline-block;
     margin-top: 100px;
 }
+
 section h3{
     margin:3px;
 }
+
 #info{
     color:#fff;
     display:inline-block;
