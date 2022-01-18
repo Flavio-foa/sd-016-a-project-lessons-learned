@@ -1,18 +1,32 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgba(168, 160, 160, 0.5);
+  margin-left: 10px;
+  margin-right : 10px;
+}
+
+.lists {
+  display:flex;
+  justify-content: space-between;
+}
+
+.article {
+  display: flex;
+}
+
+.header {
+  display: block;
+  top: 0;
 }
 
 #cabecalho {
-  width: 75%;
-  position: fixed;
-  top: 0;
-  padding: 0;
-  margin: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #rodape {
   background-color: greenyellow;
   text-align: center;
+  margin: 0;
 }
 
 #titulo {
@@ -68,14 +82,4 @@ p {
   text-decoration: none;
   padding: 10px;
   line-height: 30px;
-}
-
-.lado-direito {
-  display: inline-block;
-  width: 40%;
-}
-
-.lado-esquerdo {
-  display: inline-block;
-  width: 40%;
 }
